@@ -8,17 +8,17 @@
 grupo:
   nome: "TODO: nome do grupo (ex.: Grupo 3)"
   integrantes:          # 3 a 4 integrantes
-    - nome: "TODO"
-      rga: "TODO"
+    - nome: "João Vitor Terres"
+      rga: "202519060465"
     - nome: "TODO"
       rga: "TODO"
     - nome: "TODO"
       rga: "TODO"
 
 tema:
-  nome: "TODO: tema validado com o professor"
+  nome: "Chatcom"
   descricao: >
-    TODO: uma ou duas frases dizendo o que o bot faz e para quem.
+    Chatbot referente às grades curriculares da FACOM.
 
 dados:                  # caminhos relativos a este arquivo - não altere
   treino: dados/treino.csv
@@ -60,28 +60,84 @@ roteamento:
 
 # De 5 a 10 intenções. O nome (chave) deve ter só letras minúsculas sem acento,
 # dígitos e "_". "descricao" aparece nas mensagens do bot ("Posso ajudar com: ...").
-intencoes:
-  TODO_intencao_1:
-    descricao: "TODO"
+intencoes:   # 9 intenções; nomes sem acento, com "_"
+  periodo_disciplina:
+    descricao: "em que período uma disciplina aparece na grade"
+    # "resposta": texto fixo, usado quando o LLM está desligado e na avaliação
+    # automática. Com o LLM ligado, a resposta vem dos DOCUMENTOS (pasta documentos/).
     resposta: >
-      TODO: resposta fixa curta (usada sem LLM e na avaliação automática). Com o
-      LLM ligado, o bot responde a partir dos documentos da pasta documentos/.
-  TODO_intencao_2:
-    descricao: "TODO"
+      O período de cada disciplina está na Matriz Curricular do curso, em
+      ensino.ufms.br/cursos/grade/ seguido do código do curso (por exemplo,
+      1904 para Ciência da Computação). O período muda de um curso para outro:
+      Inteligência Artificial, por exemplo, está no 4º período de Ciência da
+      Computação e no 7º de Engenharia de Computação. Informe o curso para
+      uma resposta precisa.
+
+  disciplinas_periodo:
+    descricao: "quais disciplinas formam um período"
     resposta: >
-      TODO
-  TODO_intencao_3:
-    descricao: "TODO"
+      A lista de cada período está na grade do curso, com código, nome e carga
+      horária. No 1º período de Ciência da Computação, por exemplo, estão
+      Cálculo I, Vetores e Geometria Analítica, Algoritmos e Programação I,
+      Introdução à Computação e Computação e Sociedade. Os períodos variam
+      entre os cursos, então informe qual curso você quer consultar.
+
+  obrigatorias:
+    descricao: "disciplinas obrigatórias do curso, ou se uma disciplina é obrigatória"
     resposta: >
-      TODO
-  TODO_intencao_4:
-    descricao: "TODO"
+      Cada grade lista as Disciplinas Obrigatórias por período; as demais
+      aparecem na lista de Disciplinas Complementares. Uma mesma disciplina
+      pode ser obrigatória em um curso e complementar em outro: Fundamentos de
+      Mecânica, por exemplo, é obrigatória em Engenharia de Computação e
+      complementar em Ciência da Computação.
+
+  optativas:
+    descricao: "disciplinas complementares oferecidas"
     resposta: >
-      TODO
-  TODO_intencao_5:
-    descricao: "TODO"
+      As disciplinas complementares oferecidas aparecem em uma lista própria,
+      logo abaixo das obrigatórias, na grade de cada curso. Na de Ciência da
+      Computação, por exemplo, há Redes Neurais, Processamento de Linguagem
+      Natural e Grandes Modelos de Linguagem.
+
+  dados_disciplina:
+    descricao: "código e carga horária de uma disciplina"
     resposta: >
-      TODO
+      O código e a carga horária de cada disciplina constam na grade do curso.
+      Algoritmos e Programação I, por exemplo, tem 90 horas, e Cálculo I,
+      60 horas.
+
+  prerequisitos:
+    descricao: "pré-requisitos de uma disciplina"
+    resposta: >
+      Os pré-requisitos de cada curso ficam na página "Pré-Requisitos" do site
+      de ensino da UFMS (ensino.ufms.br/cursos/prerequisito/ seguido do código
+      do curso, por exemplo 1904). Consulte-a para ver o que precisa ser
+      cursado antes de cada disciplina.
+
+  disciplina_no_curso:
+    descricao: "se um curso tem determinada disciplina, ou diferenças entre cursos"
+    resposta: >
+      É preciso olhar a grade de cada curso, porque uma disciplina pode existir
+      em um e não em outro, ou ter tipo diferente. Redes Neurais, por exemplo,
+      aparece como complementar em Ciência da Computação e em Engenharia de
+      Computação. Informe o curso e a disciplina para uma resposta precisa.
+
+  cursos_facom:
+    descricao: "cursos de graduação oferecidos pela FACOM"
+    resposta: >
+      A FACOM oferece Análise e Desenvolvimento de Sistemas (1902), Ciência da
+      Computação (1904), Engenharia de Computação (1905), Engenharia de
+      Software (1906), Sistemas de Informação (1907) e Inteligência
+      Artificial (1908). A grade de cada um está em
+      ensino.ufms.br/cursos/grade/ seguido do código.
+
+  docentes:
+    descricao: "corpo docente de um curso"
+    resposta: >
+      O corpo docente de cada curso está na página "Corpo Docente" do site de
+      ensino da UFMS (ensino.ufms.br/cursos/docentes/ seguido do código do
+      curso, por exemplo 1904). Não consigo informar quem leciona cada
+      disciplina em um semestre.
 
 # Respostas dos nós que não são intenções. {assuntos} vira a lista de descrições
 # das intenções; {opcao1}/{opcao2}, as duas intenções mais prováveis.
