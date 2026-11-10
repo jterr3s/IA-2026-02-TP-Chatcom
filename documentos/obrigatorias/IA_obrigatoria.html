@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+    <title>UFMS - Matriz Curricular e Corpo Docente - Informações de Ensino</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <meta name="description"
+          content="Consulta de informações de ensino da UFMS: Matriz Curricular dos Cursos, Corpo Docente da Instituição, cargos de chefia e lotações.">
+    <meta name="keywords"
+          content="graduação,cursos,disciplinas,matriz,curricular,curriculo,grade,docentes,dirigentes,chefias,lotações,professores,ofertas,ensino,campus,unidades">
+    <meta name="author" content="AGETIC/UFMS">
+    <link href="/favicon.ico" type="image/x-icon" rel="icon"><link href="/favicon.ico" type="image/x-icon" rel="shortcut icon">
+
+    <link rel="stylesheet" id="roboto-font"
+          href="//fonts.googleapis.com/css?family=Roboto+Slab%3A400%2C300%2C700"/>
+
+    <link rel="stylesheet" id="bootstrap-css"
+          href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.5/flatly/bootstrap.min.css"/>
+
+    <script src="/js/jquery-1.11.1.min.js"></script>
+<link rel="stylesheet" href="/css/cssmatriz.css">
+<script src="/js/functions_matriz.js"></script>
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<script src="/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="/css/estilo.css">
+<link rel="stylesheet" href="/css/barra.css">
+
+</head>
+<body>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZD0E3JXY0F"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-ZD0E3JXY0F');
+</script><ul class="nav-acessibilidade pull-left skip-menu" aria-label="Acesso rápido" style="">
+    <li><a href="#main-content" accesskey="1" title="Atalho para o conteúdo do site">
+            <span class="sr-only">Ir para o</span>
+            Conteúdo
+            <span class="access-key">1</span>
+        </a></li>
+    <li><a href="#area_nav" accesskey="2">
+            <span class="sr-only">Ir para o menu de</span>
+            Navegação
+            <span class="access-key">2</span>
+        </a></li>
+    <li>
+        <a href="/cursos/busca#nome"
+           onclick="document.getElementById('nome').focus(); return false;" accesskey="3">
+            <span class="sr-only">Ir para a</span>
+            Busca
+            <span class="access-key">3</span>
+        </a></li>
+    <li><a href="/" accesskey="4">
+            <span class="sr-only">Ir para a lista de</span>
+            Cursos <span class="sr-only">por Unidade</span>
+            <span class="access-key">4</span></a></li>
+    <li><a href="#footer_main" accesskey="5">
+            <span class="sr-only">Ir para a</span>
+            Rodapé
+            <span class="access-key">5</span>
+        </a></li>
+    <li><a href="https://agetic.ufms.br/acessibilidade/" title="Manual de Acessibilidade - site Agetic">Acessibilidade</a>
+    </li>
+</ul>
+<div id="barra-brasil">
+    <div id="wrapper-barra-brasil">
+        <div class="brasil-flag"><a href="http://brasil.gov.br" class="link-barra">Brasil</a></div>
+        <span class="acesso-info"><a href="http://brasil.gov.br/barra#acesso-informacao" class="link-barra">Acesso à
+                informação</a></span>
+        <nav>
+            <ul class="list">
+                <li><a href="#" id="menu-icon"></a></li>
+                <li class="list-item first"><a href="http://brasil.gov.br/barra#participe"
+                                               class="link-barra">Participe</a></li>
+                <li class="list-item"><a href="http://www.servicos.gov.br/?pk_campaign=barrabrasil" class="link-barra"
+                                         id="barra-brasil-orgao">Serviços</a></li>
+                <li class="list-item"><a href="http://www.planalto.gov.br/legislacao" class="link-barra">Legislação</a>
+                </li>
+                <li class="list-item last last-item"><a href="http://brasil.gov.br/barra#orgaos-atuacao-canais"
+                                                        class="link-barra">Canais</a></li>
+            </ul>
+        </nav>
+    </div>
+</div><header class="header clearfix">
+    <div class="top-nav hidden-xs">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <ul class="menuTopo pull-left">
+                    <li>
+                        <a href="http://ufms.br" target="_blank"
+                           title="Acessar site - Universidade Federal de Mato Grosso do Sul">
+                            <i class="fa fa-university"></i> Universidade Federal de Mato Grosso do Sul
+                        </a>
+                    </li>
+                </ul>
+                <ul class="menuTopo pull-right">
+                    <li><a href="http://sistemas.ufms.br" title="Acessar sistemas da UFMS" target="_blank"
+                           rel="nofollow"><strong><i class="fa fa-cube"></i> Sistemas</strong></a></li>
+                    <li><a href="https://mail.google.com/a/ufms.br" title="Acessar webmail da UFMS" target="_blank"
+                           rel="nofollow"><strong><i class="fa fa-envelope-o"></i> Webmail</strong></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div><div class="container hidden-xs">
+    <div class="row">
+        <div class="col-lg-9 col-md-9 col-sm-6 header-logo">
+            <div class="clearfix"></div>
+            <div class="responsive-logo hidden-xs">
+                <a href="http://www.ufms.br/" title="Acessar o Site da UFMS" target="_blank">
+                    <img class="ufms_logo"
+                         src="https://cdn.ufms.br/logos/ufms_logo_negativo_assinatura_horizontal_sm.png"
+                         alt="Fundação Universidade Federal de Mato Grosso do Sul">
+                </a>
+            </div>
+            <hgroup class="hidden-xs">
+                <h3 class="logo">Informações Institucionais</h3>
+                <h5 class="slogan">Lotações, Dirigentes e Docentes</h5>
+            </hgroup>
+        </div>
+    </div>
+</div>
+
+<div class="navegacao-topo" id="area_nav">
+    <div class="container">
+        <div class="row">
+            <!-- Static navbar -->
+            <nav class="navbar">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Alternar navegação</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand visible-xs" href="#">INFO-UFMS</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse menu-menu-principal-container">
+                    <ul class="nav navbar-nav">
+                        <li ><a href="/">Página Inicial</a></li><li ><a href="/docentes">Docentes</a></li><li ><a href="/dirigentes">Lotações</a></li><li ><a href="/dirigentes/busca" class="my_tips" title="Chefes de Departamento, Divisões...">Dirigentes</a></li><li ><a href="https://siscad.ufms.br/cursos">Graduação</a></li><li ><a href="https://posgraduacao.ufms.br">Pós-Graduação</a></li>                    </ul>
+                </div><!--/.nav-collapse -->
+            </nav>
+        </div>
+    </div>
+</div>
+
+</header>
+
+<div class="container clearfix" id="main-content">
+
+    <div class="row">
+
+        <section class="col-md-8">
+
+            <div class="col-md-12 box-border">
+
+                
+                <div class="page-header">
+                    <h3><span class="title">
+                          Matriz Curricular do Curso</span>
+                    </h3>
+                </div>
+
+                
+    <h3>[FACOM] INTELIGÊNCIA ARTIFICIAL #1908</h3>
+    <p>&nbsp;</p>
+
+    <p>Data da última atualização: 01/01/1970 00:33<br>&nbsp;</p>
+
+    <table class="table table-striped" cellpadding=0 cellspacing=0 border=0 width="100%">
+    <tr>
+        <td colspan="3">
+            <h3><b>Disciplinas Obrigatórias Oferecidas:</h3>
+            </b>
+        </td>
+    </tr>
+            <tr>
+                <td colspan="3" class="inner">&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="3" class="inner"><b>&bull;&nbsp;1&ordf;
+                        Período</b></td>
+            </tr>
+            <tr>
+                <td colspan="3" class="inner">&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td class="inner"><b>Código</b></td>
+                <td class="inner"><b>Nome da Disciplina</b></td>
+                <td class="inner"><b>Carga horária</b></td>
+            </tr>
+            <tr><td>[19190005901] </td><td>COMPUTAÇÃO E SOCIEDADE</td><td>30 horas </td></tr><tr><td>[19190004619] </td><td>ALGORITMOS E PROGRAMAÇÃO I</td><td>90 horas </td></tr><tr><td>[19190005376] </td><td>INTRODUÇÃO À COMPUTAÇÃO</td><td>30 horas </td></tr><tr><td>[19190005939] </td><td>FUNDAMENTOS DE TEORIA DA COMPUTAÇÃO</td><td>60 horas </td></tr>            <tr>
+                <td colspan="3" class="inner">&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="3" class="inner"><b>&bull;&nbsp;2&ordf;
+                        Período</b></td>
+            </tr>
+            <tr>
+                <td colspan="3" class="inner">&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td class="inner"><b>Código</b></td>
+                <td class="inner"><b>Nome da Disciplina</b></td>
+                <td class="inner"><b>Carga horária</b></td>
+            </tr>
+            <tr><td>[19190005760] </td><td>ALGORITMOS E PROGRAMAÇÃO II</td><td>90 horas </td></tr><tr><td>[22010002510] </td><td>VETORES E GEOMETRIA ANALÍTICA</td><td>60 horas </td></tr><tr><td>[22010002539] </td><td>CÁLCULO I</td><td>60 horas </td></tr><tr><td>[22010002575] </td><td>PROBABILIDADE E ESTATÍSTICA</td><td>60 horas </td></tr>            <tr>
+                <td colspan="3" class="inner">&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="3" class="inner"><b>&bull;&nbsp;3&ordf;
+                        Período</b></td>
+            </tr>
+            <tr>
+                <td colspan="3" class="inner">&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td class="inner"><b>Código</b></td>
+                <td class="inner"><b>Nome da Disciplina</b></td>
+                <td class="inner"><b>Carga horária</b></td>
+            </tr>
+            <tr><td>[22010002557] </td><td>ÁLGEBRA LINEAR</td><td>60 horas </td></tr><tr><td>[19190005474] </td><td>TEORIA DOS GRAFOS E SEUS ALGORITMOS</td><td>60 horas </td></tr><tr><td>[19190005124] </td><td>APRENDIZADO DE MÁQUINA SUPERVISIONADO</td><td>60 horas </td></tr><tr><td>[19190005634] </td><td>INTELIGÊNCIA ARTIFICIAL</td><td>60 horas </td></tr><tr><td>[19190005518] </td><td>ENGENHARIA DE SOFTWARE</td><td>60 horas </td></tr>            <tr>
+                <td colspan="3" class="inner">&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="3" class="inner"><b>&bull;&nbsp;4&ordf;
+                        Período</b></td>
+            </tr>
+            <tr>
+                <td colspan="3" class="inner">&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td class="inner"><b>Código</b></td>
+                <td class="inner"><b>Nome da Disciplina</b></td>
+                <td class="inner"><b>Carga horária</b></td>
+            </tr>
+            <tr><td>[19190005438] </td><td>ESTRUTURAS DE DADOS</td><td>60 horas </td></tr><tr><td>[19190004969] </td><td>BANCO DE DADOS</td><td>60 horas </td></tr><tr><td>[19190004833] </td><td>ORGANIZAÇÃO DE COMPUTADORES</td><td>60 horas </td></tr><tr><td>[19190005643] </td><td>LINGUAGEM DE PROGRAMAÇÃO ORIENTADA A OBJETOS</td><td>60 horas </td></tr><tr><td>[19190005044] </td><td>REDES NEURAIS</td><td>60 horas </td></tr>            <tr>
+                <td colspan="3" class="inner">&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="3" class="inner"><b>&bull;&nbsp;5&ordf;
+                        Período</b></td>
+            </tr>
+            <tr>
+                <td colspan="3" class="inner">&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td class="inner"><b>Código</b></td>
+                <td class="inner"><b>Nome da Disciplina</b></td>
+                <td class="inner"><b>Carga horária</b></td>
+            </tr>
+            <tr><td>[19190005035] </td><td>PROCESSAMENTO DE LINGUAGEM NATURAL</td><td>60 horas </td></tr><tr><td>[19190005090] </td><td>GERÊNCIA DE CONFIGURAÇÃO APLICADA À INTELIGÊNCIA ARTIFICIAL</td><td>60 horas </td></tr><tr><td>[19190005106] </td><td>APRENDIZADO DE MÁQUINA NÃO SUPERVISIONADO</td><td>60 horas </td></tr><tr><td>[19190005026] </td><td>PROCESSAMENTO DE IMAGENS</td><td>60 horas </td></tr>            <tr>
+                <td colspan="3" class="inner">&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="3" class="inner"><b>&bull;&nbsp;6&ordf;
+                        Período</b></td>
+            </tr>
+            <tr>
+                <td colspan="3" class="inner">&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td class="inner"><b>Código</b></td>
+                <td class="inner"><b>Nome da Disciplina</b></td>
+                <td class="inner"><b>Carga horária</b></td>
+            </tr>
+            <tr><td>[19190005080] </td><td>APRENDIZADO DE MÁQUINA POR REFORÇO</td><td>60 horas </td></tr><tr><td>[19190005008] </td><td>GRANDES MODELOS DE LINGUAGEM</td><td>60 horas </td></tr><tr><td>[19190005062] </td><td>VISÃO COMPUTACIONAL</td><td>60 horas </td></tr><tr><td>[19190005017] </td><td>MINERAÇÃO DE DADOS</td><td>60 horas </td></tr>            <tr>
+                <td colspan="3" class="inner">&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="3" class="inner"><b>&bull;&nbsp;7&ordf;
+                        Período</b></td>
+            </tr>
+            <tr>
+                <td colspan="3" class="inner">&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td class="inner"><b>Código</b></td>
+                <td class="inner"><b>Nome da Disciplina</b></td>
+                <td class="inner"><b>Carga horária</b></td>
+            </tr>
+            <tr><td>[19190005071] </td><td>AGENTES INTELIGENTES</td><td>60 horas </td></tr><tr><td>[19190006248] </td><td>RESIDÊNCIA EM INTELIGÊNCIA ARTIFICIAL I</td><td>360 horas </td></tr>            <tr>
+                <td colspan="3" class="inner">&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="3" class="inner"><b>&bull;&nbsp;8&ordf;
+                        Período</b></td>
+            </tr>
+            <tr>
+                <td colspan="3" class="inner">&nbsp;</td>
+            </tr>
+
+            <tr>
+                <td class="inner"><b>Código</b></td>
+                <td class="inner"><b>Nome da Disciplina</b></td>
+                <td class="inner"><b>Carga horária</b></td>
+            </tr>
+            <tr><td>[19190006257] </td><td>RESIDÊNCIA EM INTELIGÊNCIA ARTIFICIAL II</td><td>360 horas </td></tr>
+            <tr>
+                <td colspan="3" class="inner">&nbsp;</td>
+            </tr>
+
+            </table>
+
+            <table class="table table-striped" cellpadding=0 cellspacing=0 border=0 width="100%">
+            <tr>
+                <td colspan="3" class="inner">
+                    <h3><b>Disciplinas Complementares Oferecidas:
+                        </b></h3>
+                </td>
+            <tr>
+                <td colspan="3">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="inner"><b>Código</b></td>
+                <td class="inner"><b>Nome da Disciplina</b></td>
+                <td class="inner"><b>Carga horária</b></td>
+            </tr>
+                
+            <tr><td>[19190005984] </td><td>TÓPICOS EM ENGENHARIA DE COMPUTAÇÃO I</td><td>60 horas </td></tr><tr><td>[19190004913] </td><td>TÓPICOS EM REDES DE COMPUTADORES III</td><td>60 horas </td></tr><tr><td>[19190005797] </td><td>TÓPICOS EM BANCOS DE DADOS</td><td>60 horas </td></tr><tr><td>[19190005803] </td><td>TÓPICOS EM SISTEMAS DE INFORMAÇÃO II</td><td>60 horas </td></tr><tr><td>[19190005840] </td><td>TÓPICOS - INTERCÂMBIO II</td><td>60 horas </td></tr><tr><td>[19190005607] </td><td>TÓPICOS - INTERCÂMBIO I</td><td>60 horas </td></tr><tr><td>[19190005616] </td><td>TÓPICOS - INTERCÂMBIO III</td><td>60 horas </td></tr><tr><td>[19190005572] </td><td>TÉCNICAS AVANÇADAS DE DESENVOLVIMENTO DE SOFTWARE</td><td>60 horas </td></tr><tr><td>[19190005625] </td><td>TÓPICOS EM BANCOS DE DADOS IV</td><td>30 horas </td></tr><tr><td>[19190005661] </td><td>TÓPICOS EM SISTEMAS OPERACIONAIS</td><td>60 horas </td></tr><tr><td>[19190005699] </td><td>TÓPICOS EM INTELIGÊNCIA ARTIFICIAL II</td><td>60 horas </td></tr><tr><td>[19190006023] </td><td>SISTEMAS OPERACIONAIS</td><td>60 horas </td></tr><tr><td>[19190004898] </td><td>TÓPICOS EM COMPUTAÇÃO V</td><td>30 horas </td></tr><tr><td>[19190004726] </td><td>TÓPICOS EM SISTEMAS DISTRIBUÍDOS II</td><td>60 horas </td></tr><tr><td>[19190004889] </td><td>TÓPICOS EM ENGENHARIA DE SOFTWARE II</td><td>60 horas </td></tr><tr><td>[19190004931] </td><td>TÓPICOS EM SISTEMAS DISTRIBUÍDOS I</td><td>60 horas </td></tr><tr><td>[19190005750] </td><td>TÓPICOS EM ENGENHARIA DE SOFTWARE III</td><td>60 horas </td></tr><tr><td>[19190004771] </td><td>TÓPICOS EM SISTEMAS DISTRIBUÍDOS III</td><td>60 horas </td></tr><tr><td>[19190004870] </td><td>SISTEMAS DISTRIBUÍDOS</td><td>60 horas </td></tr><tr><td>[19190006103] </td><td>TÓPICOS EM ENGENHARIA DE COMPUTAÇÃO II</td><td>60 horas </td></tr><tr><td>[19190004860] </td><td>TÓPICOS EM COMPUTAÇÃO VI</td><td>30 horas </td></tr><tr><td>[19190004842] </td><td>SISTEMAS DE APOIO À DECISÃO</td><td>60 horas </td></tr><tr><td>[19190005536] </td><td>TÓPICOS EM ENGENHARIA DE SOFTWARE I</td><td>60 horas </td></tr><tr><td>[19190005385] </td><td>SEGURANÇA DE REDES</td><td>60 horas </td></tr><tr><td>[19190005563] </td><td>TÓPICOS EM COMPUTAÇÃO III</td><td>60 horas </td></tr><tr><td>[19190006159] </td><td>OTIMIZAÇÃO COMBINATÓRIA</td><td>60 horas </td></tr><tr><td>[19190004673] </td><td>MODELAGEM DE PROCESSOS DE NEGÓCIO</td><td>60 horas </td></tr><tr><td>[19190004780] </td><td>MEDIÇÃO DE SOFTWARE</td><td>30 horas </td></tr><tr><td>[22010002548] </td><td>CÁLCULO III</td><td>60 horas </td></tr><tr><td>[19190005821] </td><td>ADMINISTRAÇÃO DE SISTEMAS</td><td>60 horas </td></tr><tr><td>[19190005788] </td><td>MANUTENÇÃO DE SOFTWARE</td><td>30 horas </td></tr><tr><td>[22010002520] </td><td>CÁLCULO II</td><td>60 horas </td></tr><tr><td>[19190006060] </td><td>LINGUAGEM DE MONTAGEM</td><td>60 horas </td></tr><tr><td>[19190004806] </td><td>CONFIABILIDADE EM SISTEMAS DE SOFTWARE</td><td>60 horas </td></tr><tr><td>[19190005705] </td><td>ARQUITETURA DE SOFTWARE</td><td>60 horas </td></tr><tr><td>[19190006079] </td><td>LABORATÓRIO DE HARDWARE</td><td>60 horas </td></tr><tr><td>[19190005509] </td><td>COMUNICAÇÃO E TRANSMISSÃO DE DADOS</td><td>30 horas </td></tr><tr><td>[19190005652] </td><td>TÓPICOS EM ARQUITETURA DE COMPUTADORES</td><td>60 horas </td></tr><tr><td>[19190004987] </td><td>LABORATÓRIO DE BANCO DE DADOS</td><td>60 horas </td></tr><tr><td>[19190004708] </td><td>INTRODUÇÃO A SISTEMAS OPERACIONAIS</td><td>60 horas </td></tr><tr><td>[19190005812] </td><td>DESENVOLVIMENTO DE LINHAS DE PRODUTO DE SOFTWARE</td><td>60 horas </td></tr><tr><td>[19190004815] </td><td>TÓPICOS EM COMPUTAÇÃO GRÁFICA</td><td>60 horas </td></tr><tr><td>[19190006112] </td><td>ARQUITETURA DE COMPUTADORES II</td><td>60 horas </td></tr><tr><td>[19190004691] </td><td>INTERAÇÃO HUMANO-COMPUTADOR</td><td>60 horas </td></tr><tr><td>[19190005483] </td><td>DESAFIOS DE PROGRAMAÇÃO II</td><td>60 horas </td></tr><tr><td>[19190005966] </td><td>COMPUTAÇÃO GRÁFICA</td><td>60 horas </td></tr><tr><td>[19190006041] </td><td>ARQUITETURA DE COMPUTADORES I</td><td>60 horas </td></tr><tr><td>[19190004851] </td><td>TÓPICOS EM BANCOS DE DADOS III</td><td>30 horas </td></tr><tr><td>[19190004950] </td><td>REDES SEM FIO</td><td>30 horas </td></tr><tr><td>[19190005400] </td><td>REDES DEFINIDAS POR SOFTWARE</td><td>60 horas </td></tr><tr><td>[19190004996] </td><td>TÓPICOS EM BANCOS DE DADOS II</td><td>60 horas </td></tr><tr><td>[19190004790] </td><td>TÓPICOS EM REDES DE COMPUTADORES I</td><td>60 horas </td></tr><tr><td>[19190005680] </td><td>TÓPICOS EM INTELIGÊNCIA ARTIFICIAL III</td><td>60 horas </td></tr><tr><td>[19190005447] </td><td>TÓPICOS EM REDES DE COMPUTADORES II</td><td>60 horas </td></tr><tr><td>[25010005821] </td><td>INTRODUÇÃO À ECONOMIA</td><td>60 horas </td></tr><tr><td>[19190004646] </td><td>TÓPICOS EM ENGENHARIA DE SOFTWARE IV</td><td>30 horas </td></tr><tr><td>[19190006121] </td><td>REDES DE COMPUTADORES</td><td>60 horas </td></tr><tr><td>[19190005545] </td><td>METODOLOGIA CIENTÍFICA PARA COMPUTAÇÃO</td><td>60 horas </td></tr><tr><td>[31010007078] </td><td>ESTUDO DE LIBRAS</td><td>45 horas </td></tr><tr><td>[19190004762] </td><td>TÓPICOS EM COMPUTAÇÃO IV</td><td>30 horas </td></tr><tr><td>[19190005741] </td><td>QUALIDADE DE SOFTWARE</td><td>60 horas </td></tr><tr><td>[19190005920] </td><td>TÓPICOS EM BANCOS DE DADOS I</td><td>60 horas </td></tr><tr><td>[19190005948] </td><td>PROJETO E ANÁLISE DE ALGORITMOS I</td><td>60 horas </td></tr><tr><td>[19190005886] </td><td>TÓPICOS EM INTELIGÊNCIA ARTIFICIAL I</td><td>60 horas </td></tr><tr><td>[19190005670] </td><td>PROGRAMAÇÃO PARALELA</td><td>60 horas </td></tr><tr><td>[19190005830] </td><td>TÓPICOS EM SISTEMAS DIGITAIS</td><td>60 horas </td></tr><tr><td>[19190004824] </td><td>PROGRAMAÇÃO PARA WEB</td><td>60 horas </td></tr><tr><td>[19190004735] </td><td>PROGRAMAÇÃO PARA REDES</td><td>30 horas </td></tr><tr><td>[19190005993] </td><td>LINGUAGENS FORMAIS E AUTÔMATOS</td><td>60 horas </td></tr><tr><td>[19190004744] </td><td>TÓPICOS EM COMPUTAÇÃO I</td><td>60 horas </td></tr><tr><td>[19190005492] </td><td>TÓPICOS EM ENGENHARIA DE SOFTWARE V</td><td>30 horas </td></tr><tr><td>[19190004922] </td><td>PROGRAMAÇÃO PARA DISPOSITIVOS MÓVEIS</td><td>60 horas </td></tr><tr><td>[30010007620] </td><td>METODOLOGIA CIENTÍFICA</td><td>30 horas </td></tr><tr><td>[19190004940] </td><td>PROGRAMAÇÃO MULTI-CORE</td><td>60 horas </td></tr><tr><td>[19190005456] </td><td>MELHORIA DE PROCESSOS DE SOFTWARE</td><td>30 horas </td></tr><tr><td>[19190005895] </td><td>TÓPICOS EM TEORIA DOS GRAFOS</td><td>60 horas </td></tr><tr><td>[19190006050] </td><td>PROGRAMAÇÃO LINEAR</td><td>60 horas </td></tr><tr><td>[19190006177] </td><td>JOGOS DIGITAIS II</td><td>60 horas </td></tr><tr><td>[30010007601] </td><td>INTRODUÇÃO ÀS CIÊNCIAS SOCIAIS E POLÍTICAS</td><td>60 horas </td></tr><tr><td>[30010007610] </td><td>INTRODUÇÃO À PSICOLOGIA</td><td>60 horas </td></tr><tr><td>[19190006005] </td><td>INTRODUÇÃO À COMPLEXIDADE COMPUTACIONAL</td><td>60 horas </td></tr><tr><td>[19190004664] </td><td>GOVERNANÇA DE TECNOLOGIA DA INFORMAÇÃO</td><td>60 horas </td></tr><tr><td>[19190006014] </td><td>GEOMETRIA COMPUTACIONAL</td><td>60 horas </td></tr><tr><td>[19190005732] </td><td>ENGENHARIA DE REQUISITOS</td><td>60 horas </td></tr><tr><td>[19190005590] </td><td>DESAFIOS DE PROGRAMAÇÃO</td><td>60 horas </td></tr><tr><td>[19190005429] </td><td>ANÁLISE FORENSE COMPUTACIONAL</td><td>60 horas </td></tr><tr><td>[19190006032] </td><td>JOGOS DIGITAIS I</td><td>60 horas </td></tr><tr><td>[19190006168] </td><td>COMPILADORES II</td><td>60 horas </td></tr><tr><td>[01000000030] </td><td>EMPREENDEDORISMO E INOVAÇÃO</td><td>30 horas </td></tr><tr><td>[19190004717] </td><td>INTRODUÇÃO À CRIPTOGRAFIA COMPUTACIONAL</td><td>60 horas </td></tr><tr><td>[25010005812] </td><td>INTRODUÇÃO À CONTABILIDADE</td><td>60 horas </td></tr><tr><td>[19190005554] </td><td>CONSTRUÇÃO DE SOFTWARE</td><td>90 horas </td></tr><tr><td>[19190005975] </td><td>COMPILADORES I</td><td>60 horas </td></tr><tr><td>[21010016149] </td><td>CIÊNCIAS DO AMBIENTE</td><td>30 horas </td></tr><tr><td>[19190005868] </td><td>ANÁLISE E PROJETO DE SOFTWARE ORIENTADO A OBJETOS</td><td>60 horas </td></tr><tr><td>[21010017324] </td><td>ELETRICIDADE</td><td>45 horas </td></tr><tr><td>[30010007479] </td><td>EDUCAÇÃO DAS RELAÇÕES ÉTNICO-RACIAIS</td><td>30 horas </td></tr><tr><td>[19190005957] </td><td>INTRODUÇÃO À BIOINFORMÁTICA</td><td>60 horas </td></tr><tr><td>[25010005830] </td><td>INTRODUÇÃO À ADMINISTRAÇÃO</td><td>60 horas </td></tr><tr><td>[19190005465] </td><td>GERÊNCIA DE PROJETOS</td><td>60 horas </td></tr><tr><td>[19190005349] </td><td>GERÊNCIA DE CONFIGURAÇÃO DE SOFTWARE</td><td>30 horas </td></tr><tr><td>[19190004655] </td><td>FUNDAMENTOS DE REDES DE COMPUTADORES</td><td>60 horas </td></tr><tr><td>[25010003531] </td><td>FUNDAMENTOS DA ADMINISTRAÇÃO</td><td>60 horas </td></tr><tr><td>[19190004682] </td><td>ENGENHARIA DE SOFTWARE EXPERIMENTAL</td><td>60 horas </td></tr><tr><td>[22010002673] </td><td>EQUAÇÕES DIFERENCIAIS ORDINÁRIAS</td><td>30 horas </td></tr><tr><td>[20010004351] </td><td>DIREITOS HUMANOS</td><td>60 horas </td></tr><tr><td>[01000000020] </td><td>VIDA, CIDADANIA E SUSTENTABILIDADE</td><td>30 horas </td></tr><tr><td>[19190005581] </td><td>VERIFICAÇÃO, VALIDAÇÃO E TESTE DE SOFTWARE</td><td>60 horas </td></tr><tr><td>[19190005527] </td><td>TÓPICOS EM COMPUTAÇÃO II</td><td>60 horas </td></tr><tr><td>[19190006140] </td><td>TÓPICOS EM ENGENHARIA DE COMPUTAÇÃO III</td><td>60 horas </td></tr><tr><td>[19190005394] </td><td>TÓPICOS EM SISTEMAS DE INFORMAÇÃO I</td><td>60 horas </td></tr><tr><td>[19190005410] </td><td>TÓPICOS EM ENGENHARIA DE SOFTWARE</td><td>60 horas </td></tr><tr><td>[19190006097] </td><td>TÓPICOS EM EMPREENDEDORISMO</td><td>60 horas </td></tr><tr><td>[19190005714] </td><td>TÓPICOS EM SISTEMAS DE INFORMAÇÃO III</td><td>60 horas </td></tr><tr><td>[19190005723] </td><td>TÓPICOS EM TESTES DE SOFTWARE</td><td>60 horas </td></tr><tr><td>[19190004978] </td><td>TÓPICOS EM PROCESSAMENTO DE IMAGENS</td><td>60 horas </td></tr>    <tr>
+        <td colspan="3">&nbsp;</td>
+    </tr>
+    </table>
+
+
+
+
+<div class="actions">
+    <h3>Visualizar</h3>
+    <div class="btn-group">
+        <a href="/cursos/view/1908" class="btn btn-default" title="Estrutura Curricular">Ver Curso</a>        <a href="/cursos/prerequisitomatriz/1908" class="btn btn-default">Matriz</a>                <a href="/cursos/docentes/1908" class="btn btn-default">Corpo Docente</a>        <a href="/cursos/prerequisito/1908" class="btn btn-default">Pré-Requisitos</a>            </div>
+    <div class="btn-group pull-right">
+        <a href="/cursos" class="btn btn-default">Lista de Cursos</a>    </div>
+
+</div>
+            </div>
+
+        </section>
+
+        
+
+
+<aside class="col-md-4">
+    <div class="col-md-12 box-border">
+        <span class="title">Menu</span>
+        <hr/>
+        <div class="menu-menu-servicos">
+            <ul class="nav nav-stacked">
+                <li><a href="/">Página Inicial</a></li>
+                <li><a href="/docentes">Corpo Docente</a></li>
+                <!--li><a href="/cursos/busca">Cursos e Matrizes</a></li-->
+                <li><a href="/dirigentes" class="my_tips" title="Chefes de Departamento, Divisões...">Lotações</a></li>
+                <li><a href="/dirigentes/busca" class="my_tips" title="Chefes de Departamento, Divisões...">Dirigentes</a></li>
+
+            </ul>
+        </div>
+    </div>
+
+
+</aside>
+    </div>
+
+</div>
+
+
+
+<footer id="footer_main">
+    <div class="container footer-widget-area">
+
+        <div class="col-md-4">
+            <div class="arrow"><h4>Pró-Reitorias</h4>
+                <div class="menu-menu-pro-reitorias-container">
+                    <ul id="menu-menu-pro-reitorias" class="menu">
+                        <li><a title="Pró-Reitoria de Assuntos Estudantis" target="_blank" href="https://proaes.ufms.br">PROAES</a></li>
+                        <li><a title="Pró-Reitoria de Graduação" target="_blank" href="https://prograd.ufms.br">PROGRAD</a></li>
+                        <li><a title="Pró-Reitoria de Pesquisa e Pós-Graduação" target="_blank" href="https://propp.ufms.br">PROPP</a></li>
+                        <li><a title="Pró-Reitoria de Planejamento e Desenvolvimento Institucional" target="_blank" href="https://proplan.ufms.br">PROPLAN</a></li>
+                        <li><a title="Pró-Reitoria de Gestão de Pessoas" target="_blank" href="https://progep.ufms.br">PROGEP</a></li>
+                        <li><a title="Pró-Reitoria de Administração e Infraestrutura" target="_blank" href="https://proadi.ufms.br">PROADI</a></li>
+                        <li><a title="Pró-Reitoria de Extensão, Cultura e Esporte" target="_blank" href="https://proece.ufms.br">PROECE</a></li>
+                        <li><a title="Pró-Reitoria de Cidadania e Sustentabilidade" target="_blank" href="https://procids.ufms.br">PROCIDS</a></li>
+                        <li><a title="Agência de Educação Digital e a Distância" target="_blank" href="https://agead.ufms.br">AGEAD</a></li>
+                        <li><a title="Agência de Comunicação Social e Científica" target="_blank" href="https://agecom.ufms.br">AGECOM</a></li>
+                        <li><a title="Agência de Tecnologia da Informação e Comunicação" target="_blank" href="https://agetic.ufms.br">AGETIC</a></li>
+                        <li><a title="Agência de Inovação" target="_blank" href="https://aginova.ufms.br">AGINOVA</a></li>
+                        <li><a title="Agencia de Internacionalização" target="_blank" href="https://aginter.ufms.br">AGINTER</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="arrow"><h4>Unidades &#8211; Cidade Universitária</h4>
+                <div class="menu-menu-unidades-container">
+                    <ul id="menu-menu-unidades" class="menu">
+                        <li><a target="_blank" title="Faculdade de Computação" href="https://facom.ufms.br">FACOM</a>
+                        </li>
+                        <li><a target="_blank" title="Faculdade de Direito" href="https://fadir.ufms.br">FADIR</a></li>
+                        <li><a target="_blank" title="Faculdade de Engenharias, Arquitetura e Urbanismo e Geografia"
+                               href="https://faeng.ufms.br">FAENG</a></li>
+                        <li><a target="_blank" title="Faculdade de Medicina" href="https://famed.ufms.br">FAMED</a></li>
+                        <li><a target="_blank" title="Faculdade de Medicina Veterinária e Zootecnia"
+                               href="https://famez.ufms.br">FAMEZ</a></li>
+                        <li><a target="_blank" title="Instituto de Química" href="https://inqui.ufms.br">INQUI</a></li>
+                        <li><a target="_blank" title="Instituto de Matemática" href="https://inma.ufms.br">INMA</a></li>
+                        <li><a target="_blank" title="Instituto de Física" href="https://infi.ufms.br">INFI</a></li>
+
+                        <li><a target="_blank" title="Instituto Integrado de Saúde" href="https://inisa.ufms.br">INISA</a></li>
+                        <li><a target="_blank" title="Instituto de Biociências" href="https://inbio.ufms.br">INBIO</a></li>
+                        <li><a target="_blank" title="Faculdade de Ciências Farmacêuticas, Alimentos e Nutrição" href="https://facfan.ufms.br">FACFAN</a></li>
+
+                        <li><a target="_blank" title="Faculdade de Artes, Letras e Comunicações" href="https://faalc.ufms.br">FAALC</a></li>
+                        <li><a target="_blank" title="Faculdade de Educação" href="https://faed.ufms.br">FAED</a></li>
+                        <li><a target="_blank" title="Faculdade de Ciências Humanas" href="https://fach.ufms.br">FACH</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="arrow"><h4>Links interessantes</h4>
+                <div class="menu-menu-links-interessantes-container">
+                    <ul id="menu-menu-links-interessantes" class="menu">
+                        <li><a target="_blank" title="Ministério da Educação" href="https://www.mec.gov.br/">Ministério
+                                da Educação - MEC</a></li>
+                        <li><a target="_blank" title="Ouvidoria" href="https://ouvidoria.ufms.br/">Ouvidoria</a>
+                        </li>
+                        <li><a target="_blank" title="Boletim de Serviço" href="https://boletimoficial.ufms.br/">Boletim de
+                                Serviço</a></li>
+                        <li><a target="_blank" title="Telefones Úteis"
+                               href="https://sistemas.ufms.br/index.php?page=telefones">Telefones Úteis</a></li>
+                        <li><a target="_blank" title="Biblioteca" href="https://bibliotecas.ufms.br/">Biblioteca</a></li>
+                        <li><a target="_blank" title="Localize-se na Cidade Universitária"
+                            href="https://mapsengine.google.com/map/viewer?mid=zg77rfOau5vI.k9qhq04seb5k">Localize-se na
+                            Cidade Universitária</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- copyrights -->
+    <div class="rodape-copyrights">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12 text-left">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <strong>Todos os direitos reservados. Universidade Federal de Mato Grosso do Sul. Copyright
+                                © 2026</strong> <br>
+                            <address>
+                                <i class="glyphicon glyphicon-phone"></i> (067) 3345-7153 /
+                                <i class="glyphicon glyphicon-map-marker"></i> Cidade Universitária.
+                                CEP 79070-900. Campo Grande - MS
+
+                            </address>
+                        </div>
+                        <div class="text-right col-md-4">
+                            <a href="http://www.agetic.ufms.br/" title="Agência de Tecnologia da Informação e Comunicação"
+                               target="_blank">
+                                <img src="/img/agetic.png" style="height: 50px" alt="AGETIC">                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- // copyrights -->
+</footer>
+
+</body>
+</html>

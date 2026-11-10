@@ -1,0 +1,2046 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Sistema Acadêmico de Graduação da UFMS - Informações de Ensino, Matriz Curricular e Corpo Docente. Onde os estudantes podem visualizar suas notas e frequencias, emitir documentos, renovar a matrícula, ver avisos e mais. O Público Geral poderá ver informações de cursos e outros." />
+<meta name="author" content="Agência de Tecnologia da Informação e Comunicação - UFMS">
+<meta property="creator.productor"
+      content="http://estruturaorganizacional.dados.gov.br/id/unidade-organizacional/827">
+
+<title>Engenharia de Software (1906) - UFMS - Professores</title>
+
+<link href="/favicon.ico" type="image/x-icon" rel="icon"/><link href="/favicon.ico" type="image/x-icon" rel="shortcut icon"/>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!=='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NKNZZMB');</script>
+<!-- End Google Tag Manager -->
+
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700,800,300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/portal/css/bootstrap/css/bootstrap.min.css"/><link rel="stylesheet" href="/portal/css/animate.min.css"/><link rel="stylesheet" href="/portal/css/font-awesome/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="/portal/css/carousel.css"/>
+<link rel="stylesheet" href="/portal/css/default.css?v=1.0"/><link rel="stylesheet" href="/css/bootstrap-datepicker.min.css"/><link rel="stylesheet" href="/css/bootstrap-timepicker.min.css"/><link rel="stylesheet" href="/css/bootstrap-select/bootstrap-select.min.css"/>
+<script src="/portal/js/jquery.min.js?v=1.0"></script><script src="/portal/js/bootstrap/js/bootstrap.min.js"></script>
+<script src="/js/vendor/bootstrap-datepicker.min.js"></script><script src="/js/vendor/bootstrap-datepicker.pt-BR.min.js"></script><script src="/js/vendor/bootstrap-timepicker.min.js"></script><script src="/js/vendor/jquery.mask.min.js"></script><script src="/js/vendor/bootbox.min.js"></script><script src="/js/vendor/bootstrap3-typeahead.min.js"></script>
+<script src="/js/bootstrap-select/bootstrap-select.min.js"></script><script src="/js/bootstrap-datetimepicker/bootstrap-datetimepicker.min.js"></script><script src="/js/bootstrap-datetimepicker/locales/bootstrap-datetimepicker.pt-BR.js"></script>
+<script src="/js/functions.js?t=1794317551"></script><script src="/js/componentes.js?t=1794317551"></script><script src="/portal/js/datepicker.js?t=1794317551"></script>
+<script>
+    var url = window.location.origin;
+
+    var ativarHomologacao = function() {
+        jQuery('body').append(
+            `<div class="barra-homologacao">
+				<h1>Sistema em Homologação</h1>
+				<p>Os dados dos sistemas em ambiente de homologação não são oficiais.</p>
+			</div>
+
+			<style rel="stylesheet" type="text/css">
+				.barra-homologacao{
+					position: fixed;
+					background-color: #b61818;
+					height: 40px;
+					width: 100%;
+					top: 0;
+					z-index: 5000;
+					color: #fff;
+					text-align: center;
+				}
+
+				.barra-homologacao h1{
+				    font-weight: bolder;
+				   font-size: 20px;
+				   margin: 0;
+				}
+
+				body, .navbar-fixed-top, .menu-sidebar.with-navbar, div.subitem  {
+					margin-top: 40px;
+				}
+
+			</style>`
+        );
+    };
+
+    jQuery(function() {
+        if (url.toLowerCase().includes('homologacao') ||
+            url.toLowerCase().includes('dev-agetic') ||
+            url.toLowerCase().includes('sistemas8')) {
+            ativarHomologacao();
+        }
+    })
+</script>
+
+
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/jszip-2.5.0/dt-1.11.3/af-2.3.3/b-1.5.6/b-colvis-1.5.6/b-flash-1.5.6/b-html5-1.5.6/b-print-1.5.6/cr-1.5.0/fc-3.2.5/fh-3.1.4/kt-2.5.0/r-2.2.2/rg-1.1.0/rr-1.2.4/sc-2.0.0/sl-1.3.0/datatables.min.css"/>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/bs/jszip-2.5.0/dt-1.11.3/af-2.3.3/b-1.5.6/b-colvis-1.5.6/b-flash-1.5.6/b-html5-1.5.6/b-print-1.5.6/cr-1.5.0/fc-3.2.5/fh-3.1.4/kt-2.5.0/r-2.2.2/rg-1.1.0/rr-1.2.4/sc-2.0.0/sl-1.3.0/datatables.min.js"></script>
+
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.6.2/js/dataTables.buttons.min.js"></script>
+
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.flash.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.html5.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.print.min.js"></script>
+
+<link rel="stylesheet" href="/css/dataTables/dataTablesSiscad.css?v=1.0.0"/><link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.6.2/css/buttons.dataTables.min.css"/>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/rowgroup/1.1.2/css/rowGroup.dataTables.min.css"/>
+<script type="text/javascript" src="https://cdn.datatables.net/rowgroup/1.1.2/js/dataTables.rowGroup.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.6.2/js/buttons.colVis.min.js"></script>
+
+    <link href="https://cdn.datatables.net/responsive/2.2.4/css/responsive.dataTables.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.datatables.net/responsive/2.2.4/js/dataTables.responsive.min.js"></script>
+
+
+    <script type="text/javascript" src="https://cdn.datatables.net/plug-ins/1.10.22/filtering/type-based/accent-neutralise.js"></script>
+
+    <style>
+
+    .carousel-caption {
+        padding-bottom: 100px !important;
+    }
+
+    .carousel-inner > .item > img {
+        height: 400px;
+    }
+
+    h1#mensagem_central {
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+
+    .msg-mobile {
+        text-align: center;
+    }
+
+    .parallax-paginas {
+        background-image: url(/img/bg/mini_capi.jpg);
+        padding: 250px 0 10px 0;
+    }
+
+    .centro-esquerda {
+        font-family: 'Titillium Web', sans-serif, Arial, sans-serif;
+        padding: 10px;
+    }
+
+    h1.centro-esquerda {
+        font-family: 'Titillium Web', sans-serif, Arial, sans-serif;
+        font-size: xx-large;
+        font-weight: bolder;
+        /*color: #00FFFF;*/
+        padding: 10px;
+    }
+
+    div.img-blue-circle {
+        position: relative;
+    }
+
+    .icone {
+        color: white;
+        font-size: 60px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        z-index: 999;
+    }
+
+    #icone_m {
+       /* color: white;
+        font-size: 60px;
+        position: absolute;
+        top: 31%;
+        left: 51%;
+        transform: translate(-50%, -50%);
+        text-align: center;*/
+    }
+
+    @media (min-width: 768px) {
+
+        .parallax-paginas {
+            padding: 120px !important;
+            background-size: cover;
+            background-position: unset;
+        }
+
+        .parallax-paginas, .parallax-home {
+            background-image: url(/img/bg/portal%20gradua%C3%A7%C3%A3o_home2.jpg);
+        background-repeat: no-repeat;        }
+
+        .centro-esquerda {
+            text-align: center;
+            color: white;
+            font-size: 36px !important;
+            padding-left: 130px;
+            margin-top: -100px;
+        }
+
+        .centro-esquerda span {
+            font-size: 100px;
+            margin: 0;
+        }
+/*
+        #icone_m {
+            color: white;
+            font-size: 60px;
+            position: absolute;
+            top: 32%;
+            left: 52%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        } */
+
+
+    }
+
+    @media (max-width: 767.98px) {
+        .h1, h1 {
+            font-size: 26px;
+        }
+
+        .home-paginas {
+            margin-top: 40px;
+        }
+
+        div[vw] {
+            top: 50%;
+        }
+
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        .home-paginas {
+            margin-top: 40px;
+        }
+
+    }
+
+</style>
+</head>
+
+<body>
+<div class="content">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1179462-5"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-1179462-5', {
+    'custom_map': {'dimension1': 'perfil'},
+    'linker': {
+        'domains': ['siscad.ufms.br', 'matriculas.ufms.br', 'siscad-ppc.ufms.br']
+    }
+});
+</script>
+<nav class="skip-menu" aria-label="Acesso rápido">
+    <a href="#wrapper" accesskey="1">
+        <span class="sr-only">Ir para o</span>
+        Conteúdo
+        <span class="access-key">1</span>
+    </a>
+    <a href="/" accesskey="2">
+        <span class="sr-only">Ir para a</span>
+        Página Inicial
+        <span class="access-key">2</span>
+    </a>
+    <a href="#main-navigation" accesskey="3">
+        <span class="sr-only">Ir para o menu de</span>
+        Navegação
+        <span class="access-key">3</span>
+    </a>
+    <a href="#govbr-busca-input" accesskey="4">
+        <span class="sr-only">Ir para a</span>
+        Busca
+        <span class="access-key">4</span>
+    </a>
+    <a href="#portal-footer" accesskey="5">
+        <span class="sr-only">Ir para o</span>
+        Mapa do site
+        <span class="access-key">5</span>
+    </a>
+</nav>
+
+<!-- User -->
+<div id="user" class="skip-menu">
+    <ul>
+        <li><a href="#" title="Login">Login</a></li>
+    </ul>
+</div>
+<div id="barra-brasil" style="background:#7F7F7F; height: 20px; padding:0 0 0 10px;display:block;">
+    <ul id="menu-barra-temp" style="list-style:none;">
+        <li style="display:inline; float:left;padding-right:10px; margin-right:10px; border-right:1px solid #EDEDED">
+            <a href="http://brasil.gov.br" style="font-family:sans,sans-serif; text-decoration:none; color:white;">Portal do Governo Brasileiro</a>
+        </li>
+        <!--li>
+            <a style="font-family:sans,sans-serif; text-decoration:none; color:white;" href="http://epwg.governoeletronico.gov.br/barra/atualize.html">Atualize sua Barra de Governo</a>
+        </li-->
+    </ul>
+</div>
+
+<nav class="navbar navbar-default navbar-white" role="navigation">
+    <div class="container">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Alternar navegação</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <span class="visible-xs">UFMS - Graduação</span>
+                <img src="/portal/img/logo.png" class="hidden-xs  lightSpeedIn" alt=""/>            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class=" rotateInDownRight" data-wow-duration="0.3" data-wow-delay="1.8s"><a href="/" class="primary-color">Início<span>Página inicial</span></a></li>
+                <li class=" rotateInDownRight" data-wow-duration="0.3" data-wow-delay="1.5s"><a href="/cursos" class="primary-color">Cursos<span>Lista de cursos</span></a></li>
+                <li class=" rotateInDownRight" data-wow-duration="0.3" data-wow-delay="1.2s"><a href="https://prograd.ufms.br/requerimento-academico/" class="primary-color hidden-sm" target="_blank">Requerimento<span>Requerimento Acadêmico</span></a></li>
+                <li class=" rotateInDownRight" data-wow-duration="0.3" data-wow-delay="0.9s"><a href="https://prograd.ufms.br/#main-content" class="primary-color hidden-sm" target="_blank">Serviços<span>Pró-Reitoria de Graduação</span></a></li>
+                <li class=" rotateInDownRight" data-wow-duration="0.3" data-wow-delay="0.6s"><a href="https://repositorio.ufms.br/" class="primary-color" target="_blank">Produções<span>Trabalhos e Projetos de Pesquisa</span></a></li>
+                <li class=" rotateInDownRight" data-wow-duration="0.3" data-wow-delay="0.3s"><a href="/entrar"><div class="wrap">
+                <button class="button d-none d-sm-block">Entrar</button>
+            </div><span>Acesso ao Siscad</span></a></li>
+                            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+        </div>
+
+
+    <div class="parallax-paginas"></div>
+
+    <div class="home-paginas">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="titulo-pagina">
+                        <small>Bacharelado em</small>
+                        ENGENHARIA DE SOFTWARE<span
+                            class="hidden-xs"> - FACOM</span>
+                    </h1>
+                </div>
+            </div>
+
+            
+            <div class="row">
+                <aside class="col-md-3">
+                    <div class="list-group list-group-curso">
+                            <a href="/cursos/1906"
+       class="list-group-item">
+        <i class="fa fa-home"></i> Dados do Curso    </a>
+    <a href="/cursos/1906/estrutura"
+       class="list-group-item">
+        <i class="fa fa-list-ul"></i> Estrutura Curricular    </a>
+    <a href="/cursos/1906/prerequisitos"
+       class="list-group-item">
+        <i class="fa fa-align-center"></i> Pré-requisitos    </a>
+    <a href="/cursos/1906/matriz"
+       class="list-group-item">
+        <i class="fa fa-object-group"></i> Matriz Curricular e Pré-requisitos    </a>
+    <a href="/cursos/1906/professores"
+       class="list-group-item active">
+        <i class="fa fa-user"></i> Professores    </a>
+                    </div>
+                </aside>
+
+                <div class="col-md-9" id="main">
+                    <h2 class="titulo-conteudo-principal">Professores</h2>
+                    <h4>[FACOM] Engenharia de Software (1906)</h4>
+                    <section>
+    <div class="row">
+    <div class="col-xs-12">
+        <div>
+            <h3>Professores</h3>
+            <table class="table table-hover table-striped table-bordered table-responsive table-condensed" id="dataTableProfessores">
+                <thead>
+                <tr>
+                    <th class="col-md-12 col-sm-12 col-xs-12">Nome</th>
+                    <th class="col-md-12 col-sm-12 col-xs-12">Titulação</th>
+                    <th class="col-md-12 col-sm-12 col-xs-12">Vínculo</th>
+                    <th class="col-md-12 col-sm-12 col-xs-12" style="display:none">Jornada de Trabalho</th>
+                    <th class="col-md-12 col-sm-12 col-xs-12">Unidade</th>
+                    <th class="col-md-12 col-sm-12 col-xs-12">Currículo Lattes</th>
+                    <th class="col-md-12 col-sm-12 col-xs-12">E-mail</th>
+                    <!--th class="col-md-12 col-sm-12 col-xs-12" style="display:none">Ação</th-->
+                </tr>
+                </thead>
+                <tbody>
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Adriane Angelica Farias Santos Lopes de Queiroz</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">ESAN</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/5714018567909446" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALgAAAASAQMAAADSeoYMAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAqUlEQVQYla3QMQoCMRAF0M9iYbWkTCESPMGyZZhi+EUKC4strFLlHEsOsef0EE7YFRZEUPBP8cMrQibAv9LBbafWJxtA3/xi8/J9rgirS8yDZEGkDFnqneEhyBlMxbEQiXSFh4nzQpSCnup6EjRXHieGRUHFaD6ymldz11ya05xbK8PNvGuekrpE9a2VGlJY6IsiRp3tLT5GmVXqOdo9Putu7U/f8Zt/mSdxMyjDj2LYuAAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Adriano de Oliveira Gianotto</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FAED</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/9280549986416421" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAAASAQMAAAA35ENgAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAArElEQVQYla3QsQrCMBDG8Y/OUo5OHUSCTyCdJNwQPiSDg4ODU6Y8R5+iz+lDeFe1g9JB8AL/DD+S4YA/TgOZb68ItnaA9A17O294PbQZR5wRnqCxHLQooldEbwx3RSlgrsJKnLwivHKciFrRMklLB+sMYUpgwmAwzDAsoA40oMHRa3AxaBxyTpLJPni7jiGHiX1NiDGNkdqrd7PRXbSv+pKWBXBtM6ugv2/5Yx50pyk/5PGlJwAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Agnaldo Antonio dos Santos</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">CPNV</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTPS://LATTES.CNPQ.BR/8795575643306736" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALgAAAASAQMAAADSeoYMAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAqUlEQVQYla3QMQrDMAwF0E/mEkwnD6WYniBkKkaD+QQPHTp06OTJ5/Apcs4eohImZMrUSuKD3yCMgD/WNFg6m4s2kLq73W/a3YfNm8UDobvEIi4KpDgpk7wZPoJSwKXSZYLV2bzYVqJWjAtHR2KkpnlYE5gwL5zN593FnHd76p7uT/XBPAdm3e8zz+Yhh5W+JkRhbFF85EnY5Bp1jy/6UR4c4cjlx+P2+gIcPShPzUijxgAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Alberto Yoshiriki Hisano Higuti</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Especialização</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAASAQMAAAAkMwOUAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAwUlEQVQYla3QMWoDMRAF0M+SMphPKhGMES5SL6mMmWL4LGZJEUKKVKp0ghxA+BB7Th/C0i6EYOzC4IFBHx5o4AOPnd4BzskJOtdYt1yXF7LF9p+UReb9QFyyMVmiQWapT/3Q/yieDClBzMoUpPpkjvxWmYScsaLks7jqla8qcXLI8U4dF7Emv7NYE1G+SNdk5GeVrsmB2f1F4a0eqjIwHuKkkB37ksyfLbyaqXhR2ezrbyH5XxXdzZKebsruzrqvzhmyPy1hLp2iJwAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Alexander da Costa Brito Junior</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Especialização</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALgAAAASAQMAAADSeoYMAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAqUlEQVQYla3QMQrDMAwF0E/mEkQnD6WYkgOUjEaD+IOHDh0ydPLkc4QcIufsISonS6FTIRLY38/GGANH1b0N3Z4FF2/AtvztN+9fn/FA3F1FqSVpgarnF+NbUQooJGtmhc/CifNK1IpeOPROBqNJPzGuBl+NsoSRXJqrjM21OcWGdrx5J3y6d82zGDOzWfDdc445rgzVkGZlYlIL/p5Tuia/JxQ77Nv+rA8IISfT6Jo6TwAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Amaury Antonio de Castro Junior</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/6311632162541654" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAASAQMAAAD11AfkAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAoElEQVQYla3QsQrCMBAG4J+SUUrHICLBwbl0kpDh+IcgDg4dnDLlOfoU95x9iCZURKWT+N/2Dcf9B/wrBuiAQxlAvvRU5l3X3OBWDXNgInZMfUgPujkgJVDJTBjmjnnkpETOaLWlVGVHGelUQMGgw6eGqnXDS+9Fm6pRY5SzNbGqi05ps8Cr97K3xnMKcvRlg03Pg5vaYqPvdUMv6H/+4AJ+1Sc143tN2QAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Ana Karina Dourado Salina de Oliveira</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/9894041622322471" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJAAAAASAQMAAACO8MUoAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAjElEQVQYlbXOMQpCMRAE0OEfIGyZQiR4gk/KsEWYIoWFxS+stso5coqc00O4QRR7cYZtHgws8Ft2AU5eoL5JnC7eb/K7Ir1ITaEqu+md6aEwAztBinQeHJPoHYEBNYgwHEyzghWZGZqd8iJdRBKbD8mb07aosUU2p5Zamoy9orBELWOwnIsPo30e+1OeLwQeyWGE7VwAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Anderson Bessa da Costa</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAAASAQMAAADBrcb4AAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAmElEQVQYla2QMQrDMAxFPz5AZg+lmB4ho/mD+IOHDh0ydPLkc5QcIufsISo1HTp0KUSCr6+HEELAMZH2YiEnz4/9xhfPH/iKslv2yk52uJB3lSfROzSahjTgIi16bMIYmLwxkxBlWlQ2gwyztBoDr+QcmIHfwymwpaSb4xS4qcUO5eHaSitbWFRVGqkcl9Rz9SW520Gf+ideveYo901+7TQAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Anderson Correa de Lima</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAASAQMAAAD11AfkAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAmklEQVQYla3QsQkDMQwF0I8HOFy6CMFkguNKo0L8wkWKFFekcuU5TIbwnDdE5LgJqVKchBA8xC8EnFBurtUDF2tAv9Sb3qx/1OaOOFVKkiJS4NdDnoyHoBSwZlayWkLnztaJWrGQVCWHLjtjV1CxkS+VqdtQGfo5dVP5MHVDM/MIYDDNMcfOUBWJSVSEobWerskSQtEznvN/vQEVuien6uJxlAAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Andre Luis de Bairros Rocha</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Especialização</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAASAQMAAAD11AfkAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAmElEQVQYla3QIQ7DMAwFUKsHqAoDpinaCabCyODrg4CBgYIhI5+j2iF6zh1i9obKCvqtRPkPGETkhAxxIFM+LzFZ9nqL2ekvD6n/otZMxfRupvpi/UQxoXenOCd3cuG6RXEZSVA4TgCxsG4QQubQt3BO1VRNZWjeqcMzdEjt7EDxnsra68bikMYGLdZWQPXaYkMxnPE5x/MF8CcnGdaO9lgAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Andre Luiz Francisco</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Mestrado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">CPTL</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href=" HTTP://LATTES.CNPQ.BR/9816960584983983" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALgAAAASAQMAAADSeoYMAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAo0lEQVQYla3QMQrDMAwFUJEDBI8ZShE5QcloNHz+4KFDhw6dPOkcoYfIOXuIyi7JXohA6PNAwljktBqiLy2kHlrE7vPuc4+H67587zHcaq4mWq3azcxe1I9JrUIvTlmdzkTyyXWjuMtIgqIYiQSE6wYhZAl/hy/h9nNrHrtAeIw0gI/woXlhASZFYb+vRTdODsnMsPBMW+M91xx3porzvu2/+gIyAikzLN27cQAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Andre Vidal Dabela Lanoa</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Mestrado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAAASAQMAAADBrcb4AAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAlklEQVQYla2QLQ4CMRCFX3qA1RWENByhcjLi5YkKBAKBquo5CIfoOTkEs4shBEOyb/6/ZEYMsI/SR38IA/iNT2E/8Bnljb1bd7i7eqSbytPROzTaEBQaEVfdpzAGFonCQkZdApdJiKgxPlDjiFg37CuOTUZOad3SJXBacVMjc5M2L61M5UGYjJ7N3eTmR4sjuXOnT/2jFzt5J4dzk5gZAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Angelo Montanher Junior</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Especialização</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAASAQMAAAD11AfkAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAApUlEQVQYla3QMQoCMRAF0M+SUiRlCpHgCRYrCVMMnyWIhcUWVqlyjuAh9pwewsRdBbcU/8BAXjHMBPhLesAAFtjVAnRW+9ZDrUW79p5zgZ9VUhAr2DD1km70D0FKYB5oCcNsmUeWicgZWy5au470k4KKI4f7l0pT8qQfvVbtmkb6qs7Epj76iS4rAkWKOBNYRPehTnCpLcy2qVnf+9LzWmX5ih/zBJ0pJRniOnS3AAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Ani Caroline Machado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJgAAAASAQMAAACdJ4XcAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAj0lEQVQYlbXOsQkDMQwF0M8NYFy6CMFkguDSqBC/cJEiRYpUrjzHTaE5b4jIXEKuD/kfhHggEPBT4hyKBSfv3I528b4NH7sh7yb9ik2kS5Un8yboHRwRRg42PrgaMQYC3YIy0C2bgooyrSjLbjKN06j03N2WaY0xWSNbY27ZmIaick1WhbXKufpt6t8H/5gXysUlBcVOL/IAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Awdren de Lima Fontao</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/0597440372595970" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAASAQMAAAD11AfkAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAn0lEQVQYla3QIQrDQBAF0E90CUtVRClLjhC5jBg+YUVFRUXVqj1HqOgR9hg9Ww/RmQRKZUW++B+eGDHADum8TkDwtoV+dVx19P3RCCzAxddVnqlIQZQSRO6Mb0EpYMuVFQtrIG9cGlEr+kYlEcnQm8amoGIyfWw6rSquNNVNyatp55pf2XQwPWbGHBuHqkhzUjEVHpKck10Yiu7xnP/zAYYyJ6vRGSytAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Barbara Drielle Roncoletta Correa</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Mestrado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">PROFESSOR SUBSTITUTO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">40 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">INMA</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAAASAQMAAADBrcb4AAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAkElEQVQYlb3OIQoDMRCF4aEHWB1RSugRIsOIxxMRFStWVEXNOUoPkXP2EJ1JWVhRWTr5YcInQkR+MZjtc/az24Gvfr7wTfKHu3ZPRWPrnfml0rsYzaMwNjc+BsVMuMBbBIRfNuYBoVfglcnPEqyTiWgyuDqfgq3Ba4nBLbc8mAzSK7yaVAGtl+qPpH748t/mDS9aKmuLZ23uAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Bianca de Almeida Dantas</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/9737651420191313" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAASAQMAAAD11AfkAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAnUlEQVQYlaXQMQ7CMAyF4afOqIqYMiAUcQLU0fJgvcEDA0MHJk85R0/Rc3IIDBULG6odKb++IUOA3WPlcw1Axik36UcvuZviqwtwQ9s0rhqqEI2i+mB7KiLQCzsJZwZnLivRO1hG2giOGTazrQbmKRNtAqcMfatuShpBZgz31OGtvTjp1Z1HZ/O2snZDLEKVKsKD6FnyhRq2/3P+mRehwiUxfrl+QQAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Bianca Namie Sakiyama</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Mestrado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">PROFESSOR SUBSTITUTO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">40 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAASAQMAAADmA0cQAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAlUlEQVQYlbXOMQrDMAwF0E8PYDR6KMX0BMGj0SD+4KFDhw6dPPkcoYfwOXOIKg2BdC6VNHwefBDw25jsSXD2dfnGq++Gh9YNacM2aVNF02XSJ9PisaELO4nOIXxwHh47KIEWwPDBNAz0k0zLYB7yWlE3JI2g1+3ueFqxSyVrZHVMNQ3GbmhzoZbIMma9FK/Hdvzyv/MGTu4mz0HabtYAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Brayan Correa de Campos</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Especialização</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAASAQMAAAD11AfkAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAnUlEQVQYlaXPIQ4CMRAF0EmDrm4IIQ2CA1SRZsTkiwoEYgWqqufgFD3nHoLfXbOEFSTMjGif+JkR+bts+zmxF/rQC/tb7xJXrVWhVVTnqvpEnJUkrQFoAnQ+Jrw6SALz8BDzHbAJsRuJk5CoiapDdVUmUEF1D6ob2qxcCwLKyI0ldoRmUi0fM4Lmzh3OmQmhLtu6nStFDrt629Vf6w0fxiqZOSkOpgAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Brivaldo Alves da Silva Junior</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/8581503118993784" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALgAAAASAQMAAADSeoYMAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAp0lEQVQYla3QMQoCMRAF0M+SUiRlCpEgHiBYhhTDL4JYWGxhlSrnyCn2nB7CCVEXCyudaYY3MDAf+FMJLBAmwKBPO+2Ow+3bD9pPx/BRF/jhpQQmGxM2LCGVG/09KaJWS9pMGOpUZ7aFiqBYbnWlTkuZ6RdR7H48fXp6OVe/qk/dq1iX9b4zubvPfqGrgiLNxRaTM5EtyT7qHVdkfdx8CeT8xcMPIQMPGAUn4XuF38oAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Bruno Magalhaes Nogueira</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/0544106600515308" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAAASAQMAAADBrcb4AAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAoElEQVQYla3QMQoCQQwF0LAHkCmnEAmeQKxkSBE+MoWFxRZWqXKOxUPsOT2E2bHYXdFCMIEhecWQhOgfoXOZiLaRzda8j1xx194L8YvNYEImBXIwuYEf0Rm5w0GOM5AcPYYxOicoAEJj3fTgUcMWfE96nFiWfIImxTW4m9i1AhngGly58ojsSqYxQ4ZIkUHLrsQn2eZl8PkIX1h+OeRbPAFNCyoPDBybXQAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Bruno Mazer Garcia</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Mestrado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAASAQMAAADmA0cQAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAl0lEQVQYlaXQMQrCUAwG4NADlDe+QSR4AukkjwzhR97g4NDBKVPO0VO8c3oI00q1QydNIIQPAkmI/gv9dIkOkYts8RS5wW6pN+I3msGEipic5QF+Sgi5w0HXKAkjpoYQggKBvWrqR3DTkBWHwGFG+eIFgbgHdjO6ViBzVaTKlRuyK5kWSJaiMpVjifFs6+rYO3YX5bfH0QtTlyW9lQoRmgAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Camila Gonçalves da Costa</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAASAQMAAACpXkTAAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAjUlEQVQYlZ3PMQrDMAwF0E8OEDR6KEXkBCFTMRqEKB4ydOjQyZPP4VP4nDlElZoszVIqwR8eCL6Av4Zmj4svoB3IY/I9AA7DCu4gss0kiC/jTZAzzBqR4f602gylQEeHcQduClPo4rB0kA/0k9vDYdjBkkMKzImbhaKQ2GqNQa7RT0LWo6191z+B/P76G9xLHq+Rf3yzAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Camila Moreira Almeida de Miranda</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">ESAN</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href=" HTTP://LATTES.CNPQ.BR/7082678129138718" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAAASAQMAAADBrcb4AAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAn0lEQVQYla3QIQ7DMAwF0K8eIAoMmKZoJ6gCIwPrg4CBgYKhoJwjp8g5e4g5rTY+qf/LBg8YGLgofp3LZsHNCujJ/scP65cPwsFPxJNF9tUL9rVKzfJm3AW1ghzeE8M3tsKNfRCtQZ2xM1ZHuo1xKKjQZJwmJzJNloO/R5SWl/EymcW4BOPCUmKJg6EpJI/ecxhdM3O+ZzsSql71qT/yAbe3KplehNKWAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Carlos Alberto da Silva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/1687736633515498" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAASAQMAAADmA0cQAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAl0lEQVQYlaXQsQnDMBCF4YcHMFeqCEGEDGBcmiuOV7hIkcJFKlWaQ1N4zgyRJ6dKF7AOftAHp0LA6TP1mHrRAHGgHVFvmh/sfSB/0b2YO3wy+ov57SgFZDUSNHVj24laEWMYAyEcN+Y90G+zUOtm97mjH0jhgEHIp3DoyFXIpDfTmte8M9WAL9Hck7eWluui9VTi/H/8eT4NyiEZMagRjwAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Carlos Alberto da Silva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAASAQMAAADmA0cQAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAl0lEQVQYlaXQsQnDMBCF4YcHMFeqCEGEDGBcmiuOV7hIkcJFKlWaQ1N4zgyRJ6dKF7AOftAHp0LA6TP1mHrRAHGgHVFvmh/sfSB/0b2YO3wy+ov57SgFZDUSNHVj24laEWMYAyEcN+Y90G+zUOtm97mjH0jhgEHIp3DoyFXIpDfTmte8M9WAL9Hck7eWluui9VTi/H/8eT4NyiEZMagRjwAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Carlos Henrique Aguena Higa</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/3530189028502875" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAASAQMAAAD11AfkAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAApUlEQVQYla3QsQnDMBAF0I8HMCpVhCAyQXAVxC+Oj3GRIoWLVKo0h8kQnjND5OwQQ8BNIHdwfL1C4gT8o85bOngDtuaw6cn7S5tlXJHeSpZAglksvCs9iVIg1SBBvQeNmmahVlhrQYbWVe2oNBv8aJ0r0fV6qFuUq8q1gS4y6ebaLKrBVXFIg8lHmhWr+eM2kTEzU/mY/YZYbFtAu2vvK3/9vU+9ADq2JcGyoYyDAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Cassia Jesuino Mendes</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Mestrado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAASAQMAAAD11AfkAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAmklEQVQYlbXOMQoCMRQE0CEHkJQpRIInkC2XX3ymSGFhsYVVqpxj2UPknHsIZ1cUtNb5EMIjzA/wk8T9DMBRA/iXnjVvxUuvyE815WJYrY5md+bVUCuoRKKzFXLi3InW4Af3eJAqPjF3Bx0+mMUBfSEX29R2ZQhbg+tpuEnDplRdLElanLnkztQcptXzmLpRl9OohlQ/Pvz/PADCESddBfKjaQAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Cassio Pinho dos Reis</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">INMA</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://BUSCATEXTUAL.CNPQ.BR/BUSCATEXTUAL/VISUALIZACV.DO?ID=K4207461J6" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJgAAAASAQMAAACdJ4XcAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAjElEQVQYlbXOMQoCMRAF0E8OIClTiARPIJbLFJ8ptrCw2MIqVc6xeIg9p4fwjysLW4t/4DM8yBDgx+S1jhqAOztrNvvmhrqaKRdDUz28vrQ1uJIdXTX5vGjr4IGU0TMnrwvhBK9mYc9sYfYxTymMOd1lKczHuFfiQB3r4qUTNpjNVqg6DXpb2v6Df8obcRQgkz9tXvcAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Cicero Rocha de Lima</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Especialização</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAASAQMAAADmA0cQAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAjElEQVQYlbXOMQoCMRAF0I8HkJQpRIInEMvlF8MvtrCw2MIqVc6xeIic00M4w64sW4sz8PN5kBDgx0nfYjj5xrnDi++C2PCOsiCvZCVq5FPl7bVCSWpCi5w0d68NlkwmRBwnlW6QBb5WvAVyRVtRD8dDoL/pmJ00lrF05WbgTBqzkRrOg1/PdffRv84HDVMlCQ/JXIUAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Clauber Albres Silva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Especialização</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAAASAQMAAADBrcb4AAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAn0lEQVQYla2QsQnDUAxEhQcIKn8RwicTBJdGxXHFL1KkcJFKleYwHsJzZojoxynTBHyCO/QQV0jkEN1E8Mnu55x91y/W7tecH/gudcemRjfPdDd7sr5M3IVKBiMzgpy5bJQIgZ5IQk5KEDPrBskVOpIrZEy8Wse2436MXgYMj8RDx9TWAihN01lb3VgCYss0uaFMi8PsMmVJcRzzqb/0BkPPKUPOwFhNAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Clislenio de Souza Carvalho</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Mestrado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/4546288598726815" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANAAAAASAQMAAAAQSsKIAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAs0lEQVQYla3QMWoDMRAF0I8PYH6pIgQRfIDF5fKL4RdbpEjhIpUqnUPkEHvOHCKz6zXug2cQkv6DEQh4eU3EBPBxC7xlA5GL3PIHMfCRfdAzv9Mn6p3ESVSbBKlZbPp2/RVag0nTnYbdbXbfPFajdwQZzMiIc/icx5vrGnBsJP7sdI3L9SAddGLs5Ljk7q+k00b7WxsVL1GWpLrU1aUHNIaGPFQ0R5mH9T7nwNLi9b/7r/oDUF0sL9Qgr5sAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Daline Moina Matsunaka Dutra</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Mestrado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAAASAQMAAAA35ENgAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAtElEQVQYla3QMQoDIRAF0GHrIEMqixAkJ1gsZQr5LBJShLBFKitPkANIDuE59xAZd0mRMrAz4ogPfyHRfjXQyOth3SOdtPtU4B+4aH9he1o3uJHbIAiPWWgRFmSZ5Am3COVMCcwF1MBAwRUzagOVQjCsV9QMR8A8zAzXIkGXV3hT8xoF//IdZAWN0qFRA6BRd4WhQ0odbEtHJKQpueQabIkUQq0Q28JBArTPQaNsjjv+4f/1Ach0LJWBEE03AAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Daniela Luiza Catelan</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/8023085642019600" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALgAAAASAQMAAADSeoYMAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAApUlEQVQYla2QMQrDMAxFP5lLEJ0ylGJ6gpDRaBB/8NChQ4ZOnnwO00PknD1EZac9QCGS0BNv+IOAg2oABHO7Oi7egH297N5x8/557L423BF2HzXPKgr1JZqfDG9FzkgsQiHIhrKybkQp4NjECBsbuDJsBvoslJcssKWhe+3eA8xzrIMP90PzKTWRJqazgyGFjVMxxMiqNU4aTw5eo+dM2Y5627/1AVNQJwGw3yMJAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DANIEL CUNHA DA SILVA</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Mestrado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">PROFESSOR VOLUNTÁRIO PARA GRADUAÇÃO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">8 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAASAQMAAADmA0cQAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAlUlEQVQYlaXQMQrDMAyF4UcOEDx6KMX0BCGj0WD+wUOHDhk6efI5Qg+Rc/YQtWu6F6InkPhAi6RzNUlOS9+SLi19DnQDby0/1A/vCgOjlcWcjFLsSXibSlGmOpygVjb2A9UqZjomYN4IRxKtV9xr4NrRvgguDeTRcOqYc0dPhhxyOPA1KUZ2271FiNfYzn1JJ//xf30AnWokY0Oc+EwAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Denize Palmito dos Santos</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">INMA</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAAASAQMAAADBrcb4AAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAqElEQVQYla3OPQoCMRAF4MdiYSEybJVCJHiCxXJJEV6RwsLCwipVzhFyiJxzD+HsL9op+CaQma8YBvhHGkCmpoMITlqAf2MZ+aK1MhZGxg125t7FrjhEJ0Mn7kk76BARmGRHJEoV4YO56pBAUvYEjwvb6kF9hSIFvG7sJvYUq9+85K7cjByUvTcpKLe0wVaa5PUS5uJM7HPNB3fudYmJfr16az7zG3+XF2gaKUFjdIBeAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Dennis Hanson Costa</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FAENG</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://BUSCATEXTUAL.CNPQ.BR/BUSCATEXTUAL/VISUALIZACV.DO?ID=K4248891Y3" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAASAQMAAAD11AfkAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAmUlEQVQYlaWQMQoCMRBFhxxAUqYQCZ5ALMMU4RcpLCy2sJpqzrF4iJzTQ/iTRcFS9k8CL4/JECKyO4E7itR5OLIm/9gz62vlY2+SNy5qdlExNVV7IL/IJg3uEeJwwBesnewCJlbBARVYkDuZ60mrgit0szotW2IYVwJwpw3DtmGR0Mao3HJH8so3AKsmFKjiVDghWd3/Of/kDekNJvekp8GhAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Diego Padilha Rubert</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/1458950097904708" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAASAQMAAADmA0cQAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAnElEQVQYlaXQMQrDMAwFUJG5g+jkIRSTE3QsRsPnUzx06NChkyefI+QQOWcPUcXu0CFTawn8eWCQLPLfGbTfENFRxp6+cZLpg61bnG8Se0pnSyaFxYo+GV+ei2TllVLppQ/Oq+cqbAiScIwrhN66dFw6WkdcGgJ6dxw2zIrIgFyBY8xxZaiQNJtZQCqGwyn581Cwjci9TXfRfv+5N4ITJcOsT9OZAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Dionisio Machado Leite Filho</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/0562065956149789" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAAASAQMAAADBrcb4AAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAm0lEQVQYla3QrQpDMQwF4EP1xGGqYoyyJ6i+RISIKyYmJqaq+hzlPkSfcw+xlLIfO7g5EPGFRATYowIBepBB4uQB9Ic5+OKZ/F7zScMVafKSpWTJAkqmPCw9BaVgpVUaDd5od2vdUCtcjPrl1BWmk2XwRm6D5cNhsJJ6cw6D18Ge6HzUtKZusSqWJtakSfR2kPPiR2LRXT71X70A7l4kY0hhFOgAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Edson Norberto Caceres</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">PROFESSOR VOLUNTÁRIO PARA GRADUAÇÃO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">6 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAASAQMAAAD11AfkAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAkElEQVQYla3QLQ4CMRQE4EkPgK4gpOEIyM2IyYgVCMQKVFXPQXqIPSeH4HUxBBSBeUl/PjFpCvye9HLexwB602PMp55RnsqJrGCkkleXO1ErPNsNjjR78W012rjLhnaKXYvLKljo5tCTujqHcqichlqRdAlNm0avc7SHusxldW7a3uA8VpGHKRpy1R8+54s8AAo3JmUNqCq+AAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Edson Takashi Matsubara</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/1842905075999080" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALgAAAASAQMAAADSeoYMAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAo0lEQVQYla2QMQrDMBAEF9fBiFQuQhB5gktxxbGFihQpXKS6Su8weYTe6UfkZFUuDb4tRhrQcgi4aoaOAKjj4emno395Dn7ttzdi95JEDJsEoYnJl3ETmIGZLKgMDs/CtRKlgFQSdQyOUceFsSqo+FGan72Hs87NS/PKoXkGhz/9uB927/2car4zl6w55lg5Fd33cZ9ukixpeibvmUwv+7aT8wf2UCwnP7EZngAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Eduardo Rodrigues</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Especialização</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAASAQMAAAAkMwOUAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAArUlEQVQYla2QPQoCQQyFwx5AtpxCZPAEYiUhxeMhKSwstrCaas6x7CH2nB7C7Cqi6IKFCfn9IIQn8l9rHhGpnco6XARfyDb8g8z1JPlOTGlFTYpp2UVvF+ZrjEXoZHVKpdf2SLJjP8ZYJfoVSInARNAxjxBCBnL/QgabiE0kNnySA9GcgzQzcXc4E+hos4PZ88hUEb+pQi3BFL2p2UbjWip414OLSi0T+1HrJbsBcuYt0yK66Q0AAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Eduardo Theodoro Bogue</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAAASAQMAAAA35ENgAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAoElEQVQYla3QMQoCMRAF0M/WIotVCpHgESyHKYZfTGFhYWGVKudY9hB7Tg/hZCOCWAk7w8BPHoQhwIY19Bmtx2M0YL9wjv6C6Q1X5A4q1CKKsaiKFn0wPxWlgE5WJ8bKiJV3TgtRK0jujQFsZQF5MdAwk5cO8we0ga3HBj3dAoYV3N2c6RCXHpM9L0zVYisRE007tq1MTxJPpWJb/uHf9QKuQCxvILkZVgAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Eliza Cristina Dias Notarangeli</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Especialização</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAASAQMAAAAkMwOUAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAu0lEQVQYla2QMQrDMAxFRejQoQTRKUMoJicImYrRID7BQ4cOHTp58jlMDpFz9hCVm2bIEOhQDRbvP6PhE/13ev4sXqml1raWaGOYO+pWs0S5PJXRjdxihPtJKApLlOiNnnAvCyKB+QBKYCSk0eiBPFuQijnWBHCtNRbjZiUoTcw8FDPogHFajBSjzA7FQIGr0d1M9TUaGuAcNMCVf8HNaJKS5Dz5BnLy6iFGF2/XmqjbPrDb1L6R36renTfKByqpkElbsgAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Elizeu Justino dos Santos Junior</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Graduação (nivel Superior Completo)</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAASAQMAAAD11AfkAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAoUlEQVQYlaXQMQrDMAwF0E/x0KGDRg+lmJ4gc9Ag/mBKhw4ZOnnyOYwPkXP2ELXbBDJkaiVkwwMLWcD/MUg/HdDuc0vAWslGry0X3by7I3xVZahKnJgGTU+GlyIlUMSRcMzCPLHMRM5djx+l0CaG2UBDFZG6Ve1qIsFWfTQ9LGoWvYtdQwwzfTZoKVVH70YWtcvYOvhk66Ru99+3/W38vMc30aojywEuC4IAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Emily Pache de Souza Coimbra</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Especialização</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJgAAAASAQMAAACdJ4XcAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAmklEQVQYlaXQoQrDMBAG4J9SMTUiwxgjTEyXqVFOHL+ImJiomKrKc4Q+RJ6zD9E0TV3Vdr85Pji4O+CvMl1trjmAFjPV7jnVsNsbbjOZO0OIcJIv3SwYRzCZbCRbDoyJCKGakqfzQJcUVEzFhDTP1WQ1LdaQjp9szW4PS3r1zrtEGxSSYrxYkX7qb32eteO2YHNwXXtgr98etQBPfiNXYN2gEwAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Erick Pusch Wilke</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">ESAN</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://BUSCATEXTUAL.CNPQ.BR/BUSCATEXTUAL/VISUALIZACV.DO?ID=K4771847D5" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJgAAAASAQMAAACdJ4XcAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAmElEQVQYlaXQsQkDMQwF0E8mUOkiBJMJrg4qPsKEI0U4UqRy5QluAHNFRvAYmS1DROYufeD0QUIP1AjYVQJ6G4ijB335mRBnz2brcLshrovmQRNegyR9WvwocoYVsRFNZLSH1WYoBUbh1G1yi40OWNzmbvPSTbvRbb3l3e2wmaXwFkmM19gsFEJZ1UKq1fR08duQue8F/9UXYUAldWjD+DoAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Fabiane Melo Carcuchinski Olympio</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Mestrado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAASAQMAAADmA0cQAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAmElEQVQYlbXOMQrDMAwF0E8PEDR6CMXkBCFj0GD+kKFDhw6dPPkcJofQOXOIKnHSC5RqkL4fEhj4rXokaWn03PtMwPBF8Tw0jHs78eGvhppHzYpNRd+MmyJnVBZhIYzCF6sRpSB2lI4XRktgQpwoE1fY2lAPpK/4tCR8Ot4OXIosTGHHuERjKI5zrjM1mFa9z34e8vXH/9cHo8Qm8WJeRywAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Fabiano Martin Tiossi</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">CPAR</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/6228536304558542" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAAASAQMAAADBrcb4AAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAoklEQVQYla3QMQrDMAwF0E/mEkQnD6GInCBkDBrEHzJ06NChkyefw6fIOXuIKs6UsZA/yPwHFsbAFRngsp+yTxmiAw6MJx6jN9Z9RGqbz+gHW54sG2Qys+lD/RpyRmURFsYSkvJm3YhSoD2lZ2P3YN0cdOhMmQ82a2yN4yoP7jp5BXeN1yIrme5tt666MZXgJdeFlm41XlIfSyxJ2S/5qf/yA0wGJXHvn05QAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Felipe Vargas Rigo</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Mestrado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJgAAAASAQMAAACdJ4XcAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAm0lEQVQYlaXQMQrDMAwF0E9OoNFDKCInyFiCBvEpGTp06NDJk89hcoics4eo4pBChw6lFtjfDwSygT9Wj1G2U7bYR3BggBw2RDVTyN7Q4RqX3UzGbMjjZA/qM1JGpUghilx4Z10jFWgYCW+mq4MOXcKWt1kzD/OwM29h3WHFk4tSZ12ZSpjVmi15NTtN0Zuyt9Hazs/3fTX7+atevDsjB3PRQ8gAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Fernanda Malinosky Coelho da Rosa</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">INMA</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/5184246132224433" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANAAAAASAQMAAAAQSsKIAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAw0lEQVQYla3QMQoCMRAF0GGxXlIGWSRsYb1sJWGK4bOExULEwipVTuABgofIOfcQJhFRELVxij/wH0wxRP+ermZTYlA5JDdd3dQ/Sd2pr10m80JUq33tCrH37C3TwmrwzBPOMAuT9xQRAoIDJSgVgBknxAQKgQwELdBSapUC5JjJJCEImatgBEZKYyG+VOJKIihTDwLNjEOm5kEOzunkCmHaGmcSdMjEAgtrdbIxghnrjc0HtZf39zSfP7f6TLufb/86N1FUMWt1TsFlAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Flavia Wegrzyn Magrinelli Martinez</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">CPAN</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/9366502692722339   " target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALgAAAASAQMAAADSeoYMAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAArklEQVQYla3QMQrDMAwF0E/p0KEE0clDKCbkAMFj8CA0ZOjQIUMnTz6HySF0zhyickKGjoVIwjYPSYOBk6IdANpeVK/WEmCgox/vLDf3dEyWerzgD48yRKwx0ZDi8hG/RqSEQiIkUMlEWa6zFBXkbP2NUANtmKzjNotXhrB56ClAQ/WFqsfdpd/2VGf/Nr/sPjkrnfhhzn7yKi6bl9FZ6cj3InF5jrbHJT7r2/6NL97HKI1ioFeTAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Francisco Eloi Soares de Araujo</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/9132624748630216" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAAASAQMAAAA35ENgAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAr0lEQVQYla3QMQrDMAwFUBE8lpDRQykmJwgZjQbxB1M6dOjQyZPPkVPknD1Ev2O6BJKpHixZD2RbIv9b17oNv5PjuVZMZNzBuFUIYdfhsVUqZM06qaow4qJvhI9KzrIUFAwAhBEOLywrpBQJ1sMGM0jPrEJYTWCEmaCEmVkDbQBCR4DVVk9C1yBhu8MnS8khpLDClwoRuvBVPlqMTm+RrXy23S/c0YDuRzCdD/Z0fQE4KykZkUsSAwAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Glauder Guimaraes Ghinozzi</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Mestrado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANAAAAASAQMAAAAQSsKIAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAwElEQVQYla2QsQnDMBBFhQYwV7oIwWQC48ocvzg+RkWKFClSufIcxkNoTg8RyUoMJqlCrrknPd0XknN/r9Y5n7uU5SljW1iO6pKxsC/Kv0Oufj+mAipGZbtiBPDQFa04YHWDkIHTQImcSN6HyBRIxqSqtGFZVVbRkqqSsk115LKpzroFSXUv1Usesj4HGs3f+i0wq0ZCCGZNkBgsGJsmBpE634VZVWHQOaopcEbUea6B6Fiew/13PuibwqEd6Kd6At2DM4XlBSD+AAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Graziela Santos de Araujo</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/4298207148978715" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALgAAAASAQMAAADSeoYMAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAuklEQVQYla3QPQrDMAwF4Efw0KEYjRlKMT1B8FSMBiGCKR06dOjkyecIOUTO2UPU+SPpWvq0PD6DjA38MYRmLganMoCsTqtfykxeLSdL7nCzh8R9w8TgxHrkl7o3IyW0WQ0pKTSrGn1qNyhyRiv2UNzCip3cDQKV4p6oJw8vfnEe/SrqSMY9Mu55FK9GdxKleKyjxGjURTdonQUsoe+4C3WQEAyfQ9lTp3LF/uFmq19+2yrvvfnld6d8AKw3Jz0UmJO2AAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Guilherme Augusto Defalque</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FAENG</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANAAAAASAQMAAAAQSsKIAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAwElEQVQYla3QMWpDMQwGYPEOUDS+IRSREzw6FaNB/AQPGTpkyOTJ5zDvED5nD9HfTgLt0AylFliSPyOMRf5/6RYzL3KQjfnAEJlnqg86ijIfGZMW2oNs0pl5UsKmxcunS3JzTfArjF0pcoJqRe2QjAbNwAWNXa2TgGAD2AtLkvUQxI326LtgtzfSPsgHvQ+KmPcMY8AHaRlk+U5rDtZ57Nax1hBPrcGj+8oXppaSvyYOXAvH/Pya5Vv9hPx3+tP6AqJ0MhN+wRviAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Gustavo Lopez Flores</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Especialização</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAAASAQMAAADBrcb4AAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAApklEQVQYla3QMQoCQQwF0DC1yGA1hUgQDyBWMvwifGQLCwsLq6nmHIuH2HN6CDOzgo1WmsAvXvEhEfnTxBbrfU9fEXvzdk7fzkFkbKCdz6IzZyKCcEYBbtQHpBQ5kZGkjJGVvHKcKLU6W1w6a6TRrtTJhOaMeNjNfEdjND4yRL7YwsU5NNaBqyExdaYOOjFVE2QsckLSEQZsspek4vWfL//C+PWjPk9XBCYbBDdS8wAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Hana Karina Salles Rubinsztejn</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/7454923215447636" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAAASAQMAAAA35ENgAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAtUlEQVQYla2QMQrDMAxFRfDQIQTRKUMppicIGY0H8QdTOnTI0EmTzxFyiJyzh6gSd2looEO/rG/8H3j4RP+TvC82Y3J0slnTLbjYfIDFRtsb+fLUqJEU2mmcONb6gH9aoJSRsRhnOIbLA8bZgkxo0JAADDkYwAA/C8FOj76AyDwVEFdgKqDyLA53A9UKElIrKTMgRwM++RltNhAQWgk6Ik51dDgH+6pV2fTg9gq67oHux4a/6QX0mytbTzL2RgAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Helder Samuel dos Santos Lima</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJgAAAASAQMAAACdJ4XcAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAlElEQVQYlaXQPQrDMAwF4EcOUDR6KMX0BKGj0SDe4KFDhwydPPkcJofwOXOIymmXbIXoB6EPtAg4EYZ58jELcPUc4CXDxO3ueTDvJ+LXikrSApk3fTNuilJQKZnVbzsXtk7UClJIG3ZZGLvBF67CdbfHMN3NhLYbX27Tz7JZcMsxx85Q3bQltdBaT7fkt6HYmRf8Gx/BSSTJLldM+AAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Heloisa Laura Queiroz Goncalves da Costa</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">INMA</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/9871336988458308" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAASAQMAAAD11AfkAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAm0lEQVQYlaXQMQrCQBAF0E9qCYPVFiKLJwgpwxTDL1JYWKSw2mrPETxEzukh/DESa3H+wM6+YlgW+LsCHWwbDSdlJbV99aLs+qkZV+RNi5t37nDXcGd+OkpBpSkEqWPivBC1Yr1YtAiGtRPzEqD6IfVe6tav6m8NaUNpY7xJm105Ju09jnnMC1OV+qwMSW84DOdBG1KJ/z/nl3oB+LckP0CSbbkAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Hudson Silva Borges</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/4732229402586329" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAASAQMAAAD11AfkAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAl0lEQVQYlaWQMQ4CMQwErbwiBUIRr0AnF9bqlIKC4goqV34H4hF5J49gc7kC0FWwLmY1hSNH5O+YpIGeA2ftH/bE+bLkRcrojknVxdXJG8pTxV0CFQgiZmDBvUEiBIABhM2wBaWZwLrVzT60W91sGvZs6UqbVlu5FzlgxVBqaey0E99GdjVVPU7ckN3ersTu7ftWf/hF5gWLGykrIRO0HwAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Irineu Sotoma</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/4887951408965561" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAASAQMAAAD11AfkAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAmElEQVQYlb3OMQoCMRAF0M/WIoNVCpHgCRbLZYrhF1tYWGxhlSrnCB4i59xDOJvVRWwF/ycwvOIT4OeI93UARy9gX3r2Nt1S/F0RV+1Tn5RQFZ31zjgrUoJkySRIYeXEUomcISZ0tUX3E2M10Jo+fGHRy6L6ViO6tnBz7TYdA3lgHeMYK0M2FCvUIajutA6nwRdC+vzwH/IElkUm2YYuOzQAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Jane Dirce Alves Sandim Eleuterio</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/8776010645289106" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAAASAQMAAADBrcb4AAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAp0lEQVQYla3QMQoCMRAF0I9sKTJYpRAJnmCxXKYYfrGIhYWFVaqcI+QQe04P4WTdrbTTP58JvCKQAP9IN+8ekNaDD2Ary9KTz8xYubTzivjmrSaFilI09fpgfCpSQsdMUOjNwjvLROSMbseVrXGcDDR0Z1ZUqZS6sM5MXyZGMeeb82bmkRacx33jOMaJITsP1KBFh61a0ePgl4Rky3M+cvnO/Y9/2vIC8JEl61WHg8UAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Joao Paulo Romero Miranda</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FAED</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/4346642154558784" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAASAQMAAAD11AfkAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAnElEQVQYla3OPQrDMAwF4EcOEDx6KMX0BCGj0WDe4KFDhwydNOkcOYXPmUNU+SGUboE+SSC+QQj4Rwaf4NPh5gWUTcOpD69vxaZPpF1VGATLoKJZ3kyLQBVGBqIFo1VOnBthBva7lp7sJ6ZWQO/x0JEcV5VNjwvFF75cu1Wt1sDoWllrqqkxWoHmPEtsc8nM+Z79QtRyvPybK3ohH1CqKHeoymm9AAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Jonathan de Andrade Silva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/3741401045785098" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAAASAQMAAAA35ENgAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAsUlEQVQYla3QsQrCMBAG4KN0LCU4ZRAJPoF0PG44/iGIg0MHp5vyHMWH6HP6EF5qB8G6iP/lh8AHBwnR/9J6gy7Xpp69D5F+wtFngZrpDS6UXtCJSTAxEmMTlhvSQ8iMWhSEgkIouSBjxDSDSnFAH9CDekC9I9KsBK0wBAygwWHAvYKsgOAlr/q5OjQr5J3vjhlZc9aU04xYHATcgREZrMxyYF8VTZcHbub8DU4//fBWnh1DKttSE2XlAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Jucele Franca de Alencar Vasconcellos</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://BUSCATEXTUAL.CNPQ.BR/BUSCATEXTUAL/VISUALIZACV.DO?ID=K4763167D5" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANgAAAASAQMAAAADnYJ8AAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAt0lEQVQYlbXPPQoCMRAF4GGxFJkyhUgQD7BYyiuGVyxiYWFhtdWeY9lD7Dk9hC9RsBAtBGdI8sIH+TH7Qy002te2VV6rzeJh/jJX3qqr2budLD9sScBhmoFe0YEr8w3W97Yg6TSWGhSdvHCcacMgi2qrCJbojAvzHMYoNvlkuz2KTTIUw9PCw3ZsioWsOcuaah1lKXX1xmLMXZ6ZBtkBGJGSFuix4whsDjoz9VH//qmOX6z9Yj/WHTSNLU2aeAmJAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Juliana Asevedo Alves</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Especialização</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALgAAAASAQMAAADSeoYMAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAArklEQVQYla3QPQrDMAwF4EfIWIJHD6GYkgOEjEaDeYMpHTpk6OTJ5wg5RM7ZQ1Rx6A+ULKVPkz/Jxgj4U2r05nWo0GoBYXXz6Set4sCb1S9wmx9oekkCEaF4udHdBSmhpjHMBNdEjpwWIufiDRs0oXRGuiWAofjAAYPM3by5PF3nwCp0euWqXhWPxkRGGxlsiHTRLbRZ3U+Tp7dexOp/jl7fsUl9Zw/nHe9/2upXHmXzJnOrHMBWAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Karine Albuquerque de Negreiros</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FAED</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/0634005408038427" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANAAAAASAQMAAAAQSsKIAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAuElEQVQYla3PQQrCMBAF0KEHKFl2IRI8QekyZDF8SiguRFy4mlVO4AFKD9Fzegh/qi0ILkT84SeQNwQi8u+oiCtnq+vNjmu5X8ltdOBaSd7pKP5JfbTWokRnCIjGXuHvUcxkQHYZAm4JyOwF4wzJWc61OkBqboyikJ9VoHLrSJN0C02kqVAsNIDEoYWUpCdSVahPhZrkckpJlfXJz2gyx4OOiE0YLYQQld0HPtjY9pmS6tUP+Y2+zwP4pzED8T4sZQAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Keilla Dayane da Silva Oliveira</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">CPTL</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href=" HTTP://LATTES.CNPQ.BR/4524466504629094" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAASAQMAAADmA0cQAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAoElEQVQYlaXQsQnDQAwF0I8HMCqvCOEIGcC4NCoOYQ6TIgQXqVx5ggxwZIibM0P4y8kAAUvwj3sgFQKOVYJ0HV9hnNgujiKOjAv7h/ufCdwQvzhqJ6Jgmj4tfhTLgsk4bmCazVaqYV3xcGyRiO1ssSZYwutN7KEi195RHae0jzdEuxMbx9ExBy4JOeZYLazcoKWUITDDcB44HpZ08B7/1wZxTCE/4hEgNgAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Leonardo Chaves de Carvalho</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Mestrado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALgAAAASAQMAAADSeoYMAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAnklEQVQYla3QsQnDMBAF0EMDGJUqQhDBAwSX4hfHL1SkSOEilSrNYTyE5swQOctJEUgT8D+kf7xChUQOyrXfzo5uy8mmr/7bLza//Cbx7UBBSRArAg/GJ6QU8WRlzRQry8ylUWrdnIOSohxInRmbClX8Sk67T+OKzdHdjLtzVHc3dx/PmhmsgjLm2BiqygIwaUKwCsA52Tuh6FHf9m9exVwpqRiyFHoAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Leonardo de Oliveira Dresch</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">ESAN</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href=" HTTP://LATTES.CNPQ.BR/5664063335568802" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALgAAAASAQMAAADSeoYMAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAn0lEQVQYla3QsQnDMBAF0I8GCC5VmCA8QUgprvj8QkWKFC5SqdIcxkN4zgyRs50UgTQBH4f0eYjjEHBQXbYzbA2wR79eQPftA4affkN6u1m1mg25mseH0tNQKzqpqRWhNHkcNS1Ca6vrRAmiSI1KCz2jm6Xr7rPtbpu7aXcG6u4ePl5YFAvXF6mkRbERk5kys8VM30fn7HNi5VHf9m+9AJZHKrV6vAR5AAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Leonardo Serra Victorio</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Especializacao Nivel Medio</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">PROFESSOR SUBSTITUTO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">40 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAASAQMAAAAkMwOUAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAApElEQVQYla3QMQoCMRAF0M/WIoNVCpEgHmCxDFMMv0hhYWFhlSrnCB5iz+khnCwKy5ay85NhyIMpAmxa49wHv+Lxc/QA1seVnD0rAVpvN8SvqBYtScFRRcuoT8a3ohQIWVkzQfFU4YNtImrtwr2xiwmtS5wMNMiLvHa5LERn8Vcu5e4y/CRbZgjCQ5eY48RQDU2VyZKG0HSn1vSUfFsotu2H/lMfYgYqsdwv6QYAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Liana Dessandre Duenha Garanhani</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://BUSCATEXTUAL.CNPQ.BR/BUSCATEXTUAL/VISUALIZACV.DO?ID=K4744586H2" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAASAQMAAADmA0cQAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAlklEQVQYlaXQMQrDMAwF0E8OEDJ6KMX0BCGj0GD+oKFDhwydPPkcoYfIOXuIfpNCOxb6hSx4SIuB/zJP/R3UBSdVn5i+8KI6EB+8Ir9x9uoweq1+Z346atU5GxFka1y57URrwpEj2DOuzHsBi3DhInyQS0c/UDvConETDgcGI0UII0femVrBthktmTlpZ9N5quXP//g9L2bmJCentakKAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Lia Vieira da Silva Tiaen</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Graduação (nivel Superior Completo)</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIgAAAASAQMAAAC6iQQ0AAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAiklEQVQYlZ2PMQoDIRBFP6nDIqksQpCcYEkpFsMvLFJssUUqK88x5BCeM4fIqDlA2Bke8h/+YoBDszrAGbjaAjLTMHfbaezR/vmJ8DNr6qTyYvgklGINdlh3aiNqtbR0yJ2hCSiWHp33MGma0RJuZk7TZH9xWRhyaPRVoBr9WWPiLVrLFzl26D/zBc85HGenJNm8AAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Lidiane Parron Goncalves</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAAASAQMAAADBrcb4AAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAoUlEQVQYla3OPQoCMRAF4MceYEmZQiR4gmXLkGJ4RQoLiy2sUuUcwUPsOT2ET9f1BywUnJmQyQczBPhHDK5zz9dGCRjg3ninXBjdy+we4c5DHFJJKKmojgxn9UVLsmMlKqtqYpvVVzFdT4K9GTkxzAbajUeewHHltDJ164gP4m7h7DLN13zlkMNMXw2txRaZfIlmiduoJb7Y48eGj/EbfxUXMH0n8Zbwd+gAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Lilian Ferreira Berti</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">INMA</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/9406207293241056" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAASAQMAAADmA0cQAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAkklEQVQYlaXQMQrDMAwF0E/nUkSnDKGYnMB0DB6EhgwdOnTopEnnMD2Ez9lDVDZ25kL+os+Dvwg4lkiR/DBANGMelXZcsPSKarVlPBA6+j4pNCnFt4Rvgmqbi8HEiF6Si8Cs4UUgwhVDYQg3vDt+OqaB4siOT8fTwE0mY75S2EKpFdmzyqSJz/m2+nxSPviP//MDOHsiLxjd8rkAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Lucas de Souza Rodrigues</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALgAAAASAQMAAADSeoYMAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAqUlEQVQYla3QsQoCMQwG4FAcnKRjB5HiE4iTlH8IP9LBweEGp059jqMPcc/pQ5hyCOJx4GBS0uYbAo3In8OJ79feUkQXfrT88n7kJnF2gA1SkMopEXgwPq0tQnJDqczVX+09cJysraLkdterdteBcVKhCkh/fntDd3R3ZOTsF6q7m7vuZNYc1KqPWRlznBiqzUFqKSiSjkjAIdmcUD4+IMKVVaw5fl7mMl6BpSk1TH7SzwAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Lucas Tegani Bassani</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Especialização</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAASAQMAAAD11AfkAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAlUlEQVQYlaXQLQ4DIRQE4BcOsEEiNg3ZE2yQ5ImXEYiKiooqFOfgFJyzh+jsj2hS1eyIIfOJJxC5nHVv29vPMh/Df+siy6/KXeKpUFWpLK3rC/HNUamMtK2bf6IPjka1yQST2QRqHBy2aVJBUk2H6qlwAjgH+AfV7VpQEFoBHx9LHBwmPWvWULNqRr9lXgjVrn/OP/kAEY4kvfETTNcAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Luciana Montera Cheung</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/1092296906422727" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALgAAAASAQMAAADSeoYMAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAoklEQVQYla3QsQnDMBCF4SN1CpUqQgjBA2QAFcePMUZFChcZwHMcKjSCx/AgHitEitIkXcCvOj4ed3AiO0UJ5vGSA89k/kTKQcyK47q5k43ZKd0V3RAoro6ZjxO/fEJWpuoPdNVfNyuTrbe2X12KSRai0zFN6HIUxtaPNO+pfhD65gOSGarf0Uxzqvu3w6W6L3dTCAbFAy7BOWgO3tjrbf/mBb3kPgMF+CbJAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Luciano Gonda</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/8386258458220683" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAASAQMAAAD11AfkAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAnUlEQVQYlaXQMQrDMAwF0E8OEDx6KMX0BCFTERrMp3jo0CFDJ08+h0/hc/YQVYLTLplaSQjxBoEE/B0T4Po44GQJxI2+erHctZPVHaErddKsEM2iT4aXImdTOhbixpK4sDaiFNPoRq5KjgtDi2DcdO46r6q7GuBqjQ/TYdNEK/pAphRSaPQloopWoXpVipzFNvgcPzfy8PJj1V8f+QYGQiWBpqhTZwAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Magda Cristina Junqueira Godinho Mongelli</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Mestrado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">INMA</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HHTTPS://WWWS.CNPQ.BR/CVLATTESWEB/PKG_MENU.MENU?F_COD=8FD9381EEE76374FD5C4969D5FBB2F6F#" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAAASAQMAAADBrcb4AAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAq0lEQVQYla3PMQrDMAwFUJEDBI0eQjE5QcgUjAbzMR46dOjQyZPPYXoInzOHqJK4QwpdSjVI5hk+EtGfqmtzmnigQR/+xMw80vjmrmufzHQle/Aqzon25IR5esCuQilRRYjQngM05I5SQTlT7QN6ZTS21RM81Tlg3vnZWHbGgi0Ei1e+KXc7RxujUbYb22grTFZ2uoqpApFSysVpiEnb4jiOwcftX1hO45d6AZ44LGPNXxnzAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Marcelo Augusto Santos Turine</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAAASAQMAAADBrcb4AAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAlUlEQVQYlb3MIQ4CMRQE0AmakAZVQUjDCTbIzReTESsQCASqqudo9hA9J4fgb5cVeMLMiJ8nPvCzDEDoO3kBfjhsu3i/uPbjhrTyy7JZMATlIdtT6WXIGU1FCnIuoeih2oRS0A7kygxyTo0Q0a7kvPG8sHUWyY15d951nrhAPE4Lpyk1xeI80qxa3I+ssvPoT2Im/p83FbcpYd7z2lgAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Marcio Aparecido Inacio da Silva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/1444827111436798" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAASAQMAAAD11AfkAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAj0lEQVQYlbXOIQ7DMAwF0K8doAoMmKZoJ6gKIwPrg4CBgYGhoJwjp/A5e4i5WVVQvH0n+tIDloGfJIzn/+oD6EnvPoceeSB9dZUqs2Cu4vVmWgW1wtgYiNDo9WI3ojXYpLopJ900mYIKW3ZddpWh3JVeT9fL0KK+MAYWr1SSMTbXrNIldmavW/YNsZ4P/nM+Q68mpZGGmRwAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Marco Aurelio Stefanes</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/4729615604294036" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAAASAQMAAADBrcb4AAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAnElEQVQYlb3OMQrDMAyFYZG5BNPJQygiR8ho3iDekKFDhwydPPkcIYfwOXOIWl7SA5Rq+cWHMBb54QSZPFOPffHsmXsu3kU9z57GJzIgCFBf3tQTkrNUFlIYuPuyca+UUqSOZhQL1JG0jVpNaFIXZ4RDFx5wRmc6D8G0HQ+vxkPn1cjIu+lKo65aGUvjZEDEDZoIPFJ7JObr4/+bDz5RKV+7eL4ZAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Marco Tulio Correa Nascimento dos Santos</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Especialização</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAASAQMAAADmA0cQAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAjUlEQVQYlbXOIQ7DMBQDUKt4qqKhgGmKdoTCyODLoGBgoGAoKOfoKXLOHmI/HWn5ZrMnWTLwowTg5gXsjA/vGVfgifTFjYUEWQL5VtqIUtBUJUg1SIvWJtSKNpoJNirIFqVmkKFNHTk5siN3VMdBjsPLcdhxNilq1lVKc2qK1TEbGZl1Ie/Z57Ecj/43H4HHJZOWeT/9AAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Maria Istela Cagnin Machado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/1838086786793758" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAAASAQMAAADBrcb4AAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAo0lEQVQYla3QMQrDMBAEwMV1MCKVixBEXmBciiuOLVSkSJEilSq9Q+QR904/ImcZQtqAd5tjEFsIOCLBO/dLMeDi3a7O4cs3b2eg/fAdcedZgherSJEkL8ZVUAoCt8LIyswnmxG1IqjzCBuVI52jKajwiXdYYIty2Vk6D9t7H1F6Hs5DZ5415MkymTNjjsapKpqcpKXJkjAluSYfmYoe8lP/5QOc5CinytyG5wAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Mariana Caravanti de Souza</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAASAQMAAAAkMwOUAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAq0lEQVQYlb3PPQoCMRAF4Ie1hMEqxSJh2QMsKUOK4RUpLCwsrFLlHHuKnNNDOK4iC1qKD+YHPhgY4NeR7S4DBpv6RUaMb9lmwQnhKbdc51wzsjXmKvOV4ZZRKzqbsBG0ZiVy4dKJ1tCdiqODOrXBh4SuoKJHlcgIjRqn+JK8ClXsDJTKiSZnk90qRaWweBYtvvAgoYRO30ySLonJ56TJJ+6XY7Jrvn4+9PfcASJ6LJeTnEcUAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Marly Fonseca Nunes</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Mestrado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">ESAN</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/6039252472395335" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJgAAAASAQMAAACdJ4XcAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAlUlEQVQYlaXQsQoCMQwG4FCcpWMRkeLgLE5SMoR/uMHB4QanTH2Ow4fIc95DmOt1kps0GRI+CCQh+i+uvR49iaT1sdvZ89selFebWSNIocwv5JlJlQzVraICIybztpLtxQ0eMiKbEITs1u3Ni3EzdJPwdAvNBomXhAGCPGRDqm5FpkNCAfOp+GzSdcGwcdxuw+6//ekDq9clD5VHezoAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Matheus Albuquerque de Melo</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Mestrado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">PROFESSOR SUBSTITUTO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">40 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANgAAAASAQMAAAADnYJ8AAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAt0lEQVQYlbXPMQoCMRAF0GFrkWCVQiR4AtkyTDH8IoWFhYVVqpxj2UPknHsI/8Z1EbFRcMJnQl4yEJG/lLPWTvY82HOJ2Iu51Y5ciw3vdpbwsEldVqiwIUIzc0OYVHKWClcAyNwSUJgrhgopRerWkUxa4wazhWrCs9o7jJzZNxtp42zaDI6XO85sz2h2oXXN0g6W4JMrKSUzJqRQ4QstbqBRfRxyjFGNOUTO9Hn9U6tuyaf61b6oO1mlNHXf0ufGAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Matheus Henrique Leandro Garcia</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Mestrado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALgAAAASAQMAAADSeoYMAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAApklEQVQYla3QMQrDMAwFUJG5BNHJQymmJygZjQbxBw8dOnTo5MnnCDmEz5lD9CdpaddCJCyjBxLGIruF+lKvPJ3IiSniX9fNL8y3j79+k7j5bFoMJmpWUrEn4mxSijRoBSAK1FzxwNggtUrrKXB6z4semwv7NiimZc80fNxWh7Lt+KplDHd6t3o+wjOCsmRHzLEhVHo6wJKF0RKS2zlxTyi+37f9Fy8TdywZ6IrtqwAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Mauro dos Santos de Arruda</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">CPTL</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/9714977558978275" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAASAQMAAADmA0cQAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAiklEQVQYlbXOIQ7DQBADQCsPCD5QVac+4eBqwcpgQUFBQNGifUdfce/MI3qXoqi0tdlIlgz8Kgsuo4Cd8Tb6hXfUD+7KUGgERZ+suyICnUyCmXRufHUiE32lEasZuW6s3UBDbxPbxDZRD+RETuRj4HKgu7G4mbtXr50lB4qYFjETkauMeYnT0b/mDT9qJuvawDXWAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Michele Fulvia Angelo</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAAASAQMAAADBrcb4AAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAApUlEQVQYla3QMQoCQQwF0M8eQFJOITJ4gsVKlhThs1hYWFhYTTXnWPYQc849hFnDgoU2YlL84REGEuAvJTD08eyx94ZDsGwTR+9gbNx5XJGDl16LikLL4PFgXhSloAkrhWAdPe6cGlGrs3HlHYNzM9BePMuME8c5WDc28QmeTXhz7oK5crowO+dLbkzVeVLqpGmgehwG/yQVe1uXn6/whfW3m3o9AQHmKtvhuRp7AAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Monara Pereira da Rosa Maeda</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAASAQMAAADmA0cQAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAi0lEQVQYlbXOsQkDMQwF0M8N4NpFCCYjuBQqxC9cpLjiilSuPEfIEJrzhohMrjnSJvrgjx8IBPxqFlwigJ3xFvnCO8oHd+2RKBV9sOyK3uEckSg2bnw6Mcb8JUvwFL2xuIE2sVqF1xfrRD2QNteNXAOXA5u17PG00oozj0ClmGQXFblKrOd+OvSv8wbjAyk17iY3FAAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Muriel Vieira Teixeira</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Especialização</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAASAQMAAAD11AfkAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAkklEQVQYlb3MsQkDMQyF4UcGCCpVhGBCBjApjQuhwkWKFFekcuU5TIbwnDdEpLvzBiFP8Bu+wsAvRogeAi52gBxKR252U532PRF2XbXGTNCYY81vDWtGrRjaSE0tTRftQ9GaqUyV86JhCFQ2/RDuFnm45qniao++TE+bFldm1xJKGMrNNEnPndki6ZrsB66Cv+4LI/8mR9laAr4AAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Nadya Kalache</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FAENG</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/9478437639055536" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAASAQMAAAD11AfkAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAp0lEQVQYla3QsQoCMQwG4HA4l45FRIqDs3SSkCH8HEUcRBycOvUJfIDDh7jn9CFMT7jl3DRpU/iGn1CiP1RnV+nQxsa6vbP6NnbWSz1T/GgRhlAvXqTIHfElVApVZIBO8EDFDcMIqpXgAEdX553CNI5KsJOARI/kk+LZVCZtNSUo9GLaTZrzPoc+e4vXmOOIUE2Z1xzAAwtky5YQyrzwslZf9fjTN74BEFInF1fqpI0AAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Nahri Balesdent Moreano</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/7109611749276343" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAASAQMAAAD11AfkAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAjklEQVQYlb3OKw4CQRAE0A4HICtHEDLhBGTlpEWnxAgEAoFq1efYcIg55x6C2m/AE6pLVJ6YjMgPYtJt88Sb4FsvvF333CQv4Op+lVFd2SfyqOIugYhOGgLsA0ODRAiOsEmNg5qbCdh+1Ve/qM6KVY3rTj3MWqlp0grkmhtSUAtsSE1NC/Rc+ELyj7/+I28DACm9LMtiVQAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Patricia Gomes Fernandes Matsubara</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/2993037192249301" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAAASAQMAAADBrcb4AAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAqElEQVQYla3QPQoCMRAF4MfWsgSrFCLBEyxbSZhieMgWFhZbWKXKOYKHyDn3EObHRhtBfC+k+IohE+A/Ma09h1JAP/lU+uLUZajXFa5zEBMmmQReNpE73SYIAZEmGhriwkyuTJmIERyNlo6NdaXLCpYzN54rP6SyNGZj4sysw63wUDku+4Jmsa4w3eIybVQEv9MkyVuRLHL0ZYgN2p9ew7fVv7H8+qfAE5DcKd89kHU2AAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Paula de Melo Rodrigues</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Mestrado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FAENG</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/7081325522018406 " target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJAAAAASAQMAAACO8MUoAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAjUlEQVQYlaXOMQrDMAwF0E8PEDR6KMX0BCWj0WD+4KFDhw6dPPkcpofQOXOIKnGWdgr0S/zhgUDAH7mNOvsAeSMZdfX5oTvioKoUxaKiL8ZFUSsaKYR5PdmNaA2cKNNO0TLoO1Nm2HuQbjQOs/DhdFqplSIlrBRLNIaWUVPqKZh2vSQ/DDXvr33lGB3KB9JsIy/Zpx+KAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Paulo Aristarco Pagliosa</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/5569130658313238" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAAASAQMAAADBrcb4AAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAApklEQVQYla2QIQ7DMBAET3lAdDCgqqy+IAqqrAPWqjIoKAgoMvI7/Iq8s4/onlMSVND6rLF2wMq2yJ/WvFOJE0ckdaE7/bhwDnrovEvYdTGokVFnM3sivJiKVEBB3lQBrGgbUxWMrjG6TuOKsCUB99L14toW19Z1LwGu1AMe1IPrmrNiqjl4dw45bExJSozNphKtNbN4jiyZSvpcnWXHl3/R9sOnvgGWGigTejRGlAAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Philipe Rocha de Camargo</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALgAAAASAQMAAADSeoYMAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAArklEQVQYla3QMQrDMAwFUJEDBI8ZSjE9QchUjAbxCRk6dOjQyZPPYXoInTNnKJXtQLJ0Kf0Cg55B2CL6V8SNbu9OVmbV3cEvVpvTzh3dyDePcXRjZGJeOQZ+wq9sSCnZnAQCFGnGA1lhaL05QNJrL8W9CkE2f5FMOm3OuwuJzZEr7uZd8VQ82f2ii3j4xSsG6yNyzuU9QYMwn4PNGaLUL7TDgsMa2vH+4i38y4JrPqULLx8Y4aDCAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Rafael Aquino Risalte</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Especialização</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAAASAQMAAADBrcb4AAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAApklEQVQYla3QMQrDMAwF0E/mEkQnD6WInCBkNBqEBg8dOnTo5MnnMDlEztlDVDL0AIV8zEd6gwYD5+QGrAB5k8++QYOXYfHI5+XHPMxDHY/YgquwCKGu3iRv44+gVjTrZoRG3mQv64ehNejMs7OSzoP5UJhCN972YNmI9mAZbGwaPPkRfTpPgwsXpaRkha7KhQ9LzTlzlp60S+4XuWc/kqqe9FP/5Auz+ST5dARSFwAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Rafael Lucas de Arruda</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">INMA</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/4502745117759342" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAASAQMAAADmA0cQAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAlUlEQVQYlaXQsQnDMBCF4YcHMC5VhHB4guBSXHG8QkWKFC5SqdIcIkN4zgyR00FSB/yu+flAjYCzuwA3vyhv2MgVWPyi1i/KD++jB1YVVUeq6pPyVtSKxk4O9O3sB9EabJY50GbbKYeBBttkewVuOlADKbRATg/HKbBIsSUthYVS5GBqjlmy9tSzZr1mf56qnf6Pf/cBEqsiYebDGX4AAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Rafael Penha de Lima</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Especialização</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAASAQMAAACqxYitAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAfElEQVQYlZ3OrQ3DUAwE4FMHKA6oKisjFEYGTwcCCgICiow8R9Uh3pwZIvf6owYF5AzsTzpg4EgKLpq2f+41W99hHwfCI/xBWxwRSCQzOfNZiUxVqJxnWtVZml/krdm/LipM8untLuXRRqvUKYeTw3VQv4uyeeL/7L53swLUIB5BxkN8zQAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Renan Albuquerque Marks</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/0157902406122102" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJgAAAASAQMAAACdJ4XcAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAjUlEQVQYlbXOsQnDQAwF0I8HcH1FCEdGcHmoEB9zmBQhuEil6ibIACFDaE4PEdlJYVIn/xeChwQCfhHFIbrOvZ2i33ZGfptJFIvYKDfmRWCGxiicbeLMhxOtQcme8F6vOjO7ggp9cggb9C6ryWaxGEaduktY97HK5FVH5pqdqYUJS1hRyrHEbbL9g3/LCw4PJql3ejieAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Renato Moreira Neto</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Mestrado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJgAAAASAQMAAACdJ4XcAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAjElEQVQYlaXQMQrDMAwF0E/nUEwmD6WIHqFj0CD+kKFDhw6dPPkcIYfwOXOIyHEoZCtEgs/nYS8CTk5ocfMF7GAP359NLV6QZkmTBkWNL2XxlpCZGYgaH07FW4aRVzduJsVAg818Vpub6WZWn3gLfLtddht7RlpPGaUwZjfl0Gmkdnof/G9MdvYE/8wK8ukiEfyptKYAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Renato Porfirio Ishii</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/8992362063539452" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAASAQMAAADmA0cQAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAlklEQVQYla3QMQoCQQwF0M/WIsFqikWGPcFguaQIv9jCwsLCaqo5x+Ah5pwewoy7IHaChhTJS9IE+D2kp4mMGL2zT5wwvbFirc+Ia5E1qyiS5pRujA9FzigsFEJYRK6sjSgFRu47GjvGZqDB7jx11A31hb7acXC8OA4bLgcG8ZHEJTaG4qicdxqqstbj7Och2x/+8V08Ab1HItk6/NziAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Ricardo Ribeiro dos Santos</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/6970175851174735" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAAASAQMAAADBrcb4AAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAm0lEQVQYlb3OMQ7CMAwF0K/MqIqYMiAUcQLUMfqD9YcMDAwdmDLlHD1Fz8khcFXKwIzwly3rDZaBn1T0Dvt28gD2zRfPxvjwDNyQN25XshXCZyQfyk+iNfQo9Sr49G3SvAi9w6INJsEGRdmkvBhkK48rc3TmynyzVg5yDnfnsLGqVSVVHaVc86LUnWcWK0wsOpDn4kdS2x//Z70AZDwmIYlKlDEAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Ricardo Theis Geraldi</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALgAAAASAQMAAADSeoYMAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAArklEQVQYla3QPQoCQQwF4DAHkJRTLDLsCZatJKQID5nCwsLCaqo5x+Ah9pwewuyPiMU24oPA4ysCCdG/wj5hrUPgjjov9u0cuKd+c1o9LE4XSquXQbWIkmhRluGO9FQqhSoDNYPOqODMN7QJVCsZ28Ewux0Y7mkygs0+Lv6wcXPdHLOfzOB+dQ+rI1tGTGbZ96ecJsTq3lRMNKqaNGlH8T2xvA8gws479lx/+e0nLz6LKMEvamm2AAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Roberto Cicero de Oliveira</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Mestrado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">PROFESSOR SUBSTITUTO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">40 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANAAAAASAQMAAAAQSsKIAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAp0lEQVQYlbXQMQoCMRAF0MFaZLBKIRLEAyyWkuLziy0sLLawSpVzLHuIPaeH8O9mca1F5xOYzIMhxOz3BTOfm8bn7qDM0w/ySidlpb5S3XKzWKc5KZ5M8YapyenB+EyWsxUqTlPcSS/s2I+0UgwkIcJC2HWMo26YaHjTeXBcJkoLYSU4eBdtKhVgz6C4B1Eb2zgyFJFeiG0KSt/r4Hq8amHI+MPvflMvqGMsRXbsXCoAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Roberto Igor Guimarães Monteiro</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Graduação (nivel Superior Completo)</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAAASAQMAAAA35ENgAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAnElEQVQYla3QMQrDMAwFUNE5g8nkoRTTE3QuGj5/yNChQ4dOnnQOk0P4nDlEZSeh0K0QfZCNHghjkSMLIqFfQjvPnj77havnC6VD7w9J6yyrJ6gsrd+yvpkWlZzF6AmU2nowvlgqxUxAEh3oAIdUIUSDeYd5A90AO8Dh6XBawYCR0WFskKZUGc3BX4VBY1UOWqCXu6+KGYf+4b/1AdoyLn+h1Z+BAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Rodrigo da Silva Gouveia</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Graduação (nivel Superior Completo)</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALgAAAASAQMAAADSeoYMAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAApUlEQVQYla3OMQrCQBAF0E8OIFNuIbKIBwhWYZli+IQtLCxSWG215wgeIuf0DOIm0SjETv/8YnjFMMDfUkFeq2BbBrCV78ss/uyYE/zsSUOqgyIoqbVe6G+KlJAZs7REyxJhx34gcoaR9vZNRz8YaJ9+uMpxdF28IZriJjwXr2aPJp7wjM4k+ugHulxcg/WqUA1O+7AL5Y5LNn/NqesQ96+uU3/JA8KTKkX4ZT/JAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Rodrigo Funabashi Jorge</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/0781750320198526" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAASAQMAAAAkMwOUAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAr0lEQVQYla3QMQrDMAwFUJEDBI8eQhE5QchUjAbxKR46dOjQSZPP4VPknD1ElaYuHZql9Fs2ggcyiOjP6Sj4O/hVrzC0tsnYZGztKmvxS+jcWpNkUxJimJiITTfwXciMCnIJJ1BF8YMSrqgLqBRSQFdhoEevcOFFCfopM2bZRN5yfIqnQ7i4dJtkDYzI2T/MQODMC2JxkaRVJHJCsiSoh+TToum2BuwuaF/kl31/yQMNUC6Hw7TF3QAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Rodrigo Oliveira Gomes</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Mestrado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALgAAAASAQMAAADSeoYMAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAnElEQVQYla3PsQnDMBQE0MMTuFQRgsgEKY244nMYFSlSuEilSnOYDKE5PURkHGRMSBNyJw70CoGAv6VDv19OtYB9+KW2+Xrec4PfPDGkayCIwIV8yC9ESsiKuR8FYVSRJs1FyBkm2e42yReD7OhPrs7mw+qDinX36t3m0XovJ+ery0df5HJ1BptJV8tCnkN9xyXbfqM2x3xztvk1LzYJK5fRbDxTAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Said Sadique Adi</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/8443563462309878" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAASAQMAAADmA0cQAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAmklEQVQYlaXPMQoCMRCF4SEHkJQpRIInWLYcphhekcLCwsIqVc6xeIg9p4fwDS6IICiYkB/yQQIj8u/KiUmZ2XOL+DseuTeUtB05SX2i2aSMTgq7ot5NehcgN6blBlywrJAxxHcZDDIC6+oCF5uJNgfeAi0w8coE+pmYAuO3gsY2r62uKIPPddFiyqodlM9L99dg6dO0v+O39QCoWiJL1yfCMwAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Samuel Benjoino Ferraz Aquino</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/5538148900331053" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAASAQMAAAD11AfkAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAnElEQVQYlb3OIQoDMRCF4WGpqFoiI5Yy7AnKyjDi8URERcWKqqicY8khcs4eoklo6QVKx/zwiceI/Oausowuo3irk3V0Hf2qjt5Gm5o9aU0tJSsP6tMkJSEr6eRgzjztPColZ8E8VAnM551aIYTYVlmaFmBzXa3r1BbQFAD13nTqylgjnO8aoVErfW4LoQY7vBoQyiW0BZ8+D//pXljOJ8HJBbWxAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Samuel de Jesus</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACH</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://BUSCATEXTUAL.CNPQ.BR/BUSCATEXTUAL/VISUALIZACV.DO?ID=K4759747Z2" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAASAQMAAADmA0cQAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAn0lEQVQYla3PMQrCQBAF0M+SUiTlFiKLJxDLZYrhF4tYWKSwSpVzhBxizplDOJtEELES/xQDDz7MAH/IGU1dBx9AN2xXPPm845Ib0ooiM6XFToTyYJoFfQ/SSK/T03E0Yhig+w2V2jGZggq5GCfHyesVpWLwujpqYLg7hoosVrSNjbIwlWSMg9ezZRljI5LlmL0e+9eh6/GfuX7//qc8AV58JJk4mCI3AAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Shirley Vilhalva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FAED</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/8608168347538654" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAAASAQMAAAA35ENgAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAtElEQVQYla3QsQoCMQwG4HA4S8YiIkUO53KTHBnCP9zg4HCDU6c+R/Eh7jl9CJPrOTppUmjIB4GE6I+hTMl/TurF0dKaDXgFVi/OlhtQA2pwo9iaklNmASFxFoY8EF9CORMKF4YBc4EVM+oCKoUUrBtgb29GXJSgJA5PUG8wcD84iEPnoA3APe4GnQNWuIRgMHGY4hQXhOKjqlY5hFArxhrG02ijQtZt/e7bXXbf4PrDsT/xBg3+KPnC0EFgAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Sonia Maria Monteiro da Silva Burigato</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">INMA</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAAASAQMAAADBrcb4AAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAqklEQVQYla3QsQoCMQwG4J+b5QhOHUSKT3DcJCVD+Tk6ODg4OHXqc/Qp7jl9CNM7FQRdxARC8hVCCfCnECAuVbCzXKZ3Plg++dF0qDjBr5NqHhSZeQgqeqW/2ZRBFiGK1YnCC+tsU0EkpbfHKFPf2M8RjFDjceVxZW3cGXPhozVn464xjZMrKYpPW/rkZ7piS5Q1uBxi1bDRfbAlLr8+bsHPN/jC+tNBW9wBS10nZQEc//QAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Thais Caregnatto Thome</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Mestrado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJgAAAASAQMAAACdJ4XcAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAkUlEQVQYlaXQMQrDMAwF0E/mUEQmD6WYnqB0DBrEHzJ06NChkyefw/QQPmcOUcvpkq0QCT7oIXkwcKDEID2Bc2vAdnZt3a34tOUD8beX9Kaeq74ZV0VKkEyhZ+WLpRI5Q3jyJ9ktVgN9uot2+7jpZpShmz2bDW4TF2GY3OISK0M2jJyLhpFa9TK325DsyBf8W19VeCTFysTxQAAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Thaís Helena Corrêa dos Santos de Araujo</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Graduação (nivel Superior Completo)</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAASAQMAAADmA0cQAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAm0lEQVQYlaWQOwrDQAxEh9TBiFRbhLDkBMalUbFM4SJFChepttpzLD6Ez5lDZNb51AFLIB4PaQoB+8oSDEjoxWd145/UwFW9yZqAr7whfjaz947s5tkfjE9xhhUa0UbhzLqKC4ydYinJbmZcxcriYA4utnBo0t+SdhBYIu+SjXHiZAybnOIUV4aScORYPdCrc7yMOg857fzH//UCGX8kTzCb3joAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Thiago Edgar Bauce Venancio</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Mestrado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAASAQMAAADmA0cQAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAn0lEQVQYlaXQMQoCMRAF0GFrWQarLUSCJ5CtJEwxfCSFhYWFVaqcI3iInNND+LNsYbGVZsjk80ggich/Q1374r0dWEv8xhNriZVzWPEmYd2ZzxZNssHsifBmzKJFcYUUcDxQG2MRhY5EjHBiaC7wjnPHGf7qaCviQgTc78Sh4x6aAqaSEjyk0BhddqjRbMqR/Rh5fMrL9QRbT91E+/nnPorjJYU9s2vCAAAAAElFTkSuQmCC" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Vagner Pedrotti</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/2844330252316513" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALgAAAASAQMAAADSeoYMAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAArUlEQVQYla3PvwrCMBAG8I/OIqFThiKh+ADiJOWG46NkcHBwcMqU5yh9iD6nD+HF+geUDoLfkrtfwpED/p0KcM41aKzWL2/RPr16+TDgiDA7pUuSkMrh3O7CcBWkBLLPzMiMmTbnzGEicgbXPal2TZ09TNYptvueo1Xj2+XuPFDLi9lP5lVxH4O5zxqVde1CDBOtg++Eot7+o7JaDZvO5vhUFiA+NnxkyWXBf8oNU8Qpya+aJqMAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Valdecir Cahoni Rodrigues</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Mestrado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALgAAAASAQMAAADSeoYMAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAApElEQVQYla3QMQrDMAwF0E8OUDR6CMWEHiBkNBrEHzx06JChkyefw/QQOWcPUSVpIWshAuHvJxDGwGk1doCswfzs0e/J89EHDEfH13FH3BNVkupYoFq0jE/Gt6IUkJK9q4fKKjPbQlS/XoQ0MdiFPp8ZFwMNt0n42nz6uW5OoW3O1R/u3eohSzaKBebVY44LQ3VPzd/TLGiisl2T7wnFzvu2/+oDp+0oZ93VJcAAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Valeria Quadros dos Reis</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/7372808441783055" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAASAQMAAADmA0cQAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAmklEQVQYlaWQPQrDMAyFHzlA0OihFFN6gJDRaBBv8NChQ4ZOnnwOk0PknD1E5aalayFPoJ9PeouAo5oA6VVw8gBsH77w4vGDH90Qd0gVLZOi6KQPxqd3BaSwClG9LmybdxUchSYjjGIL42ag4TrLajLDVtEO9Q39wtzuabg7HDoMucMc+ibmuDFUh6mptRRMm56T20Oxw//4Vy+pbiIDLdYg/wAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Vanessa Araujo Borges</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/8589321395226317" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAAASAQMAAAA35ENgAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAArElEQVQYlbWQMQoCMRBFPznA1ilEgniCrSRMMXyWFBYWW1ilyjnEQ+w5PYR/VywWWa38A+GFF4bJAP+IL+dO9eaVOKg+RQDOSC+mVVNgqFaz2ZXpIa4gGxUQjW0gR94mcQM70r1Dpyc+0EemyUHHsefdrEe/iLvNwhahewhzK8HJw0UizCIWOlliiY2enKmkibFJZGqoHHOs5qJ9VqtYVx/R7Ftb2RT2ZZU/8wRWkCpt7TbpxQAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Vicelmo da Costa da Silva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Especialização</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DOCENTE BOLSISTA EAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">20 horas semanais</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">AGEAD</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAASAQMAAAD11AfkAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAmElEQVQYla3QMQrCQBAF0E9qkcFqC5FFPECwDFMMv0hhYZHCKlXOsXiInNND+OMae9GZYj6vGIYBfi8D2jXt1UBUtVWP6qr4aMEFuSpbd3s4XMNvzIrjCBppM0ENDiyK0ySNlwbDtgPzHGDgZHGv6nZe1N8aVRvjVdosmoyLJu3d9bnPipO0uJfZk27YdIdOG9IYf3jOF/UE5/olzyA9/0IAAAAASUVORK5CYII=" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                    <tr>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Wesley Nunes Goncalves</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">Doutorado</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">DO QUADRO</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12" style="display:none">Dedicação Exclusiva</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12">FACOM</td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"> <a href="HTTP://LATTES.CNPQ.BR/4498921794690866" target="_blank"><i class="fa fa-list"></i</a> </td>
+                        <td class="col-md-12 col-sm-12 col-xs-12"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAAASAQMAAAA35ENgAAAABlBMVEX///8LCwstsTzcAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAuElEQVQYla3QMQrCQBAF0CFYy5aLiCwSrMUqhF8Mn5DCwiKF1VY5R0jhEfYYns1DOMkSSKGF4E6xf3gwMCPy13deh72ViM69W2AKR6s1FEu4SsjwABwoNaIFAneGFyRGSaQjpWE/B3YcEqXvDTQDdWtBO4akQpU0wo0ZLq4cMQFm0MIppTKgK7W4GRQTPK3Xkw82vnVeGdqQ6HuVBhiw8wBRD/YdahvlY17EtuDno2y+QSX47byf3hvAAyxRLxDPSgAAAABJRU5ErkJggg==" /></td>
+                        <!--td class="col-md-12 col-sm-12 col-xs-12" style="display: none">
+                            <a href="/portal/professores/view" class=" btn btn-sm"><i class="fa fa-search"></i></a></td-->
+                    </tr>
+
+                                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script>
+  var urlTraducaoDatatables = '/admin_lte/js/l10n/datatables-pt-br.json';
+   jQuery(document).ready(function () {
+         jQuery('#dataTableProfessores').DataTable({
+                paging: true,
+                lengthMenu: [[10, 20, 30, 40, 50, -1], [10, 20, 30, 40, 50, "Todas"]],
+                ordering: false,
+                pageLength: 20,
+                responsive: true,
+                fixedHeader : {
+                    header : true,
+                    footer : false,
+                    headerOffset: 50
+                },
+                language: {url: urlTraducaoDatatables},
+                columns: [
+                    {
+                        data: "nome",
+                        className: "col-md-12 col-sm-12 col-xs-12"
+                    },
+                    {
+                        data: "titulacao",
+                        className:"col-md-12 col-sm-12 col-xs-12"
+                    },
+                    {
+                        data: "vinculo",
+                        className:"col-md-12 col-sm-12 col-xs-12"
+                    },
+
+                    {
+                        data: "jornada",
+                        className:"col-md-12 col-sm-12 col-xs-12"
+                    },
+                    {
+                        data: "unidade",
+                        className:"col-md-12 col-sm-12 col-xs-12"
+                    },
+                    {
+                        data: "lattes",
+                        className:"col-md-12 col-sm-12 col-xs-12"
+                    },
+                    {
+                        data: "email",
+                        className:"col-md-12 col-sm-12 col-xs-12"
+                    },
+
+                ],
+                order:[
+                   [0, 'asc'],
+                ]
+         });
+   });
+</script>
+</section>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <footer class="rodape-site">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 widget" data-wow-duration="1s"><!-- wow fadeInUp -->
+                <h3 class="widget-title">A Universidade</h3>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="https://www.ufms.br/" target="_blank">Página Inicial</a>
+                    </li>
+                    <li>
+                        <a href="https://prograd.ufms.br/" target="_blank">PROGRAD</a>
+                    </li>
+                    <li>
+                        <a href="https://prograd.ufms.br/fale-conosco/" target="_blank">Contato</a>
+                    </li>
+                    <li>
+                        <a href="https://siscad.ufms.br/validar">Validar
+                            Documentos</a>
+                    </li>
+                    <li>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-4 widget" data-wow-duration="1s"><!-- wow fadeInUp -->
+                <h3 class="title-universidade">Universidade Federal de Mato Grosso do Sul</h3>
+                <address>
+                    <p>Av. Costa e Silva, s/nº</p>
+                    <p>Bairro Universitário</p>
+                    <p>CEP 79.070-900</p>
+                    <p>Campo Grande - MS</p>
+                </address>
+            </div>
+            <div class="col-lg-4 widget" data-wow-duration="1s">
+                <img src="/portal/img/mapa.png" class="img-responsive" alt=""/>            </div>
+        </div>
+    </div>
+    <div class="copyrights">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    Universidade Federal de Mato Grosso do Sul - Campo Grande / MS
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="/portal/js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+<script defer="defer" src="https://barra.brasil.gov.br/barra_2.0.js" type="text/javascript"></script>
+<script type="text/javascript">
+    jQuery().ready(function(){
+    //remove parte do covid
+        //jQuery('li:contains("CORONAVÍRUS (COVID-19)")').attr('style', 'display:none')
+        if (jQuery('li:contains("CORONAVÍRUS (COVID-19)")').html()) {
+            jQuery('.lista-barra-brasil li')[0].remove();
+            jQuery('.lista-barra-brasil li')[0].remove();
+        }
+    });
+</script>
+</footer>
+
+
+</body>
+
+</html>
