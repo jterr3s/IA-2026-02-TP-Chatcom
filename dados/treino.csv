@@ -1,1 +1,54 @@
 texto,intencao,origem
+
+"Em que periodo tem Inteligencia Artificial em EngSoft?",periodo_disciplina,humano
+"Em que periodo tem Inteligencia Artificial em Ciências da Computação?",periodo_disciplina,humano
+"Em que periodo tem Inteligencia Artificial em EngComp?",periodo_disciplina,humano
+"Em que periodo tem Inteligencia Artificial em Sistemas de Informação?",periodo_disciplina,humano
+"Em que periodo tem Inteligencia Artificial em Inteligencia Artificial?",periodo_disciplina,humano
+
+"Quais disciplinas compõe o 3 semestre de Engenharia de Software?",disciplinas_periodo,humano
+"Quais disciplinas compõe o 3 semestre de CC?",disciplinas_periodo,humano
+"Quais disciplinas compõe o 3 semestre de Engenharia da Computação?",disciplinas_periodo,humano
+
+"IA é obrigatoria para ES?",obrigatoria.humano
+"IA é obrigatoria para CC?",obrigatoria,humano
+"Inteligencia Artificial é necessario pra se formar em Si?",obrigatoria,humano
+
+"Quais materias CC oferece sem ser as obrigatorias?",optativa,humano
+"Que optativas o curso de Engenharia de software oferece?",optataiva,humano
+"Redes Neurais e optativa em CC?",optativa,humano
+
+"Qual carga horaria de AlgProg 1?", dados_disciplina,humano
+"qual o cod de AlgProg2?", dados_disciplina,humano
+"Qual o numero da materia de IA?",dados_disciplina,humano
+
+"Preciso ter feito qual materia antes pra fazer IA em EngSoft?",pre_requisitos,humano
+"O que tenho que fazer pra poder fazer Algprog1 em CC?",pre_requisitos,humano
+"Preciso ter feito qual materia antes pra fazer IA em CC?",pre_requisitos,humano
+
+"Tem IA em SI?",disciplina_no_curso,humano
+"Qual materias tem de diferente entre CC e EC?",disciplina_no_curso,humano
+"Tem IA em ambos os cursos de Engsoft e CC?",disciplina_no_curso,humano
+
+"O que tem de curso na FACOM?",cursos_facom,humano
+"FACOM oferece IA como curso?",cursos_facom,humano
+"Ciencias da Computação pertece a FACOM?",cursos_facom,humano
+
+"Tem algum prof chamado Bruno na FACOM?",docente,humano
+"Existe prof chamado Higa",docente,humano
+"Existe quais professores em EngSoft?",docente,humano
+
+"Bom dia, td bem?",chitchat,humano
+"Eae bom dia",chitchat,humano
+"Me desculpe",chitchat,humano
+"Eu não gostei",chitchat,humano
+"eu curti",chitchat,humano
+
+"Que horas abre a biblioteca?",fora_dominio,humano
+"Que horas abre a FACOM?",fora_dominio,humano
+"Tem IA em jornalismo?",fora_dominio,humano
+"Qual comida tem no RU?"fora_dominio,humano
+"O que tem de bom na materia AlgProg1?",fora_dominio,humano
+"Que horas fecha a UFMS?",fora_dominio,humano
+"Qual matéria o professor Bruno da FACOM leciona?",fora_dominio,humano
+"Quantos anos tem a FACOM?",fora_dominio,humano
