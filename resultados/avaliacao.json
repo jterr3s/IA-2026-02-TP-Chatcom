@@ -1,0 +1,540 @@
+{
+  "grupo": "TODO: nome do grupo (ex.: Grupo 3)",
+  "tema": "Chatcom",
+  "intencoes": [
+    "periodo_disciplina",
+    "disciplinas_periodo",
+    "obrigatorias",
+    "optativas",
+    "dados_disciplina",
+    "prerequisitos",
+    "disciplina_no_curso",
+    "cursos_facom",
+    "docentes"
+  ],
+  "escopo": {
+    "n": 110,
+    "acuracia": 0.9363636363636364,
+    "f1_macro": 0.8989171584916266,
+    "por_classe": {
+      "dominio": {
+        "precision": 0.958904109589041,
+        "recall": 1.0,
+        "f1-score": 0.9790209790209791,
+        "support": 70.0
+      },
+      "chitchat": {
+        "precision": 0.9285714285714286,
+        "recall": 0.8125,
+        "f1-score": 0.8666666666666667,
+        "support": 16.0
+      },
+      "fora_dominio": {
+        "precision": 0.8695652173913043,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.851063829787234,
+        "support": 24.0
+      },
+      "accuracy": 0.9363636363636364,
+      "macro avg": {
+        "precision": 0.9190135851839246,
+        "recall": 0.8819444444444445,
+        "f1-score": 0.8989171584916266,
+        "support": 110.0
+      },
+      "weighted avg": {
+        "precision": 0.934999961325155,
+        "recall": 0.9363636363636364,
+        "f1-score": 0.9347606101184438,
+        "support": 110.0
+      }
+    },
+    "rotulos": [
+      "dominio",
+      "chitchat",
+      "fora_dominio"
+    ],
+    "matriz_confusao": [
+      [
+        70,
+        0,
+        0
+      ],
+      [
+        0,
+        13,
+        3
+      ],
+      [
+        3,
+        1,
+        20
+      ]
+    ]
+  },
+  "tema_oraculo": {
+    "n": 70,
+    "acuracia": 0.9285714285714286,
+    "f1_macro": 0.9211857133425762,
+    "por_classe": {
+      "periodo_disciplina": {
+        "precision": 0.75,
+        "recall": 0.8571428571428571,
+        "f1-score": 0.8,
+        "support": 7.0
+      },
+      "disciplinas_periodo": {
+        "precision": 1.0,
+        "recall": 0.875,
+        "f1-score": 0.9333333333333333,
+        "support": 8.0
+      },
+      "obrigatorias": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "optativas": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "dados_disciplina": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "prerequisitos": {
+        "precision": 0.8888888888888888,
+        "recall": 0.8888888888888888,
+        "f1-score": 0.8888888888888888,
+        "support": 9.0
+      },
+      "disciplina_no_curso": {
+        "precision": 0.8888888888888888,
+        "recall": 1.0,
+        "f1-score": 0.9411764705882353,
+        "support": 8.0
+      },
+      "cursos_facom": {
+        "precision": 0.8,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.7272727272727273,
+        "support": 6.0
+      },
+      "docentes": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "accuracy": 0.9285714285714286,
+      "macro avg": {
+        "precision": 0.9253086419753086,
+        "recall": 0.9208553791887125,
+        "f1-score": 0.9211857133425762,
+        "support": 70.0
+      },
+      "weighted avg": {
+        "precision": 0.9308730158730159,
+        "recall": 0.9285714285714286,
+        "f1-score": 0.9279959256429844,
+        "support": 70.0
+      }
+    },
+    "rotulos": [
+      "periodo_disciplina",
+      "disciplinas_periodo",
+      "obrigatorias",
+      "optativas",
+      "dados_disciplina",
+      "prerequisitos",
+      "disciplina_no_curso",
+      "cursos_facom",
+      "docentes"
+    ],
+    "matriz_confusao": [
+      [
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        8,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8
+      ]
+    ]
+  },
+  "ponta_a_ponta": {
+    "n": 110,
+    "acuracia": 0.8727272727272727,
+    "f1_macro": 0.8969772822088217,
+    "por_classe": {
+      "periodo_disciplina": {
+        "precision": 0.75,
+        "recall": 0.8571428571428571,
+        "f1-score": 0.8,
+        "support": 7.0
+      },
+      "disciplinas_periodo": {
+        "precision": 1.0,
+        "recall": 0.875,
+        "f1-score": 0.9333333333333333,
+        "support": 8.0
+      },
+      "obrigatorias": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "optativas": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "dados_disciplina": {
+        "precision": 0.8888888888888888,
+        "recall": 1.0,
+        "f1-score": 0.9411764705882353,
+        "support": 8.0
+      },
+      "prerequisitos": {
+        "precision": 1.0,
+        "recall": 0.8888888888888888,
+        "f1-score": 0.9411764705882353,
+        "support": 9.0
+      },
+      "disciplina_no_curso": {
+        "precision": 1.0,
+        "recall": 0.875,
+        "f1-score": 0.9333333333333333,
+        "support": 8.0
+      },
+      "cursos_facom": {
+        "precision": 0.75,
+        "recall": 0.5,
+        "f1-score": 0.6,
+        "support": 6.0
+      },
+      "docentes": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 8.0
+      },
+      "chitchat": {
+        "precision": 0.9285714285714286,
+        "recall": 0.8125,
+        "f1-score": 0.8666666666666667,
+        "support": 16.0
+      },
+      "fora_dominio": {
+        "precision": 0.8695652173913043,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.851063829787234,
+        "support": 24.0
+      },
+      "micro avg": {
+        "precision": 0.9230769230769231,
+        "recall": 0.8727272727272727,
+        "f1-score": 0.897196261682243,
+        "support": 110.0
+      },
+      "macro avg": {
+        "precision": 0.9260932304410566,
+        "recall": 0.8765331890331892,
+        "f1-score": 0.8969772822088217,
+        "support": 110.0
+      },
+      "weighted avg": {
+        "precision": 0.9235256289604117,
+        "recall": 0.8727272727272727,
+        "f1-score": 0.8947775628626692,
+        "support": 110.0
+      }
+    },
+    "rotulos": [
+      "periodo_disciplina",
+      "disciplinas_periodo",
+      "obrigatorias",
+      "optativas",
+      "dados_disciplina",
+      "prerequisitos",
+      "disciplina_no_curso",
+      "cursos_facom",
+      "docentes",
+      "chitchat",
+      "fora_dominio"
+    ],
+    "matriz_confusao": [
+      [
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        13,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        20,
+        1
+      ]
+    ],
+    "rotulos_previstos": [
+      "periodo_disciplina",
+      "disciplinas_periodo",
+      "obrigatorias",
+      "optativas",
+      "dados_disciplina",
+      "prerequisitos",
+      "disciplina_no_curso",
+      "cursos_facom",
+      "docentes",
+      "chitchat",
+      "fora_dominio",
+      "esclarecer"
+    ],
+    "taxa_falso_aceite": 0.05,
+    "taxa_falsa_recusa": 0.0,
+    "taxa_esclarecimento": 0.05454545454545454,
+    "latencia_media_ms": 2.912089090717597
+  },
+  "arquivo_teste": "C:\\Users\\natan\\Desktop\\garantia\\ia\\IA-2026-02-TP-Chatcom\\dados\\teste.csv"
+}

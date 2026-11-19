@@ -1,49 +1,38 @@
 texto,intencao,origem
-
 "Em que periodo tem Inteligencia Artificial em EngSoft?",periodo_disciplina,humano
 "Em que periodo tem Inteligencia Artificial em Ciências da Computação?",periodo_disciplina,humano
 "Em que periodo tem Inteligencia Artificial em EngComp?",periodo_disciplina,humano
 "Em que periodo tem Inteligencia Artificial em Sistemas de Informação?",periodo_disciplina,humano
 "Em que periodo tem Inteligencia Artificial em Inteligencia Artificial?",periodo_disciplina,humano
-
 "Quais disciplinas compõe o 3 semestre de Engenharia de Software?",disciplinas_periodo,humano
 "Quais disciplinas compõe o 3 semestre de CC?",disciplinas_periodo,humano
 "Quais disciplinas compõe o 3 semestre de Engenharia da Computação?",disciplinas_periodo,humano
-
-"IA é obrigatoria para ES?",obrigatoria.humano
-"IA é obrigatoria para CC?",obrigatoria,humano
-"Inteligencia Artificial é necessario pra se formar em Si?",obrigatoria,humano
-
-"Quais materias CC oferece sem ser as obrigatorias?",optativa,humano
-"Que optativas o curso de Engenharia de software oferece?",optataiva,humano
-"Redes Neurais e optativa em CC?",optativa,humano
-
-"Qual carga horaria de AlgProg 1?", dados_disciplina,humano
-"qual o cod de AlgProg2?", dados_disciplina,humano
+"IA é obrigatoria para ES?",obrigatorias,humano
+"IA é obrigatoria para CC?",obrigatorias,humano
+"Inteligencia Artificial é necessario pra se formar em Si?",obrigatorias,humano
+"Quais materias CC oferece sem ser as obrigatorias?",optativas,humano
+"Que optativas o curso de Engenharia de software oferece?",optativas,humano
+"Redes Neurais e optativa em CC?",optativas,humano
+"Qual carga horaria de AlgProg 1?",dados_disciplina,humano
+"qual o cod de AlgProg2?",dados_disciplina,humano
 "Qual o numero da materia de IA?",dados_disciplina,humano
-
-"Preciso ter feito qual materia antes pra fazer IA em EngSoft?",pre_requisitos,humano
-"O que tenho que fazer pra poder fazer Algprog1 em CC?",pre_requisitos,humano
-"Preciso ter feito qual materia antes pra fazer IA em CC?",pre_requisitos,humano
-
+"Preciso ter feito qual materia antes pra fazer IA em EngSoft?",prerequisitos,humano
+"O que tenho que fazer pra poder fazer Algprog1 em CC?",prerequisitos,humano
+"Preciso ter feito qual materia antes pra fazer IA em CC?",prerequisitos,humano
 "Tem IA em SI?",disciplina_no_curso,humano
 "Qual materias tem de diferente entre CC e EC?",disciplina_no_curso,humano
 "Tem IA em ambos os cursos de Engsoft e CC?",disciplina_no_curso,humano
-
 "O que tem de curso na FACOM?",cursos_facom,humano
 "FACOM oferece IA como curso?",cursos_facom,humano
 "Ciencias da Computação pertece a FACOM?",cursos_facom,humano
-
-"Tem algum prof chamado Bruno na FACOM?",docente,humano
-"Existe prof chamado Higa",docente,humano
-"Existe quais professores em EngSoft?",docente,humano
-
+"Tem algum prof chamado Bruno na FACOM?",docentes,humano
+"Existe prof chamado Higa",docentes,humano
+"Existe quais professores em EngSoft?",docentes,humano
 "Bom dia, td bem?",chitchat,humano
 "Eae bom dia",chitchat,humano
 "Me desculpe",chitchat,humano
 "Eu não gostei",chitchat,humano
 "eu curti",chitchat,humano
-
 "Que horas abre a biblioteca?",fora_dominio,humano
 "Que horas abre a FACOM?",fora_dominio,humano
 "Tem IA em jornalismo?",fora_dominio,humano
@@ -52,49 +41,38 @@ texto,intencao,origem
 "Que horas fecha a UFMS?",fora_dominio,humano
 "Qual matéria o professor Bruno da FACOM leciona?",fora_dominio,humano
 "Quantos anos tem a FACOM?",fora_dominio,humano
-
 "em qual semestre da grade entra engenharia de software 2?",periodo_disciplina,humano
 "algoritmos 1 fica logo no primeiro semestre?",periodo_disciplina,humano
 "sabe dizer em q periodo tem sistemas distribuidos?",periodo_disciplina,humano
-
 "quais sao as disciplinas do 2 semestre de bcc?",disciplinas_periodo,humano
 "o que a gente cursa no quarto periodo do tads?",disciplinas_periodo,humano
 "me passa as materias do 3 semestre de si",disciplinas_periodo,humano
-
 "banco de dados 1 eh obrigatoria em engsoft?",obrigatorias,humano
 "preciso fazer calculo 2 obrigatoriamente no tads?",obrigatorias,humano
 "quais materias sao obrigatorias no curso de bcc?",obrigatorias,humano
-
 "tem alguma optativa na area de desenvolvimento web?",optativas,humano
 "computacao em nuvem entra como optativa na facom?",optativas,humano
 "quais materias optativas posso escolher em engsoft?",optativas,humano
-
 "qual a carga horaria de calculo 2?",dados_disciplina,humano
 "me mostra a ementa da disciplina de grafos",dados_disciplina,humano
 "qual o codigo da materia de redes de computadores?",dados_disciplina,humano
-
 "preciso passar em o que antes de pegar estrutura de dados?",prerequisitos,humano
 "algoritmos 2 eh pre requisito pra qual materia?",prerequisitos,humano
 "tem algum pre requisito pra cursar engenharia de software 1?",prerequisitos,humano
-
 "o curso de si tem compiladores na grade?",disciplina_no_curso,humano
 "existe fisica 2 no curso de ciencia da computacao?",disciplina_no_curso,humano
 "tads tem inteligencia artificial?",disciplina_no_curso,humano
-
 "quantos semestres dura o curso de engenharia de software?",cursos_facom,humano
 "ciencia da computacao na ufms eh integral?",cursos_facom,humano
 "quais sao os cursos de graduacao da facom?",cursos_facom,humano
-
 "quem da aula de matematica discreta na facom?",docentes,humano
 "quais professores dao aula no curso de sistemas de informacao?",docentes,humano
 "quem eh o docente responsavel por sistemas operacionais?",docentes,humano
-
 "oi tudo bem por ai?",chitchat,humano
 "valeu demais pela ajuda com a grade!",chitchat,humano
 "bom dia bot, pode me tirar uma duvida?",chitchat,humano
 "ate mais, muito obrigado!",chitchat,humano
 "vc eh um chatbot da ufms?",chitchat,humano
-
 "como faco pra pedir quebra de pre requisito no siscad?",fora_dominio,humano
 "onde vejo minhas notas e faltas de algoritmos?",fora_dominio,humano
 "qual o horario de funcionamento da secretaria da facom?",fora_dominio,humano
@@ -103,7 +81,6 @@ texto,intencao,origem
 "como conectar no wifi eduroam da ufms?",fora_dominio,humano
 "vai chover hoje em campo grande?",fora_dominio,humano
 "qual a diferenca entre python e c++?",fora_dominio,humano
-
 em qual período tenho Cálculo II em inteligência artificial?,periodo_disciplina,humano
 quando terei linguagem de programação orientada a objetos (lpoo) em sistemas de informação?,periodo_disciplina,humano
 "como aluno de sistemas de informação, quando terei a matéria linguagens formais e autômatos (lfa)?",periodo_disciplina,humano
@@ -184,8 +161,6 @@ como funciona o estágio obrigatório na ufms?,fora_dominio,humano
 quais projetos de extensão existem na facom?,fora_dominio,humano
 quando começa o período de matrícula no siscad?,fora_dominio,humano
 qual o horário de funcionamento da facom?,fora_dominio,humano
-
-
 "Qual é a carga horária da disciplina de Estrutura de Dados?",dados_disciplina,llm
 "Me passa a ementa de Algoritmos e Programação I.",dados_disciplina,llm
 "Qual o código da matéria de Banco de Dados no sistema?",dados_disciplina,llm
@@ -386,7 +361,6 @@ qual o horário de funcionamento da facom?,fora_dominio,humano
 "Quem é o professor da matéria de Mineração de Dados?",docentes,llm
 "Quero saber quais docentes ministram Pesquisa Operacional.",docentes,llm
 "Me lista os professores efetivos da Faculdade de Computação.",docentes,llm
-texto,intencao,origem
 "Em qual semestre eu faço Algoritmos e Programação I?",periodo_disciplina,llm
 "Qual o período ideal para cursar Estrutura de Dados?",periodo_disciplina,llm
 "Sabe me dizer em que semestre fica Banco de Dados na grade?",periodo_disciplina,llm

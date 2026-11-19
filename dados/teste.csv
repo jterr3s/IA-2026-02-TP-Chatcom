@@ -1,6 +1,5 @@
 texto,intencao,origem
 
-texto,intencao,origem
 "Qual semestre fica estatistica?",periodo_disciplina,coletado
 "Quais disciplinas eu curso no 4 semestre de eng eletrica",disciplinas_periodo,coletado
 "A materia de calculo é obrigatorio em engenharia de software",obrigatorias,coletado

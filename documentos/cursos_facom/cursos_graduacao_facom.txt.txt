@@ -1,0 +1,23 @@
+Cursos de Graduação Oferecidos pela FACOM (Faculdade de Computação - UFMS)
+
+A Faculdade de Computação (FACOM) da Universidade Federal de Mato Grosso do Sul (UFMS), em Campo Grande, oferece atualmente 6 cursos de graduação:
+
+1. Análise e Desenvolvimento de Sistemas (Curso Superior de Tecnologia) - Código: 1902
+   Grade curricular: https://ensino.ufms.br/cursos/grade/1902
+
+2. Ciência da Computação (Bacharelado) - Código: 1904
+   Grade curricular: https://ensino.ufms.br/cursos/grade/1904
+
+3. Engenharia de Computação (Bacharelado) - Código: 1905
+   Grade curricular: https://ensino.ufms.br/cursos/grade/1905
+
+4. Engenharia de Software (Bacharelado) - Código: 1906
+   Grade curricular: https://ensino.ufms.br/cursos/grade/1906
+
+5. Sistemas de Informação (Bacharelado) - Código: 1907
+   Grade curricular: https://ensino.ufms.br/cursos/grade/1907
+
+6. Inteligência Artificial (Bacharelado) - Código: 1908
+   Grade curricular: https://ensino.ufms.br/cursos/grade/1908
+
+Observação: Cursos como Tecnologia em Redes de Computadores e Análise de Sistemas (antigo) foram extintos/substituídos e não são mais oferecidos atualmente pela FACOM.
