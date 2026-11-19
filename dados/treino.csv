@@ -52,3 +52,568 @@ texto,intencao,origem
 "Que horas fecha a UFMS?",fora_dominio,humano
 "Qual matéria o professor Bruno da FACOM leciona?",fora_dominio,humano
 "Quantos anos tem a FACOM?",fora_dominio,humano
+
+
+
+
+"Qual é a carga horária da disciplina de Estrutura de Dados?",dados_disciplina,llm
+"Me passa a ementa de Algoritmos e Programação I.",dados_disciplina,llm
+"Qual o código da matéria de Banco de Dados no sistema?",dados_disciplina,llm
+"Quantas horas aula tem Engenharia de Software I?",dados_disciplina,llm
+"O que a gente aprende na ementa de Redes de Computadores?",dados_disciplina,llm
+"Me diz os detalhes e a carga horária de Cálculo I.",dados_disciplina,llm
+"Qual a descrição oficial da disciplina de Inteligência Artificial?",dados_disciplina,llm
+"Quantos créditos ou horas vale Sistemas Operacionais?",dados_disciplina,llm
+"Me fala o código e a carga horária de Compiladores.",dados_disciplina,llm
+"Qual o conteúdo programático da matéria de Arquitetura de Computadores?",dados_disciplina,llm
+"Quantas horas de aula tem Matemática Discreta?",dados_disciplina,llm
+"Me mostra a ementa da disciplina de Programação Orientada a Objetos.",dados_disciplina,llm
+"Qual é o código da matéria de Teoria da Computação?",dados_disciplina,llm
+"Quero saber a carga horária total de Cálculo Numérico.",dados_disciplina,llm
+"O que aborda a ementa de Desenvolvimento Web?",dados_disciplina,llm
+"Quantas horas tem a disciplina de Probabilidade e Estatística?",dados_disciplina,llm
+"Me informa os dados gerais da matéria Projeto e Análise de Algoritmos.",dados_disciplina,llm
+"Qual a ementa de Computação Gráfica na FACOM?",dados_disciplina,llm
+"Qual o código e quantas horas tem Álgebra Linear?",dados_disciplina,llm
+"Me passa as informações da ementa de Interação Humano-Computador.",dados_disciplina,llm
+"Qual é a carga horária de Gestão de Projetos?",dados_disciplina,llm
+"O que se estuda na ementa de Segurança da Informação?",dados_disciplina,llm
+"Quantas horas aula possui Sistemas Distribuídos?",dados_disciplina,llm
+"Me diz o código da disciplina de Física para Computação.",dados_disciplina,llm
+"Qual a ementa detalhada de Lógica para Computação?",dados_disciplina,llm
+"Quantas horas vale a matéria de Padrões de Projeto?",dados_disciplina,llm
+"Me mostra o conteúdo da ementa de Engenharia de Requisitos.",dados_disciplina,llm
+"Qual a carga horária de Microcontroladores?",dados_disciplina,llm
+"O que está previsto na ementa de Aprendizado de Máquina?",dados_disciplina,llm
+"Qual o código da matéria Ética e Legislação em Informática?",dados_disciplina,llm
+"Quantas horas tem a disciplina de Grafos?",dados_disciplina,llm
+"Me passa a descrição e carga horária de Metodologia Científica.",dados_disciplina,llm
+"Qual é a ementa da matéria de Teste de Software?",dados_disciplina,llm
+"Quantas horas aula tem Empreendedorismo em TI?",dados_disciplina,llm
+"Me informa o código e a ementa de Linguagens Formais e Autômatos.",dados_disciplina,llm
+"Qual a carga horária total de Administração de Redes?",dados_disciplina,llm
+"O que trata a ementa de Auditoria e Segurança de Sistemas?",dados_disciplina,llm
+"Quantas horas possui a disciplina de Visão Computacional?",dados_disciplina,llm
+"Me diz a ementa da matéria de Mineração de Dados.",dados_disciplina,llm
+"Qual o código e a carga horária de Pesquisa Operacional?",dados_disciplina,llm
+"Quais são os pré-requisitos para cursar Estrutura de Dados?",prerequisitos,llm
+"Preciso ter passado em o quê antes de pegar Cálculo II?",prerequisitos,llm
+"Algoritmos e Programação I é pré-requisito para qual matéria?",prerequisitos,llm
+"O que precisa cursar antes de fazer Banco de Dados?",prerequisitos,llm
+"Tem algum pré-requisito para se matricular em Inteligência Artificial?",prerequisitos,llm
+"Quais matérias trancam Sistemas Operacionais?",prerequisitos,llm
+"Preciso de aprovação em Matemática Discreta para fazer Grafos?",prerequisitos,llm
+"Quais são os requisitos prévios de Compiladores?",prerequisitos,llm
+"O que eu tenho que ter feito antes de puxar Engenharia de Software II?",prerequisitos,llm
+"Cálculo I é pré-requisito para Física I?",prerequisitos,llm
+"Quais disciplinas são exigidas antes de cursar Redes de Computadores?",prerequisitos,llm
+"Preciso ter concluído Programação Orientada a Objetos para fazer Padrões de Projeto?",prerequisitos,llm
+"Tem pré-requisito para a disciplina de Projeto e Análise de Algoritmos?",prerequisitos,llm
+"O que precisa passar antes de fazer Arquitetura de Computadores?",prerequisitos,llm
+"Álgebra Linear é pré-requisito de Computação Gráfica?",prerequisitos,llm
+"Quais matérias preciso ter aprovado para cursar Sistemas Distribuídos?",prerequisitos,llm
+"Existe algum pré-requisito para pegar Desenvolvimento Web?",prerequisitos,llm
+"Preciso de Lógica para Computação antes de fazer Teoria da Computação?",prerequisitos,llm
+"Quais são os pré-requisitos da matéria de Cálculo Numérico?",prerequisitos,llm
+"O que tranca a matrícula em Aprendizado de Máquina?",prerequisitos,llm
+"Banco de Dados I é pré-requisito obrigatório para Banco de Dados II?",prerequisitos,llm
+"Quais disciplinas antecedem Teste de Software na grade?",prerequisitos,llm
+"Preciso ter feito Probabilidade e Estatística antes de Mineração de Dados?",prerequisitos,llm
+"Tem algum requisito prévio para cursar Segurança da Informação?",prerequisitos,llm
+"O que preciso ter cursado para liberar Linguagens Formais e Autômatos?",prerequisitos,llm
+"Estrutura de Dados é pré-requisito para quais disciplinas?",prerequisitos,llm
+"Quais matérias são pré-requisitos de Visão Computacional?",prerequisitos,llm
+"Preciso passar em Eletrônica Digital antes de Microcontroladores?",prerequisitos,llm
+"Quais são os requisitos para fazer Estágio Obrigatório?",prerequisitos,llm
+"O que precisa ter cursado antes de iniciar o TCC?",prerequisitos,llm
+"Cálculo II tranca Cálculo Numérico?",prerequisitos,llm
+"Quais matérias eu preciso eliminar antes de pegar Engenharia de Requisitos?",prerequisitos,llm
+"Tem algum pré-requisito para cursar Interação Humano-Computador?",prerequisitos,llm
+"Preciso ter feito Redes para cursar Administração de Redes?",prerequisitos,llm
+"Quais são os pré-requisitos de Pesquisa Operacional?",prerequisitos,llm
+"Algoritmos II é requisito para entrar em Estrutura de Dados?",prerequisitos,llm
+"O que precisa ter aprovado para fazer Bioinformática?",prerequisitos,llm
+"Quais matérias exigem Cálculo I como pré-requisito?",prerequisitos,llm
+"Preciso de algum pré-requisito para puxar Gestão de Projetos?",prerequisitos,llm
+"Quais disciplinas precisam ser cursadas antes de Processamento de Imagens?",prerequisitos,llm
+"A matéria de Compiladores existe no curso de Engenharia de Software?",disciplina_no_curso,llm
+"O curso de TADS tem Cálculo I na grade?",disciplina_no_curso,llm
+"Tem Inteligência Artificial no currículo de Sistemas de Informação?",disciplina_no_curso,llm
+"Física I faz parte das matérias de Ciência da Computação?",disciplina_no_curso,llm
+"Existe a disciplina de Microcontroladores em Engenharia de Computação?",disciplina_no_curso,llm
+"O curso de Engenharia de Software oferece Eletrônica Digital?",disciplina_no_curso,llm
+"Tem Banco de Dados II no curso de Análise e Desenvolvimento de Sistemas?",disciplina_no_curso,llm
+"A disciplina de Computação Gráfica pertence ao curso de SI?",disciplina_no_curso,llm
+"Ciência da Computação tem a matéria de Gestão de Projetos?",disciplina_no_curso,llm
+"Existe Teoria da Computação na grade curricular do TADS?",disciplina_no_curso,llm
+"O curso de Engenharia de Computação tem Engenharia de Requisitos?",disciplina_no_curso,llm
+"Tem Cálculo II em Sistemas de Informação?",disciplina_no_curso,llm
+"A matéria de Arquitetura de Computadores faz parte do TADS?",disciplina_no_curso,llm
+"Engenharia de Software tem a disciplina de Álgebra Linear?",disciplina_no_curso,llm
+"Existe alguma matéria de Redes de Computadores em todos os cursos da FACOM?",disciplina_no_curso,llm
+"O curso de BCC tem Auditoria e Segurança de Sistemas?",disciplina_no_curso,llm
+"Tem Programação Orientada a Objetos no curso de Engenharia de Computação?",disciplina_no_curso,llm
+"A disciplina de Pesquisa Operacional está na grade de EngSoft?",disciplina_no_curso,llm
+"Sistemas de Informação tem a matéria de Sistemas Embarcados?",disciplina_no_curso,llm
+"Existe Cálculo Numérico no currículo do TADS?",disciplina_no_curso,llm
+"O curso de Ciência da Computação oferece Teste de Software?",disciplina_no_curso,llm
+"Tem Matemática Discreta na grade de Sistemas de Informação?",disciplina_no_curso,llm
+"A matéria de Interação Humano-Computador existe em EngComp?",disciplina_no_curso,llm
+"O curso de TADS possui Trabalho de Conclusão de Curso?",disciplina_no_curso,llm
+"Tem Lógica para Computação no curso de Engenharia de Software?",disciplina_no_curso,llm
+"A disciplina de Sistemas Distribuídos pertence ao currículo de BCC?",disciplina_no_curso,llm
+"Existe Empreendedorismo em TI na grade de Engenharia de Computação?",disciplina_no_curso,llm
+"O curso de Sistemas de Informação tem Linguagens Formais e Autômatos?",disciplina_no_curso,llm
+"Tem Estatística na grade curricular de Engenharia de Software?",disciplina_no_curso,llm
+"A matéria de Padrões de Projeto faz parte do curso de TADS?",disciplina_no_curso,llm
+"Ciência da Computação tem a disciplina de Administração de Redes?",disciplina_no_curso,llm
+"Existe alguma disciplina de Desenvolvimento Mobile no curso de SI?",disciplina_no_curso,llm
+"O curso de Engenharia de Computação tem Grafos na grade?",disciplina_no_curso,llm
+"Tem Metodologia Científica no currículo do TADS?",disciplina_no_curso,llm
+"A matéria de Mineração de Dados está presente em Engenharia de Software?",disciplina_no_curso,llm
+"Sistemas de Informação oferece a disciplina de Compiladores?",disciplina_no_curso,llm
+"Tem Ética e Legislação em Informática no curso de BCC?",disciplina_no_curso,llm
+"A disciplina de Projeto e Análise de Algoritmos existe no TADS?",disciplina_no_curso,llm
+"O curso de Engenharia de Software tem Sistemas Operacionais?",disciplina_no_curso,llm
+"Existe Visão Computacional na grade de Sistemas de Informação?",disciplina_no_curso,llm
+"Quais cursos de graduação a FACOM oferece?",cursos_facom,llm
+"Me fala sobre o curso de Ciência da Computação da UFMS.",cursos_facom,llm
+"Qual a duração do curso de Análise e Desenvolvimento de Sistemas?",cursos_facom,llm
+"O curso de Engenharia de Software da FACOM é integral ou noturno?",cursos_facom,llm
+"Me dá informações gerais sobre Sistemas de Informação.",cursos_facom,llm
+"Quantos semestres tem o curso de Engenharia de Computação?",cursos_facom,llm
+"Qual a diferença entre Ciência da Computação e Engenharia de Software na FACOM?",cursos_facom,llm
+"O curso de TADS é tecnólogo ou bacharelado?",cursos_facom,llm
+"Quais são os turnos dos cursos da Faculdade de Computação?",cursos_facom,llm
+"Me explica como funciona o curso de Engenharia de Computação da UFMS.",cursos_facom,llm
+"Quantos anos dura o bacharelado em Ciência da Computação?",cursos_facom,llm
+"O curso de Sistemas de Informação é ofertado no período noturno?",cursos_facom,llm
+"Quero saber mais detalhes sobre o curso de TADS da FACOM.",cursos_facom,llm
+"Quais cursos da FACOM são bacharelados?",cursos_facom,llm
+"Qual a carga horária total do curso de Engenharia de Software?",cursos_facom,llm
+"Me fala um resumo sobre os cursos disponíveis na FACOM.",cursos_facom,llm
+"Engenharia de Computação na UFMS dura quantos anos?",cursos_facom,llm
+"O curso de Ciência da Computação é só de dia ou tem à noite?",cursos_facom,llm
+"Como é a estrutura do curso de Sistemas de Informação na FACOM?",cursos_facom,llm
+"Quantos semestres tem o curso de TADS?",cursos_facom,llm
+"Me passa informações sobre o perfil do curso de Engenharia de Software.",cursos_facom,llm
+"Qual o turno de funcionamento de Engenharia de Computação?",cursos_facom,llm
+"A FACOM tem quantos cursos de graduação atualmente?",cursos_facom,llm
+"Me diz qual é a duração mínima de Sistemas de Informação.",cursos_facom,llm
+"Quero conhecer melhor o curso de Bacharelado em Ciência da Computação.",cursos_facom,llm
+"O curso de TADS da UFMS é noturno?",cursos_facom,llm
+"Qual curso da FACOM é mais focado em hardware e eletrônica?",cursos_facom,llm
+"Me fala a carga horária total necessária para se formar em BCC.",cursos_facom,llm
+"Quantos períodos tem a grade de Engenharia de Software?",cursos_facom,llm
+"Quais são as opções de curso na área de computação da UFMS?",cursos_facom,llm
+"O curso de Engenharia de Software é bacharelado?",cursos_facom,llm
+"Me dá um panorama geral do curso de TADS.",cursos_facom,llm
+"Qual é o turno das aulas de Ciência da Computação?",cursos_facom,llm
+"Quantos anos leva para concluir Sistemas de Informação?",cursos_facom,llm
+"Me informa sobre o curso de Engenharia de Computação da FACOM.",cursos_facom,llm
+"Qual a diferença entre TADS e Sistemas de Informação na FACOM?",cursos_facom,llm
+"O curso de Engenharia de Computação é integral?",cursos_facom,llm
+"Me passa os dados gerais dos cursos de graduação da FACOM.",cursos_facom,llm
+"Quantas horas tem o curso de Análise e Desenvolvimento de Sistemas?",cursos_facom,llm
+"Quais cursos existem na Faculdade de Computação de Campo Grande?",cursos_facom,llm
+"Quem são os professores da FACOM?",docentes,llm
+"Qual professor dá aula de Estrutura de Dados?",docentes,llm
+"Me passa a lista de docentes do curso de Ciência da Computação.",docentes,llm
+"Quem costuma ministrar a matéria de Algoritmos e Programação I?",docentes,llm
+"Quais professores atuam na área de Inteligência Artificial na FACOM?",docentes,llm
+"Quem é o docente responsável por Banco de Dados?",docentes,llm
+"Me diz quais professores dão aula no curso de Engenharia de Software.",docentes,llm
+"Qual matéria o professor de Redes de Computadores leciona?",docentes,llm
+"Quero saber quem faz parte do corpo docente da FACOM.",docentes,llm
+"Quem dá aula de Sistemas Operacionais neste semestre?",docentes,llm
+"Quais docentes trabalham com Engenharia de Software na faculdade?",docentes,llm
+"Quem é o professor da disciplina de Compiladores?",docentes,llm
+"Me mostra os professores que dão aula no curso de TADS.",docentes,llm
+"Quais matérias um determinado docente da FACOM costuma dar?",docentes,llm
+"Quem leciona Arquitetura de Computadores na Engenharia de Computação?",docentes,llm
+"Quero a lista completa dos professores da Faculdade de Computação.",docentes,llm
+"Quem dá aula de Programação Orientada a Objetos?",docentes,llm
+"Quais professores são da área de Banco de Dados e Ciência de Dados?",docentes,llm
+"Quem é o docente que ministra Teoria da Computação?",docentes,llm
+"Me fala os nomes dos professores do curso de Sistemas de Informação.",docentes,llm
+"Quem costuma dar aula de Desenvolvimento Web no TADS?",docentes,llm
+"Quais docentes da FACOM pesquisam Redes e Sistemas Distribuídos?",docentes,llm
+"Quem é o professor responsável pela matéria de Grafos?",docentes,llm
+"Me informa quem dá aula de Computação Gráfica.",docentes,llm
+"Quais professores ministram disciplinas no primeiro semestre?",docentes,llm
+"Quem leciona Interação Humano-Computador na FACOM?",docentes,llm
+"Quero saber o corpo docente do curso de Engenharia de Computação.",docentes,llm
+"Quem dá aula de Segurança da Informação?",docentes,llm
+"Quais professores atuam na área de Otimização e Algoritmos?",docentes,llm
+"Quem é o docente de Engenharia de Requisitos?",docentes,llm
+"Me diz quem são os professores que dão aula de Teste de Software.",docentes,llm
+"Quem ministra a disciplina de Microcontroladores?",docentes,llm
+"Quais professores da FACOM trabalham com Aprendizado de Máquina?",docentes,llm
+"Quem costuma lecionar Linguagens Formais e Autômatos?",docentes,llm
+"Me passa os docentes vinculados ao curso de BCC.",docentes,llm
+"Quem dá aula de Visão Computacional na FACOM?",docentes,llm
+"Quais professores dão aula de Cálculo ou Matemática na computação?",docentes,llm
+"Quem é o professor da matéria de Mineração de Dados?",docentes,llm
+"Quero saber quais docentes ministram Pesquisa Operacional.",docentes,llm
+"Me lista os professores efetivos da Faculdade de Computação.",docentes,llm
+texto,intencao,origem
+"Em qual semestre eu faço Algoritmos e Programação I?",periodo_disciplina,llm
+"Qual o período ideal para cursar Estrutura de Dados?",periodo_disciplina,llm
+"Sabe me dizer em que semestre fica Banco de Dados na grade?",periodo_disciplina,llm
+"Cálculo I é matéria de primeiro semestre?",periodo_disciplina,llm
+"Em qual ano do curso o pessoal costuma pegar Redes de Computadores?",periodo_disciplina,llm
+"Qual semestre tem Engenharia de Software I?",periodo_disciplina,llm
+"A disciplina de Inteligência Artificial é ofertada em qual período?",periodo_disciplina,llm
+"Me fala o semestre correto de Sistemas Operacionais.",periodo_disciplina,llm
+"Quando que a gente faz Compiladores no curso de Ciência da Computação?",periodo_disciplina,llm
+"Qual período fica Arquitetura de Computadores?",periodo_disciplina,llm
+"Em que semestre está alocada a matéria de Matemática Discreta?",periodo_disciplina,llm
+"Programação Orientada a Objetos é no segundo ou terceiro semestre?",periodo_disciplina,llm
+"Qual semestre devo puxar Teoria da Computação?",periodo_disciplina,llm
+"Me informa o período da disciplina de Cálculo Numérico.",periodo_disciplina,llm
+"Em qual semestre do TADS aparece Desenvolvimento Web?",periodo_disciplina,llm
+"Sabe em que período a matéria de Probabilidade e Estatística fica?",periodo_disciplina,llm
+"Qual é o semestre recomendado para cursar Projeto e Análise de Algoritmos?",periodo_disciplina,llm
+"Em qual período da grade curricular está Computação Gráfica?",periodo_disciplina,llm
+"A matéria de Álgebra Linear fica em qual semestre?",periodo_disciplina,llm
+"Quando ocorre a disciplina de Interação Humano-Computador na grade?",periodo_disciplina,llm
+"Em qual semestre do curso de SI tem Gestão de Projetos?",periodo_disciplina,llm
+"Qual período corresponde à disciplina de Segurança da Informação?",periodo_disciplina,llm
+"Me diz o semestre em que se cursa Sistemas Distribuídos.",periodo_disciplina,llm
+"Física para Computação é matéria de qual período?",periodo_disciplina,llm
+"Qual o semestre de Lógica para Computação?",periodo_disciplina,llm
+"Em que período eu devo fazer a disciplina de Padrões de Projeto?",periodo_disciplina,llm
+"Qual semestre fica Engenharia de Requisitos em EngSoft?",periodo_disciplina,llm
+"A disciplina de Microcontroladores é de qual período na EngComp?",periodo_disciplina,llm
+"Em qual semestre está prevista a matéria de Aprendizado de Máquina?",periodo_disciplina,llm
+"Sabe dizer qual período é a disciplina de Ética e Legislação em Informática?",periodo_disciplina,llm
+"Em que semestre o professor costuma dar Grafos?",periodo_disciplina,llm
+"Qual o período da matéria de Metodologia Científica?",periodo_disciplina,llm
+"Em qual semestre entra Teste de Software?",periodo_disciplina,llm
+"Qual período da matriz curricular tem Empreendedorismo em TI?",periodo_disciplina,llm
+"A matéria de Linguagens Formais e Autômatos fica em qual semestre?",periodo_disciplina,llm
+"Me fala em que período fica Administração de Redes.",periodo_disciplina,llm
+"Qual semestre eu curso Auditoria e Segurança de Sistemas?",periodo_disciplina,llm
+"Em qual período fica a disciplina de Visão Computacional?",periodo_disciplina,llm
+"Quando que a matéria de Mineração de Dados aparece na grade?",periodo_disciplina,llm
+"Qual o semestre correto da disciplina de Pesquisa Operacional?",periodo_disciplina,llm
+"Quais são as matérias do primeiro semestre de Ciência da Computação?",disciplinas_periodo,llm
+"Me lista todas as disciplinas do 3º período de Engenharia de Software.",disciplinas_periodo,llm
+"O que a gente estuda no segundo semestre de Sistemas de Informação?",disciplinas_periodo,llm
+"Quais matérias fazem parte do 4º semestre do TADS?",disciplinas_periodo,llm
+"Mostra a grade do quinto período de Engenharia de Computação.",disciplinas_periodo,llm
+"Quais disciplinas estão previstas para o 2º semestre?",disciplinas_periodo,llm
+"Me passa a lista de matérias do sexto período da FACOM.",disciplinas_periodo,llm
+"Que matérias eu vou ter no 1º período se passar em BCC?",disciplinas_periodo,llm
+"Quais são as disciplinas ofertadas no sétimo semestre?",disciplinas_periodo,llm
+"Lista pra mim as matérias do 4º período de Ciência da Computação.",disciplinas_periodo,llm
+"O que tem na grade do terceiro semestre de EngSoft?",disciplinas_periodo,llm
+"Quais matérias compõem o oitavo período de Engenharia de Computação?",disciplinas_periodo,llm
+"Me diz quais disciplinas eu pego no 5º semestre de SI.",disciplinas_periodo,llm
+"Quais são as aulas do primeiro período do curso de TADS?",disciplinas_periodo,llm
+"Quero saber todas as matérias do 2º ano ou 3º e 4º semestres.",disciplinas_periodo,llm
+"Quais disciplinas têm no último semestre de Engenharia de Software?",disciplinas_periodo,llm
+"Me mostra o que é cursado no 1º semestre.",disciplinas_periodo,llm
+"Quais matérias estão no 7º período de Engenharia de Computação?",disciplinas_periodo,llm
+"Lista as disciplinas obrigatórias do 3º semestre de BCC.",disciplinas_periodo,llm
+"Que disciplinas tem no sexto período de Sistemas de Informação?",disciplinas_periodo,llm
+"Quais são as matérias do 2º período do curso de Análise e Desenvolvimento de Sistemas?",disciplinas_periodo,llm
+"Me fala a grade completa do quarto semestre.",disciplinas_periodo,llm
+"Quais disciplinas eu preciso cursar no 5º período?",disciplinas_periodo,llm
+"O que faz parte da grade do 8º semestre de BCC?",disciplinas_periodo,llm
+"Quais matérias compõem o primeiro semestre da faculdade?",disciplinas_periodo,llm
+"Me diz as disciplinas do 6º período de EngSoft.",disciplinas_periodo,llm
+"Quais matérias ficam no 9º semestre de Engenharia de Computação?",disciplinas_periodo,llm
+"Quero ver a lista de matérias do 2º período de Ciência da Computação.",disciplinas_periodo,llm
+"Quais disciplinas são dadas no quarto semestre de SI?",disciplinas_periodo,llm
+"Me mostra as matérias do 3º período do TADS.",disciplinas_periodo,llm
+"O que se estuda no 5º semestre de Engenharia de Software?",disciplinas_periodo,llm
+"Quais são as disciplinas do sétimo período de SI?",disciplinas_periodo,llm
+"Lista todas as matérias que estão no 1º semestre de EngComp.",disciplinas_periodo,llm
+"Quais matérias fazem parte do sexto período do TADS?",disciplinas_periodo,llm
+"Me passa as disciplinas do 4º período de Engenharia de Computação.",disciplinas_periodo,llm
+"Que matérias tem no oitavo semestre de Sistemas de Informação?",disciplinas_periodo,llm
+"Quais disciplinas estão no 3º semestre?",disciplinas_periodo,llm
+"Me fala quais são as matérias do 10º período de EngComp.",disciplinas_periodo,llm
+"Quero a lista de disciplinas do segundo semestre de EngSoft.",disciplinas_periodo,llm
+"Quais matérias são cursadas no 7º período de Ciência da Computação?",disciplinas_periodo,llm
+"Cálculo II é obrigatória em Ciência da Computação?",obrigatorias,llm
+"A matéria de Inteligência Artificial é obrigatória no curso de SI?",obrigatorias,llm
+"Me diz se Compiladores é obrigatória em Engenharia de Software.",obrigatorias,llm
+"Quais são as disciplinas obrigatórias do curso de TADS?",obrigatorias,llm
+"Física I é obrigatória para quem faz Engenharia de Computação?",obrigatorias,llm
+"A disciplina de Banco de Dados II é obrigatória ou não?",obrigatorias,llm
+"Preciso fazer Álgebra Linear obrigatoriamente em BCC?",obrigatorias,llm
+"Quais matérias são obrigatórias na grade de Engenharia de Software?",obrigatorias,llm
+"Empreendedorismo é uma disciplina obrigatória em Sistemas de Informação?",obrigatorias,llm
+"A matéria de Grafos é obrigatória no curso de Ciência da Computação?",obrigatorias,llm
+"Me mostra a lista de disciplinas obrigatórias do curso de EngComp.",obrigatorias,llm
+"Sistemas Distribuídos é obrigatória no TADS?",obrigatorias,llm
+"Sou obrigado a cursar Probabilidade e Estatística em BCC?",obrigatorias,llm
+"Quais são todas as matérias obrigatórias de Sistemas de Informação?",obrigatorias,llm
+"Computação Gráfica faz parte das obrigatórias de Engenharia de Software?",obrigatorias,llm
+"A disciplina de Arquitetura de Computadores é obrigatória?",obrigatorias,llm
+"Me informa se Pesquisa Operacional é obrigatória em Ciência da Computação.",obrigatorias,llm
+"Quais disciplinas obrigatórias preciso cumprir para me formar em TADS?",obrigatorias,llm
+"Teste de Software é matéria obrigatória em EngSoft?",obrigatorias,llm
+"A matéria de Cálculo Numérico é obrigatória em SI?",obrigatorias,llm
+"Eletrônica Digital é obrigatória em Engenharia de Computação?",obrigatorias,llm
+"Quero saber se Teoria da Computação é obrigatória no meu curso.",obrigatorias,llm
+"Lista as obrigatórias do curso de Ciência da Computação.",obrigatorias,llm
+"Segurança da Informação é obrigatória na grade do TADS?",obrigatorias,llm
+"A disciplina de Metodologia Científica é obrigatória na FACOM?",obrigatorias,llm
+"Interação Humano-Computador é obrigatória em Sistemas de Informação?",obrigatorias,llm
+"Me diz quais são as matérias obrigatórias de Engenharia de Software.",obrigatorias,llm
+"Lógica para Computação é obrigatória no primeiro ano?",obrigatorias,llm
+"A matéria de Gestão de Projetos é obrigatória em BCC?",obrigatorias,llm
+"Preciso fazer Estágio Obrigatório em todos os cursos da FACOM?",obrigatorias,llm
+"Quais disciplinas são obrigatórias no currículo de EngComp?",obrigatorias,llm
+"Mineração de Dados é obrigatória em Ciência da Computação?",obrigatorias,llm
+"A matéria de Redes de Computadores é obrigatória no TADS?",obrigatorias,llm
+"O Trabalho de Conclusão de Curso é disciplina obrigatória?",obrigatorias,llm
+"Quais são as obrigatórias da área de matemática em BCC?",obrigatorias,llm
+"Padrões de Projeto é obrigatória em Engenharia de Software?",obrigatorias,llm
+"A disciplina de Sistemas Operacionais é obrigatória em SI?",obrigatorias,llm
+"Me confirma se Matemática Discreta é obrigatória.",obrigatorias,llm
+"Quais matérias são estritamente obrigatórias no TADS?",obrigatorias,llm
+"Visão Computacional é obrigatória em Engenharia de Computação?",obrigatorias,llm
+"Quais matérias optativas existem na FACOM?",optativas,llm
+"A disciplina de Desenvolvimento Mobile é optativa?",optativas,llm
+"Me lista as optativas disponíveis para Ciência da Computação.",optativas,llm
+"Aprendizado de Máquina é uma matéria optativa ou obrigatória?",optativas,llm
+"Quais são as opções de disciplinas optativas em Engenharia de Software?",optativas,llm
+"Posso pegar Computação em Nuvem como optativa?",optativas,llm
+"Quais matérias optativas o curso de Sistemas de Informação oferece?",optativas,llm
+"Robótica é uma disciplina optativa na Engenharia de Computação?",optativas,llm
+"Me mostra todas as optativas do curso de TADS.",optativas,llm
+"A matéria de Jogos Digitais entra como optativa?",optativas,llm
+"Quais optativas costumam ser ofertadas na área de Inteligência Artificial?",optativas,llm
+"Bioinformática é uma matéria optativa em BCC?",optativas,llm
+"Quero ver a lista completa de disciplinas optativas da faculdade.",optativas,llm
+"Criptografia é considerada optativa na FACOM?",optativas,llm
+"Quais optativas eu posso escolher no curso de Engenharia de Software?",optativas,llm
+"A disciplina de Internet das Coisas é optativa?",optativas,llm
+"Me fala algumas matérias optativas legais de Ciência da Computação.",optativas,llm
+"Sistemas Embarcados é optativa para quem faz SI?",optativas,llm
+"Quais são as disciplinas optativas na grade de Engenharia de Computação?",optativas,llm
+"Processamento de Imagens é uma matéria optativa?",optativas,llm
+"Quantas optativas existem no catálogo do TADS?",optativas,llm
+"A matéria de Realidade Virtual é optativa na FACOM?",optativas,llm
+"Me diz quais disciplinas optativas estão vinculadas a Redes.",optativas,llm
+"Ciência de Dados é uma disciplina optativa em EngSoft?",optativas,llm
+"Quais são as optativas da área de Banco de Dados?",optativas,llm
+"Tópicos Especiais em Computação conta como optativa?",optativas,llm
+"A disciplina de Blockchain é optativa nos cursos da FACOM?",optativas,llm
+"Lista as matérias optativas de Sistemas de Informação.",optativas,llm
+"Computação Quântica existe como optativa em BCC?",optativas,llm
+"Qual a diferença entre as optativas de EngSoft e BCC?",optativas,llm
+"A matéria de Programação Funcional é optativa?",optativas,llm
+"Quais disciplinas optativas têm na área de Engenharia de Software?",optativas,llm
+"Auditoria de Sistemas é optativa em Ciência da Computação?",optativas,llm
+"Me passa a relação de matérias optativas do curso de EngComp.",optativas,llm
+"Desenvolvimento de Jogos é uma disciplina optativa no TADS?",optativas,llm
+"A matéria de Lógica Fuzzy é optativa na FACOM?",optativas,llm
+"Quais optativas posso cursar para complementar minha carga horária?",optativas,llm
+"Sistemas Multiagentes é uma matéria optativa?",optativas,llm
+"Me informa as disciplinas optativas disponíveis na grade curricular.",optativas,llm
+"Qualquer matéria de outro curso da FACOM vale como optativa?",optativas,llm
+"Oi, tudo bem?",chitchat,llm
+"Olá! Como você está?",chitchat,llm
+"Bom dia, bot!",chitchat,llm
+"Boa tarde, tudo certo por aí?",chitchat,llm
+"Boa noite!",chitchat,llm
+"E aí, beleza?",chitchat,llm
+"Opa, fala comigo!",chitchat,llm
+"Oi, sou calouro de Ciência da Computação, tudo bem?",chitchat,llm
+"Olá, preciso de uma ajuda!",chitchat,llm
+"Muito obrigado pela ajuda!",chitchat,llm
+"Valeu mesmo, salvou meu dia!",chitchat,llm
+"Obrigado por esclarecer minhas dúvidas sobre as matérias!",chitchat,llm
+"Show de bola, valeu!",chitchat,llm
+"Perfeito, muito obrigada!",chitchat,llm
+"Tchau, até mais!",chitchat,llm
+"Falou, até a próxima!",chitchat,llm
+"Até logo, bom trabalho!",chitchat,llm
+"Quem é você?",chitchat,llm
+"Você é um robô ou uma pessoa?",chitchat,llm
+"Qual o seu nome?",chitchat,llm
+"O que você sabe fazer?",chitchat,llm
+"Como você funciona?",chitchat,llm
+"Você foi criado por alunos da FACOM?",chitchat,llm
+"Tudo joia?",chitchat,llm
+"Oi, tem alguém aí?",chitchat,llm
+"Salve!",chitchat,llm
+"Fala, meu consagrado!",chitchat,llm
+"Oi, estou meio perdido na faculdade, tudo bem?",chitchat,llm
+"Agradeço a atenção!",chitchat,llm
+"Gratidão pela resposta!",chitchat,llm
+"Beleza, entendi tudo, valeu!",chitchat,llm
+"Você é muito inteligente!",chitchat,llm
+"Gostei de conversar com você.",chitchat,llm
+"Você é bem rápido para responder!",chitchat,llm
+"Estou entediado hoje.",chitchat,llm
+"Conta uma piada de programador!",chitchat,llm
+"Você gosta de café?",chitchat,llm
+"Que dia lindo hoje, né?",chitchat,llm
+"Oi, boa tarde, sou aluno do TADS!",chitchat,llm
+"Obrigado, era só isso mesmo.",chitchat,llm
+"Tchauzinho!",chitchat,llm
+"Até amanhã!",chitchat,llm
+"Fui, valeu!",chitchat,llm
+"Bom descanso pra você!",chitchat,llm
+"Como vai a vida de chatbot?",chitchat,llm
+"Você dorme?",chitchat,llm
+"Quantos anos você tem?",chitchat,llm
+"De onde você é?",chitchat,llm
+"Você torce para algum time?",chitchat,llm
+"Oi, consegue me dar um oi?",chitchat,llm
+"Olá, tudo tranquilo?",chitchat,llm
+"Bom dia, pessoal da FACOM!",chitchat,llm
+"Boa noite, tudo na paz?",chitchat,llm
+"E aí, suave?",chitchat,llm
+"Opa, tudo bom?",chitchat,llm
+"Valeu demais pela força!",chitchat,llm
+"Muito agradecido!",chitchat,llm
+"Top demais, obrigado!",chitchat,llm
+"Maravilha, valeu!",chitchat,llm
+"Você me ajudou bastante com a grade, obrigado!",chitchat,llm
+"Legal, obrigado pela informação!",chitchat,llm
+"Até depois!",chitchat,llm
+"Abraço, até mais!",chitchat,llm
+"Encerrando por aqui, tchau!",chitchat,llm
+"Você conhece o ChatGPT?",chitchat,llm
+"Qual sua linguagem de programação favorita?",chitchat,llm
+"Você sabe programar em Python?",chitchat,llm
+"Você é uma inteligência artificial?",chitchat,llm
+"Quem te programou?",chitchat,llm
+"Você gosta de estudar computação?",chitchat,llm
+"Oi, estou testando você!",chitchat,llm
+"Olá, bom dia, tudo bem com você?",chitchat,llm
+"Boa tarde, meu amigo virtual!",chitchat,llm
+"Oi, preciso tirar umas dúvidas.",chitchat,llm
+"Pode me ajudar?",chitchat,llm
+"Estou com uma dúvida, pode me atender?",chitchat,llm
+"Oi, você está funcionando?",chitchat,llm
+"Testando 1, 2, 3.",chitchat,llm
+"Valeu, você é nota 10!",chitchat,llm
+"Obrigado, tenha um ótimo dia!",chitchat,llm
+"Como faço para trancar uma matéria no SISCAD?",fora_dominio,llm
+"Qual o cardápio do RU hoje no almoço?",fora_dominio,llm
+"Onde eu tiro a carteirinha de estudante da UFMS?",fora_dominio,llm
+"O professor já lançou a nota de Cálculo I no portal?",fora_dominio,llm
+"Como faço para me conectar no Wi-Fi Eduroam da faculdade?",fora_dominio,llm
+"Qual o horário de funcionamento da Biblioteca Central?",fora_dominio,llm
+"Quando abrem as inscrições para o auxílio permanência?",fora_dominio,llm
+"Como faço para pedir aproveitamento de estudos de outra faculdade?",fora_dominio,llm
+"Onde fica a secretaria acadêmica da FACOM?",fora_dominio,llm
+"Qual o e-mail da coordenação do curso de Engenharia de Software?",fora_dominio,llm
+"Como funciona o estacionamento para alunos na UFMS?",fora_dominio,llm
+"Que horas passa o ônibus para o campus?",fora_dominio,llm
+"Como faço para emitir meu histórico escolar assinado?",fora_dominio,llm
+"Qual o prazo final para ajuste de matrícula neste semestre?",fora_dominio,llm
+"Quantas faltas eu posso ter em Algoritmos sem reprovar?",fora_dominio,llm
+"Como justifico uma falta por atestado médico na UFMS?",fora_dominio,llm
+"Onde eu entrego os certificados de atividades complementares?",fora_dominio,llm
+"Quando começam as férias de julho no calendário acadêmico?",fora_dominio,llm
+"Qual o valor do ticket do Restaurante Universitário?",fora_dominio,llm
+"Como faço para reservar uma sala de estudos na biblioteca?",fora_dominio,llm
+"Perdi minha senha do Passaporte UFMS, como recupero?",fora_dominio,llm
+"Tem alguma bolsa de iniciação científica aberta na FACOM?",fora_dominio,llm
+"Qual o telefone da pró-reitoria de graduação?",fora_dominio,llm
+"Como funciona a colação de grau na UFMS?",fora_dominio,llm
+"Onde fica o laboratório de informática 3 da FACOM?",fora_dominio,llm
+"Qual a nota mínima para passar direto sem exame final?",fora_dominio,llm
+"Quando vai ser a próxima semana acadêmica da computação?",fora_dominio,llm
+"Como faço para transferir meu turno do noturno para o integral?",fora_dominio,llm
+"Qual a nota de corte do SISU para Ciência da Computação?",fora_dominio,llm
+"Como faço para entrar na empresa júnior da FACOM?",fora_dominio,llm
+"Onde compro jaleco para as aulas de laboratório?",fora_dominio,llm
+"Tem micro-ondas disponível para os alunos esquentarem marmita?",fora_dominio,llm
+"Como faço para renovar um livro emprestado na biblioteca?",fora_dominio,llm
+"Qual o horário de atendimento do colegiado de curso?",fora_dominio,llm
+"Preciso de declaração de matrícula para o estágio, onde pego?",fora_dominio,llm
+"Como faço para cadastrar meu estágio não obrigatório no sistema?",fora_dominio,llm
+"Quem é o atual diretor da Faculdade de Computação?",fora_dominio,llm
+"Qual o endereço completo da UFMS em Campo Grande?",fora_dominio,llm
+"Vai chover hoje em Campo Grande?",fora_dominio,llm
+"Que horas são agora?",fora_dominio,llm
+"Qual a cotação do dólar hoje?",fora_dominio,llm
+"Me dá uma receita de bolo de cenoura com chocolate.",fora_dominio,llm
+"Quem ganhou o jogo do Brasileirão ontem?",fora_dominio,llm
+"Qual a capital da Austrália?",fora_dominio,llm
+"Como faço para instalar o Linux Ubuntu no meu notebook?",fora_dominio,llm
+"Qual a diferença entre Python e Java?",fora_dominio,llm
+"Me indica um filme bom de ficção científica.",fora_dominio,llm
+"Quanto é 25 vezes 48?",fora_dominio,llm
+"Qual o melhor notebook para programar hoje em dia?",fora_dominio,llm
+"Como faço para centralizar uma div no CSS?",fora_dominio,llm
+"Qual a distância da Terra até a Lua?",fora_dominio,llm
+"Me explica o que é a teoria da relatividade.",fora_dominio,llm
+"Quais são os sintomas da dengue?",fora_dominio,llm
+"Como faço arroz soltinho?",fora_dominio,llm
+"Quem descobriu o Brasil?",fora_dominio,llm
+"Qual o horário de funcionamento dos bancos?",fora_dominio,llm
+"Me ajuda a traduzir um texto para o inglês.",fora_dominio,llm
+"Qual a previsão do tempo para o fim de semana?",fora_dominio,llm
+"Onde fica o shopping mais próximo da universidade?",fora_dominio,llm
+"Como faço para tirar a segunda via do RG?",fora_dominio,llm
+"Qual a velocidade da luz?",fora_dominio,llm
+"Me recomenda uma série boa na Netflix.",fora_dominio,llm
+"Como funciona o imposto de renda?",fora_dominio,llm
+"Qual o significado da palavra resiliência?",fora_dominio,llm
+"Quantos dias tem um ano bissexto?",fora_dominio,llm
+"Como faço para formatar um pendrive?",fora_dominio,llm
+"Qual o melhor horário para ir na academia?",fora_dominio,llm
+"Me fala uma curiosidade sobre o espaço.",fora_dominio,llm
+"Como faço para cancelar minha assinatura de streaming?",fora_dominio,llm
+"Qual a população atual do Brasil?",fora_dominio,llm
+"Quem pintou a Mona Lisa?",fora_dominio,llm
+"Como faço para aprender inglês sozinho?",fora_dominio,llm
+"Qual a diferença entre memória RAM e SSD?",fora_dominio,llm
+"Me dá dicas de como estudar melhor para provas.",fora_dominio,llm
+"Qual o telefone de emergência da polícia?",fora_dominio,llm
+"Como faço para fazer café coado?",fora_dominio,llm
+"Qual a altura do Monte Everest?",fora_dominio,llm
+"Me explica como funciona o Pix.",fora_dominio,llm
+"Quais são os planetas do sistema solar?",fora_dominio,llm
+"Como faço para criar um currículo?",fora_dominio,llm
+"Qual o preço da gasolina hoje?",fora_dominio,llm
+"Me indica um livro de fantasia.",fora_dominio,llm
+"Como faço para resolver um cubo mágico?",fora_dominio,llm
+"Qual o idioma falado na Suíça?",fora_dominio,llm
+"Me diz o resultado da Mega-Sena.",fora_dominio,llm
+"Como faço para limpar a tela do notebook sem estragar?",fora_dominio,llm
+"Qual a data da próxima Copa do Mundo?",fora_dominio,llm
+"Me ajuda a escrever um e-mail formal.",fora_dominio,llm
+"Como funciona um motor a combustão?",fora_dominio,llm
+"Qual o maior oceano do mundo?",fora_dominio,llm
+"Me dá ideias de presente de aniversário.",fora_dominio,llm
+"Como faço para meditar?",fora_dominio,llm
+"Qual a diferença entre café expresso e coado?",fora_dominio,llm
+"Me explica o que é inflação.",fora_dominio,llm
+"Como faço para economizar bateria no celular?",fora_dominio,llm
+"Qual o nome do presidente da França?",fora_dominio,llm
+"Me indica uma música calma para estudar.",fora_dominio,llm
+"Como faço para plantar manjericão em vaso?",fora_dominio,llm
+"Qual a fórmula da água?",fora_dominio,llm
+"Me diz quantas calorias tem uma banana.",fora_dominio,llm
+"Como faço para tirar mancha de café da roupa?",fora_dominio,llm
+"Qual o animal mais rápido do mundo?",fora_dominio,llm
+"Me explica as regras do xadrez.",fora_dominio,llm
+"Como faço para configurar uma impressora no Windows?",fora_dominio,llm
+"Qual a capital do Canadá?",fora_dominio,llm
+"Me dá uma dica de produtividade.",fora_dominio,llm
+"Como faço para saber meu signo?",fora_dominio,llm
+"Qual a diferença entre gripe e resfriado?",fora_dominio,llm
+"Me indica um jogo leve para PC.",fora_dominio,llm
+"Como faço para fazer backup das minhas fotos?",fora_dominio,llm
+"Qual o maior país do mundo em território?",fora_dominio,llm
+"Me explica o que é blockchain de forma simples.",fora_dominio,llm
+"Como faço para trocar uma lâmpada com segurança?",fora_dominio,llm
+"Qual a origem do chocolate?",fora_dominio,llm
+"Me diz quais são as cores primárias.",fora_dominio,llm
+"Como faço para melhorar minha postura sentado?",fora_dominio,llm
+"Qual o livro mais vendido do mundo?",fora_dominio,llm
+"Me ajuda a montar um cronograma de estudos.",fora_dominio,llm
+"Como faço para desentupir uma pia?",fora_dominio,llm
+"Qual a temperatura de ebulição da água?",fora_dominio,llm
