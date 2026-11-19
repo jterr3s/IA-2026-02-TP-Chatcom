@@ -1,1 +1,113 @@
 texto,intencao,origem
+
+texto,intencao,origem
+"Qual semestre fica estatistica?",periodo_disciplina,coletado
+"Quais disciplinas eu curso no 4 semestre de eng eletrica",disciplinas_periodo,coletado
+"A materia de calculo é obrigatorio em engenharia de software",obrigatorias,coletado
+"Quais materias optativas tem?",optativas,coletado
+"Qual a carga horaria de vetor e algebra linear",dados_disciplina,coletado
+"O que precisa pra eu conseguir cursar eletromagnetismo",prerequisitos,coletado
+"Existe a materia de libras?",disciplina_no_curso,coletado
+"Qual materia esta no segundo semestre de bcc",disciplinas_periodo,coletado
+"Quem é o professor de circuitos?",docentes,coletado
+"Fala comigo",chitchat,coletado
+"Obrigado",chitchat,coletado
+"Como faco pra entrar na ufms",fora_dominio,coletado
+"O que é perielio?",fora_dominio,coletado
+"Me fala uma teoria da conspiracao que voce acredita",fora_dominio,coletado
+"Cálculo 1 é obrigatório em Engenharia de Software?",obrigatorias,coletado
+"Quais optativas existem?",optativas,coletado
+"Qual a carga horária de Estruturas de Dados?",dados_disciplina,coletado
+"Pré requisitos de Pratica e Desenvolvimento de Softwares",prerequisitos,coletado
+"Introdução à Sistemas Operacionais para a matéria de Inteligência Artificial",prerequisitos,coletado
+"EngSoft tem TCC?",disciplina_no_curso,coletado
+"Qual o professor(a) de Arquitetura de Software?",docentes,coletado
+"Olá!",chitchat,coletado
+"Valeu!",chitchat,coletado
+"Qual o clima hoje?",fora_dominio,coletado
+"Porque a inflação está alta?",fora_dominio,coletado
+"Qual o preço do combustível?",fora_dominio,coletado
+"Sabe me dizer em qual semestre fica a matéria Banco de Dados?",periodo_disciplina,coletado
+"Quais matérias tem no 5° semestre do curso de Engenharia de Software da UFMS?",disciplinas_periodo,coletado
+"A matéria de Fisiologia do Exercício é uma matéria obrigatória no curso de Nutrição?",obrigatorias,coletado
+"Quais matérias optativas eu posso fazer a partir do 2° semestre do curso?",optativas,coletado
+"Qual a carga horária da matéria Banca de Dados?",dados_disciplina,coletado
+"Qual pré-requisito eu preciso ter para poder cursar a matéria de Programação para Web?",prerequisitos,coletado
+"A matéria chamada Medição de Software existe na grade curricular da UFMS?",disciplina_no_curso,coletado
+"Quantos anos leva para se formar em Engenharia de Computação?",cursos_facom,coletado
+"Quem dá aula de Computação Distribuída na UFMS?",docentes,coletado
+"Oii",chitchat,coletado
+"Me ajudou demais. Obrigadaa",chitchat,coletado
+"Quanto eu gastaria em média para ir de São Paulo a Santos de carro?",fora_dominio,coletado
+"Me ajuda a montar uma planilha de gastos mensais?",fora_dominio,coletado
+"Me ajuda a esitar iluminação e contraste dessa foto?",fora_dominio,coletado
+"em que semestre de ciencia da computacao tem teoria dos grafos",periodo_disciplina,coletado
+"quais sao as disciplinas obrigatorias do primeiro semestre de engenharia da computacao",disciplinas_periodo,coletado
+"inteligencia artificial é obrigatoria em ciencia da computacao",obrigatorias,coletado
+"quais sao as materias optativas de engenharia de software",optativas,coletado
+"qual é o codigo da disciplina de interacao humano computador",dados_disciplina,coletado
+"quais sao os pre-requisitos de estrutura de dados",prerequisitos,coletado
+"bioquimica faz parte de engenharia da computacao",disciplina_no_curso,coletado
+"quantos semestres tem SI",cursos_facom,coletado
+"quem leciona fundamentos da teoria da computacao",docentes,coletado
+"saudacoes",chitchat,coletado
+"que deus lhe abencoe",chitchat,coletado
+"quando abrem as matriculas",fora_dominio,coletado
+"qual o numero da secretaria da facom",fora_dominio,coletado
+"quando é a prova de ia",fora_dominio,coletado
+"Em qual semestre da Faculdade de computação é possível cursar a disciplina de algoritmos",periodo_disciplina,coletado
+"No segundo semestre da faculdade de computação quais disciplinas estão disponiveis?",disciplinas_periodo,coletado
+"Na Faculdade de computação, a disciplinas de banco de dados é obrigatória para formação academica?",obrigatorias,coletado
+"Quais disciplines optativas estão disponíveis para academicos do curso de computação?",optativas,coletado
+"Qual a carga horária total da disciplina de Algoritmos na Faculdade de Computação?",dados_disciplina,coletado
+"É necessário cursar alguma disciplina como pré-requisito para cursar IA na faculdade de computação?",prerequisitos,coletado
+"A matéria de IA faz parte da grade curricular da faculdade de computação?",disciplina_no_curso,coletado
+"Qual a carga horária a se cumprir no curso de Engenharia de Software?",cursos_facom,coletado
+"Qual o nome do professor responsável pela disciplina de Algoritmos da faculdade de computação?",docentes,coletado
+"Ola",chitchat,coletado
+"Muito obrigada",chitchat,coletado
+"Qual a previsão do tempo da semana?",fora_dominio,coletado
+"Quais cursos de graduação a UFMS oferta?",fora_dominio,coletado
+"Qual a programação dos transportes para academicos dentro da UFMS?",fora_dominio,coletado
+"Em qual semestre é lecionado Estrutuda de Dados para Engenharia de Software?",periodo_disciplina,coletado
+"Quais disciplinas são ofertadas no 5° semestre de Engenharia de Software?",disciplinas_periodo,coletado
+"A matéria de Estatística é obrigatória para Engenharia da Computação?",obrigatorias,coletado
+"Cálculo I é uma matéria optativa para Sistemas de Informação?",optativas,coletado
+"Qual o código da matéria de Algoritmos e Programação II e o que é ensinado na disciplina?",dados_disciplina,coletado
+"Quais matéria eu preciso ter feito para fazer o NES I?",prerequisitos,coletado
+"Tem Cálculo II em Engenharia de Software?",disciplina_no_curso,coletado
+"Quais são as habilidades de um Engenheiro de Software?",cursos_facom,coletado
+"A professora Luciana Montera entrou em qual ano na faculdade?",docentes,coletado
+"Hello",chitchat,coletado
+"Valeu, falou",chitchat,coletado
+"Qual a quantidade de horas jogadas para ter 50% de chance de conseguir o Token Pirata do Fortnite?",fora_dominio,coletado
+"Qual a religião predominante na África do Sul?",fora_dominio,coletado
+"Quem foi o campeão mundial de xadrez em 1969?",fora_dominio,coletado
+"Em qual semestre a gente têm Redes Neurais?",periodo_disciplina,coletado
+"Quais matérias vão ter no 5º semestre de Eng. Comp.?",disciplinas_periodo,coletado
+"Teoria dos Grafos é obrigatório em Eng Comp?",obrigatorias,coletado
+"Quais as matérias optativas que vão ser ofertadas no semestre que vem?",optativas,coletado
+"Quantas horas tem LPOO?",dados_disciplina,coletado
+"Eu preciso de quais matérias pra fazer Probabilidade e Estatística?",prerequisitos,coletado
+"Libras faz parte de Eng Comp?",disciplina_no_curso,coletado
+"Quantos semestre tem Eng Comp?",cursos_facom,coletado
+"Quais professores vão dar Sistemas Digitais semestre que vem?",docentes,coletado
+"Eai chat",chitchat,coletado
+"Isso mesmo, valeuu",chitchat,coletado
+"Tem algum restaurante barato perto da UF?",fora_dominio,coletado
+"Onde tá o businho?",fora_dominio,coletado
+"Tá tendo jogo do Flamengo hoje?",fora_dominio,coletado
+"Em qual semestre fica a matéria de Equações diferenciais ordinárias do curso de Engenharia de Computação da UFMS?",periodo_disciplina,coletado
+"Quais matérias são cursadas no 4° semestre de engenharia de computação na UFMS",disciplinas_periodo,coletado
+"A matéria de alg prog 1 e obrigatória na grade de engenharia de computação da UFMS?",obrigatorias,coletado
+"Libras e uma matéria optativa de Eng comp na Ufms?",optativas,coletado
+"Qual a carga horária de alg prog 1 na UFMS?",dados_disciplina,coletado
+"Quais os pré requisitos para cursar a matéria de cálculo 3?",prerequisitos,coletado
+"A matéria de engenharia de produção faz parte da matriz de engenharia de computação na UFMS?",disciplina_no_curso,coletado
+"Quantos anos tem o curso de Eng comp na ufms",cursos_facom,coletado
+"Quem são os professores da facom?",docentes,coletado
+"Boa tarde",chitchat,coletado
+"Valeu",chitchat,coletado
+"Qual a data exata que Pero Vaz de caminha mandou sua carta?",fora_dominio,coletado
+"Qual a capital do ms?",fora_dominio,coletado
+"Quando se separou MS de MT?",fora_dominio,coletado

@@ -53,7 +53,56 @@ texto,intencao,origem
 "Qual matéria o professor Bruno da FACOM leciona?",fora_dominio,humano
 "Quantos anos tem a FACOM?",fora_dominio,humano
 
+"em qual semestre da grade entra engenharia de software 2?",periodo_disciplina,humano
+"algoritmos 1 fica logo no primeiro semestre?",periodo_disciplina,humano
+"sabe dizer em q periodo tem sistemas distribuidos?",periodo_disciplina,humano
 
+"quais sao as disciplinas do 2 semestre de bcc?",disciplinas_periodo,humano
+"o que a gente cursa no quarto periodo do tads?",disciplinas_periodo,humano
+"me passa as materias do 3 semestre de si",disciplinas_periodo,humano
+
+"banco de dados 1 eh obrigatoria em engsoft?",obrigatorias,humano
+"preciso fazer calculo 2 obrigatoriamente no tads?",obrigatorias,humano
+"quais materias sao obrigatorias no curso de bcc?",obrigatorias,humano
+
+"tem alguma optativa na area de desenvolvimento web?",optativas,humano
+"computacao em nuvem entra como optativa na facom?",optativas,humano
+"quais materias optativas posso escolher em engsoft?",optativas,humano
+
+"qual a carga horaria de calculo 2?",dados_disciplina,humano
+"me mostra a ementa da disciplina de grafos",dados_disciplina,humano
+"qual o codigo da materia de redes de computadores?",dados_disciplina,humano
+
+"preciso passar em o que antes de pegar estrutura de dados?",prerequisitos,humano
+"algoritmos 2 eh pre requisito pra qual materia?",prerequisitos,humano
+"tem algum pre requisito pra cursar engenharia de software 1?",prerequisitos,humano
+
+"o curso de si tem compiladores na grade?",disciplina_no_curso,humano
+"existe fisica 2 no curso de ciencia da computacao?",disciplina_no_curso,humano
+"tads tem inteligencia artificial?",disciplina_no_curso,humano
+
+"quantos semestres dura o curso de engenharia de software?",cursos_facom,humano
+"ciencia da computacao na ufms eh integral?",cursos_facom,humano
+"quais sao os cursos de graduacao da facom?",cursos_facom,humano
+
+"quem da aula de matematica discreta na facom?",docentes,humano
+"quais professores dao aula no curso de sistemas de informacao?",docentes,humano
+"quem eh o docente responsavel por sistemas operacionais?",docentes,humano
+
+"oi tudo bem por ai?",chitchat,humano
+"valeu demais pela ajuda com a grade!",chitchat,humano
+"bom dia bot, pode me tirar uma duvida?",chitchat,humano
+"ate mais, muito obrigado!",chitchat,humano
+"vc eh um chatbot da ufms?",chitchat,humano
+
+"como faco pra pedir quebra de pre requisito no siscad?",fora_dominio,humano
+"onde vejo minhas notas e faltas de algoritmos?",fora_dominio,humano
+"qual o horario de funcionamento da secretaria da facom?",fora_dominio,humano
+"como funciona o aproveitamento de disciplina de outra universidade?",fora_dominio,humano
+"que horas o ru abre pro jantar hoje?",fora_dominio,humano
+"como conectar no wifi eduroam da ufms?",fora_dominio,humano
+"vai chover hoje em campo grande?",fora_dominio,humano
+"qual a diferenca entre python e c++?",fora_dominio,humano
 
 
 "Qual é a carga horária da disciplina de Estrutura de Dados?",dados_disciplina,llm
