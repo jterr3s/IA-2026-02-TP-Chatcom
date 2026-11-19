@@ -47,7 +47,7 @@ texto,intencao,origem
 "Que horas abre a biblioteca?",fora_dominio,humano
 "Que horas abre a FACOM?",fora_dominio,humano
 "Tem IA em jornalismo?",fora_dominio,humano
-"Qual comida tem no RU?"fora_dominio,humano
+"Qual comida tem no RU?",fora_dominio,humano
 "O que tem de bom na materia AlgProg1?",fora_dominio,humano
 "Que horas fecha a UFMS?",fora_dominio,humano
 "Qual matéria o professor Bruno da FACOM leciona?",fora_dominio,humano
@@ -103,6 +103,87 @@ texto,intencao,origem
 "como conectar no wifi eduroam da ufms?",fora_dominio,humano
 "vai chover hoje em campo grande?",fora_dominio,humano
 "qual a diferenca entre python e c++?",fora_dominio,humano
+
+em qual período tenho Cálculo II em inteligência artificial?,periodo_disciplina,humano
+quando terei linguagem de programação orientada a objetos (lpoo) em sistemas de informação?,periodo_disciplina,humano
+"como aluno de sistemas de informação, quando terei a matéria linguagens formais e autômatos (lfa)?",periodo_disciplina,humano
+no 3º período de engenharia de software tem análise e projeto de software orientado a objetos (apsoo)?,disciplinas_periodo,humano
+quais são as disciplinas do 6º período de sistemas de informação?,disciplinas_periodo,humano
+no 1º período de inteligência artificial tem inteligência artificial?,disciplinas_periodo,humano
+estrutura de dados é uma matéria obrigatória de inteligência artificial?,obrigatorias,humano
+introdução a computação é uma matéria obrigatória em todos os cursos da FACOM?,obrigatorias,humano
+me diga se cálculo I tem obrigatoriedade em todos os cursos da FACOM,obrigatorias,humano
+quais matérias optativas engenharia de software oferta?,optativas,humano
+me fale todas as optativas oferecidas pela FACOM,optativas,humano
+algoritmos e programação II é optativa em sistemas de informação?,optativas,humano
+qual a carga horária contida de lfa?,dados_disciplina,humano
+me diga qual o código de estrutura de dados,dados_disciplina,humano
+qual é o número de lpoo?,dados_disciplina,humano
+quais os pré-requisitos necessários para pagar equações diferencias ordinárias (edo) em engenharia de computação?,prerequisitos,humano
+computação e sociedade tem algum pre-requisito em engenharia de software?,prerequisitos,humano
+me diga se linguagens formais e autômatos (lfa) tem pré-requisitos em engenharia de computação,prerequisitos,humano
+o curso IA possui a matéria IA?,disciplina_no_curso,humano
+o curso sistemas de informação possui estrutura de dados?,disciplina_no_curso,humano
+quais as matérias que diferenciam sistemas de informação e ia?,disciplina_no_curso,humano
+análise e desenvolvimento de sistemas (ads) é um curso pertencente a FACOM?,cursos_facom,humano
+me diga se a facom tem engenharia mecatrônica,cursos_facom,humano
+engenharia mecânica é um curso da FACOM?,cursos_facom,humano
+a coordenadora Luciana Hueng também é professora da FACOM?,docentes,humano
+me diga se o Takashi dá aula na FACOM,docentes,humano
+quais os professores de engenharia de computação?,docentes,humano
+"opa, bão?",chitchat,humano
+"aoba, de boa?",chitchat,humano
+fala meu patrão,chitchat,humano
+oii chat,chitchat,humano
+"olá, bom dia",chitchat,humano
+como faço para engressar na trilha para o mestrado de computação aplicada?,fora_dominio,humano
+quais são os programas de pós-gradução fornecidos pela FACOM?,fora_dominio,humano
+"sendo de inteligência artificial, como faço para ingressar na atlética?",fora_dominio,humano
+"algoritmo e programação I (algprog I) é uma matéria presente em engenharia civil?",fora_dominio,humano
+qual a fórmula de bhaskara?,fora_dominio,humano
+como faço para me candidatar ao PetSistemas?,fora_dominio,humano
+me fale a diferença entre concreto II e estrutura de dados,fora_dominio,humano
+diga o que é FAENG,fora_dominio,humano
+em qual semestre a disciplina de redes de computadores é ofertada em ciência da computação?,periodo_disciplina,humano
+a partir de qual período eu pego laboratório banco de dados em engenharia de software?,periodo_disciplina,humano
+compiladores fica em qual período da grade de ciência da computação?,periodo_disciplina,humano
+quais matérias eu vou cursar no 4º período de ciência da computação?,disciplinas_periodo,humano
+me lista as disciplinas do 2º semestre de sistemas de informação,disciplinas_periodo,humano
+o que tem na grade do 5º período de engenharia de computação?,disciplinas_periodo,humano
+sistemas operacionais faz parte do núcleo obrigatório de engenharia de software?,obrigatorias,humano
+me diga quais são todas as matérias obrigatórias do curso de ciência da computação,obrigatorias,humano
+preciso fazer arquitetura de computadores obrigatoriamente em sistemas de informação?,obrigatorias,humano
+quais optativas estão disponíveis na grade de ciência da computação?,optativas,humano
+tópicos especiais em computação entra como optativa em engenharia de software?,optativas,humano
+me mostra algumas opções de matérias optativas para inteligência artificial,optativas,humano
+qual é a carga horária total da disciplina de inteligência artificial?,dados_disciplina,humano
+me passa o código da matéria de engenharia de software I,dados_disciplina,humano
+quantas horas tem a disciplina de álgebra linear?,dados_disciplina,humano
+preciso ter feito qual matéria antes de puxar estrutura de dados?,prerequisitos,humano
+banco de dados relacional exige algum pré-requisito em sistemas de informação?,prerequisitos,humano
+quais matérias trancam cálculo II em engenharia de computação?,prerequisitos,humano
+engenharia de software tem a disciplina de computação gráfica na grade?,disciplina_no_curso,humano
+qual a diferença entre a grade de ciência da computação e inteligência artificial?,disciplina_no_curso,humano
+me diga se no curso de inteligência artificial tem física I,disciplina_no_curso,humano
+quais são os cursos de graduação da facom hoje em dia?,cursos_facom,humano
+ciência de dados é um curso ofertado pela facom?,cursos_facom,humano
+quais engenharias pertencem à facom?,cursos_facom,humano
+quem faz parte do corpo docente do curso de sistemas de informação?,docentes,humano
+o professor Edson Takashi dá aula em quais cursos da facom?,docentes,humano
+me passa a lista de docentes da facom,docentes,humano
+oie chat,chitchat,humano
+valeu chat te amo,chitchat,humano
+tudo certo por aí?,chitchat,humano
+"oi, tudo bem?",chitchat,humano
+obrigado,chitchat,humano
+onde fica o bloco da facom no campus?,fora_dominio,humano
+como faço para pedir aproveitamento de estudos na secretaria?,fora_dominio,humano
+qual a nota de corte do sisu para ciência da computação?,fora_dominio,humano
+me diga os docentes presentes na faodo,fora_dominio,humano
+como funciona o estágio obrigatório na ufms?,fora_dominio,humano
+quais projetos de extensão existem na facom?,fora_dominio,humano
+quando começa o período de matrícula no siscad?,fora_dominio,humano
+qual o horário de funcionamento da facom?,fora_dominio,humano
 
 
 "Qual é a carga horária da disciplina de Estrutura de Dados?",dados_disciplina,llm
