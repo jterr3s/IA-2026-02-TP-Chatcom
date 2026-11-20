@@ -1,10 +1,3 @@
-# =============================================================================
-#  CONFIGURAÇÃO DO GRUPO - preencha todos os campos marcados com TODO.
-#  Este arquivo é lido pelo código base, pelo notebook e pelo script de
-#  avaliação. Mantenha a estrutura (nomes das chaves) exatamente como está.
-#  Veja um exemplo completo em exemplos/biblioteca/grupo.yaml.
-# =============================================================================
-
 grupo:
   nome: "Grupo FACOM Chat"
   integrantes:          # 3 a 4 integrantes
@@ -12,6 +5,8 @@ grupo:
       rga: "202519060465"
     - nome: "Natan Alves Teodoro da Silva"
       rga: "202119060204"
+    - nome: "Vinícius Fialho Cominetti "
+      rga: "202519060236"
 
 tema:
   nome: "Chatcom"

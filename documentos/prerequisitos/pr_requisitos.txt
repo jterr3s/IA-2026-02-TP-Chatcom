@@ -1,0 +1,198 @@
+# Quadro de Pré-requisitos e Distribuição por Semestre — Cursos da FACOM/UFMS
+
+Este documento reúne os pré-requisitos oficiais obrigatórios extraídos dos fluxogramas curriculares dos cursos de Ciência da Computação, Engenharia de Software e Engenharia de Computação da FACOM/UFMS.
+
+---
+
+## 1. Bacharelado em Ciência da Computação (CC)
+
+### 1º Semestre
+- Cálculo I (68h) — Sem pré-requisitos.
+- Vetores e Geometria Analítica (68h) — Sem pré-requisitos.
+- Algoritmos e Programação I (102h) — Sem pré-requisitos.
+- Computação e Sociedade (34h) — Sem pré-requisitos.
+- Introdução à Computação (34h) — Sem pré-requisitos.
+
+### 2º Semestre
+- Cálculo II (68h) — Pré-requisito: Cálculo I.
+- Sequência e Séries (34h) — Pré-requisito: Cálculo I.
+- Algoritmos e Programação II (102h) — Pré-requisito: Algoritmos e Programação I.
+- Fundamentos de Teoria da Computação (68h) — Sem pré-requisitos.
+- Sistemas Digitais (68h) — Sem pré-requisitos.
+
+### 3º Semestre
+- Álgebra Linear (68h) — Sem pré-requisitos.
+- Linguagem de Programação Orientada a Objetos (68h) — Pré-requisito: Algoritmos e Programação I.
+- Estrutura de Dados (68h) — Pré-requisito: Algoritmos e Programação II.
+- Linguagens Formais e Autômatos (68h) — Pré-requisito: Fundamentos de Teoria da Computação.
+- Banco de Dados (68h) — Sem pré-requisitos.
+
+### 4º Semestre
+- Probabilidade e Estatística (68h) — Sem pré-requisitos.
+- Projeto e Análise de Algoritmos I (68h) — Pré-requisitos: Algoritmos e Programação II e Fundamentos de Teoria da Computação.
+- Teoria dos Grafos e seus Algoritmos (68h) — Pré-requisitos: Algoritmos e Programação II e Fundamentos de Teoria da Computação.
+- Engenharia de Software (68h) — Sem pré-requisitos.
+- Arquitetura de Computadores I (68h) — Pré-requisitos: Algoritmos e Programação I e Sistemas Digitais.
+
+### 5º Semestre
+- Métodos Numéricos (68h) — Sem pré-requisitos.
+- Inteligência Artificial (68h) — Pré-requisitos: Probabilidade e Estatística, Algoritmos e Programação II e Fundamentos de Teoria da Computação.
+- Compiladores I (68h) — Pré-requisitos: Estrutura de Dados e Linguagens Formais e Autômatos.
+- Sistemas Operacionais (68h) — Pré-requisito: Arquitetura de Computadores I.
+- Arquitetura de Computadores II (68h) — Pré-requisito: Arquitetura de Computadores I.
+
+### 6º Semestre
+- Computação Gráfica (68h) — Pré-requisitos: Vetores e Geometria Analítica, Algoritmos e Programação II e Fundamentos de Teoria da Computação.
+- Análise e Projeto de Softwares Orientados a Objetos (68h) — Pré-requisito: Linguagem de Programação Orientada a Objetos.
+- Programação Paralela (68h) — Pré-requisito: Estrutura de Dados.
+- Redes de Computadores (68h) — Pré-requisito: Sistemas Operacionais.
+
+### 7º Semestre
+- Sistemas Distribuídos (68h) — Pré-requisito: Sistemas Operacionais.
+
+### 8º Semestre (Componentes Curriculares Não Disciplinares e Optativas)
+- TCC (136h)
+- Atividades Complementares (146h)
+- Atividades de Extensão (320h)
+- Disciplinas Optativas (272h)
+- Atividades Orientadas de Ensino
+- Estágio Obrigatório (320h)
+
+---
+
+## 2. Bacharelado em Engenharia de Software (ES — Matriz 2025)
+
+### 1º Semestre
+- Fundamentos Matemáticos para Computação — Sem pré-requisitos.
+- Fundamentos da Administração — Sem pré-requisitos.
+- Algoritmos e Programação I — Sem pré-requisitos.
+- Estatística — Sem pré-requisitos.
+- Introdução à Computação — Sem pré-requisitos.
+- Introdução à Engenharia de Software — Sem pré-requisitos.
+
+### 2º Semestre
+- Algoritmos e Programação II — Pré-requisito: Algoritmos e Programação I.
+- Banco de Dados — Sem pré-requisitos obrigatórios.
+- Linguagem de Programação OO — Pré-requisito: Algoritmos e Programação I.
+- Modelagem de Processos de Negócio — Sem pré-requisitos obrigatórios.
+- Interação Humano-Computador — Sem pré-requisitos obrigatórios.
+
+### 3º Semestre
+- Estruturas de Dados — Pré-requisito: Algoritmos e Programação II.
+- Organização de Computadores — Sem pré-requisitos obrigatórios.
+- Análise e Projeto de Software OO — Pré-requisito: Linguagem de Programação OO.
+- Gerência de Projetos — Sem pré-requisitos obrigatórios.
+- Engenharia de Requisitos — Pré-requisito: Estatística.
+
+### 4º Semestre
+- Introdução a Sistemas Operacionais — Pré-requisito: Algoritmos e Programação II.
+- Inteligência Artificial — Pré-requisito: Algoritmos e Programação II.
+- Laboratório de Banco de Dados — Pré-requisito: Banco de Dados.
+- Programação para Web — Pré-requisito: Linguagem de Programação OO.
+- Arquitetura de Software — Pré-requisito: Engenharia de Requisitos.
+- Melhoria de Processos de Software — Pré-requisito: Modelagem de Processos de Negócio.
+
+### 5º Semestre
+- Fundamentos de Redes de Computadores — Pré-requisito: Organização de Computadores.
+- Técnicas Avançadas de Desenvolvimento de Software — Pré-requisitos: Linguagem de Programação OO e Programação para Web.
+- Validação, Verificação e Teste de Software — Pré-requisito: Análise e Projeto de Software OO.
+- Gerência de Configuração de Software — Pré-requisito: Gerência de Projetos.
+- Medição de Software — Pré-requisito: Melhoria de Processos de Software.
+- Optativa 1 (60h).
+
+### 6º Semestre
+- Implementação Algorítmica — Pré-requisito: Algoritmos e Programação II.
+- Computação Distribuída — Pré-requisito: Introdução a Sistemas Operacionais.
+- Programação para Dispositivos Móveis — Pré-requisito: Linguagem de Programação OO.
+- Manutenção de Software — Pré-requisito: Engenharia de Requisitos.
+- Engenharia de Software Experimental — Pré-requisitos: Engenharia de Requisitos e Medição de Software.
+- Optativa 2 (60h).
+
+### 7º Semestre
+- Prática em Desenvolvimento de Software I — Pré-requisitos: Programação para Dispositivos Móveis, Programação para Web, Validação, Verificação e Teste de Software, Gerência de Configuração de Software e Arquitetura de Software.
+- Estágio Obrigatório (270h).
+- Optativa 3 (60h).
+- Optativa 4 (60h).
+
+### 8º Semestre
+- Prática em Desenvolvimento de Software II — Pré-requisitos: Programação para Dispositivos Móveis, Programação para Web, Validação, Verificação e Teste de Software, Gerência de Configuração de Software e Arquitetura de Software.
+- Computação e Sociedade.
+- Atividades Complementares (260h).
+- Optativa 5 (60h).
+
+---
+
+## 3. Bacharelado em Engenharia de Computação (EC)
+
+### 1º Semestre
+- Cálculo I — Sem pré-requisitos.
+- Vetores e Geometria Analítica (VGA) — Sem pré-requisitos.
+- Introdução à Computação — Sem pré-requisitos.
+- Programação I (Prog I) — Sem pré-requisitos.
+
+### 2º Semestre
+- Cálculo II — Pré-requisito: Cálculo I.
+- Sequências e Séries — Sem pré-requisitos.
+- Fundamentos de Mecânica — Sem pré-requisitos.
+- Laboratório de Mecânica, Fluidos e Termodinâmica — Sem pré-requisitos.
+- Fundamentos de Teoria da Computação — Sem pré-requisitos.
+- Programação II (Prog II) — Pré-requisito: Programação I.
+
+### 3º Semestre
+- Cálculo III — Pré-requisito: Cálculo II.
+- Álgebra Linear — Sem pré-requisitos.
+- Fundamentos de Fluidos, Ondas e Termodinâmica — Pré-requisito: Fundamentos de Mecânica.
+- Laboratório de Ondas e Eletromagnetismo — Sem pré-requisitos.
+- Estrutura de Dados — Pré-requisito: Programação II.
+- Sistemas Digitais — Sem pré-requisitos.
+
+### 4º Semestre
+- Equações Diferenciais Ordinárias (Eq. Dif. Ord.) — Pré-requisito: Cálculo III.
+- Fundamentos de Eletromagnetismo — Pré-requisitos: Cálculo II e Fundamentos de Mecânica.
+- Mecânica Geral — Pré-requisito: Fundamentos de Mecânica.
+- Linguagens Formais e Autômatos — Pré-requisito: Fundamentos de Teoria da Computação.
+- Linguagem de Programação Orientada a Objetos (Ling. Prog. OO) — Pré-requisito: Programação I.
+- Arquitetura de Computadores I — Pré-requisitos: Programação I e Sistemas Digitais.
+
+### 5º Semestre
+- Probabilidade e Estatística — Sem pré-requisitos.
+- Análise de Sinais e Sistemas — Pré-requisito: Equações Diferenciais Ordinárias.
+- Circuitos Elétricos — Pré-requisito: Fundamentos de Eletromagnetismo.
+- Mecânica dos Sólidos — Pré-requisito: Mecânica Geral.
+- Projeto e Análise de Algoritmos — Pré-requisitos: Fundamentos de Teoria da Computação e Estrutura de Dados.
+- Arquitetura de Computadores II — Pré-requisito: Arquitetura de Computadores I.
+
+### 6º Semestre
+- Métodos Numéricos — Sem pré-requisitos.
+- Controle e Servomecanismos — Pré-requisito: Análise de Sinais e Sistemas.
+- Circuitos Eletrônicos — Pré-requisito: Circuitos Elétricos.
+- Banco de Dados — Sem pré-requisitos.
+- Compiladores I — Pré-requisitos: Estrutura de Dados e Linguagens Formais e Autômatos.
+
+### 7º Semestre
+- Fundamentos de Fenômenos dos Transportes — Pré-requisito: Cálculo II.
+- Microcontroladores e Aplicações (MICAP) — Pré-requisitos: Circuitos Eletrônicos e Arquitetura de Computadores II.
+- Comunicação e Transmissão de Dados — Pré-requisito: Análise de Sinais e Sistemas.
+- Inteligência Artificial — Pré-requisitos: Fundamentos de Teoria da Computação e Estrutura de Dados.
+- Sistemas Operacionais — Pré-requisitos: Programação II e Arquitetura de Computadores I.
+- Fundamentos de Economia — Sem pré-requisitos.
+
+### 8º Semestre
+- Química Geral — Sem pré-requisitos.
+- Química Geral Experimental — Sem pré-requisitos.
+- Sistemas Industriais e Automação Integrada (SIAI) — Pré-requisito: Microcontroladores e Aplicações (MICAP).
+- Laboratório de Hardware — Pré-requisitos: Sistemas Digitais e Arquitetura de Computadores II.
+- Redes de Computadores — Pré-requisito: Sistemas Operacionais.
+- Computação e Sociedade — Sem pré-requisitos.
+
+### 9º Semestre
+- Desenho por Computador — Sem pré-requisitos.
+- Engenharia de Software — Sem pré-requisitos.
+- Introdução à Gestão Organizacional — Sem pré-requisitos.
+
+### 10º Semestre (CCNDs e Optativas)
+- TCC (51h)
+- Estágio Obrigatório (160h)
+- Atividades Complementares (34h)
+- Atividades de Extensão (373h)
+- Disciplinas Optativas (170h)

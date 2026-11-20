@@ -1,112 +1,246 @@
 texto,intencao,origem
-
-"Qual semestre fica estatistica?",periodo_disciplina,coletado
-"Quais disciplinas eu curso no 4 semestre de eng eletrica",disciplinas_periodo,coletado
-"A materia de calculo é obrigatorio em engenharia de software",obrigatorias,coletado
-"Quais materias optativas tem?",optativas,coletado
-"Qual a carga horaria de vetor e algebra linear",dados_disciplina,coletado
-"O que precisa pra eu conseguir cursar eletromagnetismo",prerequisitos,coletado
-"Existe a materia de libras?",disciplina_no_curso,coletado
-"Qual materia esta no segundo semestre de bcc",disciplinas_periodo,coletado
-"Quem é o professor de circuitos?",docentes,coletado
-"Fala comigo",chitchat,coletado
-"Obrigado",chitchat,coletado
-"Como faco pra entrar na ufms",fora_dominio,coletado
-"O que é perielio?",fora_dominio,coletado
-"Me fala uma teoria da conspiracao que voce acredita",fora_dominio,coletado
-"Cálculo 1 é obrigatório em Engenharia de Software?",obrigatorias,coletado
-"Quais optativas existem?",optativas,coletado
-"Qual a carga horária de Estruturas de Dados?",dados_disciplina,coletado
-"Pré requisitos de Pratica e Desenvolvimento de Softwares",prerequisitos,coletado
-"Introdução à Sistemas Operacionais para a matéria de Inteligência Artificial",prerequisitos,coletado
-"EngSoft tem TCC?",disciplina_no_curso,coletado
-"Qual o professor(a) de Arquitetura de Software?",docentes,coletado
-"Olá!",chitchat,coletado
-"Valeu!",chitchat,coletado
-"Qual o clima hoje?",fora_dominio,coletado
-"Porque a inflação está alta?",fora_dominio,coletado
-"Qual o preço do combustível?",fora_dominio,coletado
-"Sabe me dizer em qual semestre fica a matéria Banco de Dados?",periodo_disciplina,coletado
-"Quais matérias tem no 5° semestre do curso de Engenharia de Software da UFMS?",disciplinas_periodo,coletado
-"A matéria de Fisiologia do Exercício é uma matéria obrigatória no curso de Nutrição?",obrigatorias,coletado
-"Quais matérias optativas eu posso fazer a partir do 2° semestre do curso?",optativas,coletado
-"Qual a carga horária da matéria Banca de Dados?",dados_disciplina,coletado
-"Qual pré-requisito eu preciso ter para poder cursar a matéria de Programação para Web?",prerequisitos,coletado
-"A matéria chamada Medição de Software existe na grade curricular da UFMS?",disciplina_no_curso,coletado
-"Quantos anos leva para se formar em Engenharia de Computação?",cursos_facom,coletado
-"Quem dá aula de Computação Distribuída na UFMS?",docentes,coletado
-"Oii",chitchat,coletado
-"Me ajudou demais. Obrigadaa",chitchat,coletado
-"Quanto eu gastaria em média para ir de São Paulo a Santos de carro?",fora_dominio,coletado
-"Me ajuda a montar uma planilha de gastos mensais?",fora_dominio,coletado
-"Me ajuda a esitar iluminação e contraste dessa foto?",fora_dominio,coletado
-"em que semestre de ciencia da computacao tem teoria dos grafos",periodo_disciplina,coletado
-"quais sao as disciplinas obrigatorias do primeiro semestre de engenharia da computacao",disciplinas_periodo,coletado
-"inteligencia artificial é obrigatoria em ciencia da computacao",obrigatorias,coletado
-"quais sao as materias optativas de engenharia de software",optativas,coletado
-"qual é o codigo da disciplina de interacao humano computador",dados_disciplina,coletado
-"quais sao os pre-requisitos de estrutura de dados",prerequisitos,coletado
-"bioquimica faz parte de engenharia da computacao",disciplina_no_curso,coletado
-"quantos semestres tem SI",cursos_facom,coletado
-"quem leciona fundamentos da teoria da computacao",docentes,coletado
-"saudacoes",chitchat,coletado
-"que deus lhe abencoe",chitchat,coletado
-"quando abrem as matriculas",fora_dominio,coletado
-"qual o numero da secretaria da facom",fora_dominio,coletado
-"quando é a prova de ia",fora_dominio,coletado
-"Em qual semestre da Faculdade de computação é possível cursar a disciplina de algoritmos",periodo_disciplina,coletado
-"No segundo semestre da faculdade de computação quais disciplinas estão disponiveis?",disciplinas_periodo,coletado
+Qual semestre fica estatistica?,periodo_disciplina,coletado
+Quais disciplinas eu curso no 4 semestre de eng eletrica,disciplinas_periodo,coletado
+A materia de calculo é obrigatorio em engenharia de software,obrigatorias,coletado
+Quais materias optativas tem?,optativas,coletado
+Qual a carga horaria de vetor e algebra linear,dados_disciplina,coletado
+O que precisa pra eu conseguir cursar eletromagnetismo,prerequisitos,coletado
+Existe a materia de libras?,disciplina_no_curso,coletado
+Qual materia esta no segundo semestre de bcc,cursos_facom,coletado
+Quem é o professor de circuitos?,docentes,coletado
+Fala comigo,chitchat,coletado
+Como faco pra entrar na ufms,fora_dominio,coletado
+O que é perielio?,fora_dominio,coletado
+Me fala uma teoria da conspiracao que voce acredita,fora_dominio,coletado
+Arquitetura de Software,periodo_disciplina,coletado
+5° Semestre,disciplinas_periodo,coletado
+Cálculo 1 é obrigatório em Engenharia de Software?,obrigatorias,coletado
+Quais optativas existem?,optativas,coletado
+Qual a carga horária de Estruturas de Dados?,dados_disciplina,coletado
+Pré requisitos de Pratica e Desenvolvimento de Softwares,prerequisitos,coletado
+Introdução à Sistemas Operacionais para a matéria de Inteligência Artificial,disciplina_no_curso,coletado
+EngSoft tem TCC?,cursos_facom,coletado
+Qual o professor(a) de Arquitetura de Software?,docentes,coletado
+Olá!,chitchat,coletado
+Valeu!,chitchat,coletado
+Qual o clima hoje?,fora_dominio,coletado
+Porque a inflação está alta?,fora_dominio,coletado
+Qual o preço do combustível?,fora_dominio,coletado
+Sabe me dizer em qual semestre fica a matéria Banco de Dados?,periodo_disciplina,coletado
+Quais matérias tem no 5° semestre do curso de Engenharia de Software da UFMS?,disciplinas_periodo,coletado
+A matéria de Fisiologia do Exercício é uma matéria obrigatória no curso de Nutrição?,obrigatorias,coletado
+Quais matérias optativas eu posso fazer a partir do 2° semestre do curso?,optativas,coletado
+Qual a carga horária da matéria Banca de Dados?,dados_disciplina,coletado
+Qual pré-requisito eu preciso ter para poder cursar a matéria de Programação para Web?,prerequisitos,coletado
+A matéria chamada Medição de Software existe na grade curricular da UFMS?,disciplina_no_curso,coletado
+Quantos anos leva para se formar em Engenharia de Computação?,cursos_facom,coletado
+Quem dá aula de Computação Distribuída na UFMS?,docentes,coletado
+Oii,chitchat,coletado
+Me ajudou demais. Obrigadaa,chitchat,coletado
+Quanto eu gastaria em média para ir de São Paulo a Santos de carro?,fora_dominio,coletado
+Me ajuda a montar uma planilha de gastos mensais?,fora_dominio,coletado
+Me ajuda a esitar iluminação e contraste dessa foto?,fora_dominio,coletado
+em que semestre de ciencia da computacao tem teoria dos grafos,periodo_disciplina,coletado
+quais sao as disciplinas obrigatorias do primeiro semestre de engenharia da computacao,disciplinas_periodo,coletado
+inteligencia artificial é obrigatoria em ciencia da computacao,obrigatorias,coletado
+quais sao as materias optativas de engenharia de software,optativas,coletado
+qual é o codigo da disciplina de interacao humano computador,dados_disciplina,coletado
+quais sao os pre-requisitos de estrutura de dados,prerequisitos,coletado
+bioquimica faz parte de engenharia da computacao,disciplina_no_curso,coletado
+quantos semestres tem SI,cursos_facom,coletado
+quem leciona fundamentos da teoria da computacao,docentes,coletado
+saudacoes,chitchat,coletado
+que deus lhe abencoe,chitchat,coletado
+quando abrem as matriculas,fora_dominio,coletado
+qual o numero da secretaria da facom,fora_dominio,coletado
+quando é a prova de ia,fora_dominio,coletado
+Em qual semestre da Faculdade de computação é possível cursar a disciplina de algoritmos,periodo_disciplina,coletado
+No segundo semestre da faculdade de computação quais disciplinas estão disponiveis?,disciplinas_periodo,coletado
 "Na Faculdade de computação, a disciplinas de banco de dados é obrigatória para formação academica?",obrigatorias,coletado
-"Quais disciplines optativas estão disponíveis para academicos do curso de computação?",optativas,coletado
-"Qual a carga horária total da disciplina de Algoritmos na Faculdade de Computação?",dados_disciplina,coletado
-"É necessário cursar alguma disciplina como pré-requisito para cursar IA na faculdade de computação?",prerequisitos,coletado
-"A matéria de IA faz parte da grade curricular da faculdade de computação?",disciplina_no_curso,coletado
-"Qual a carga horária a se cumprir no curso de Engenharia de Software?",cursos_facom,coletado
-"Qual o nome do professor responsável pela disciplina de Algoritmos da faculdade de computação?",docentes,coletado
-"Ola",chitchat,coletado
-"Muito obrigada",chitchat,coletado
-"Qual a previsão do tempo da semana?",fora_dominio,coletado
-"Quais cursos de graduação a UFMS oferta?",fora_dominio,coletado
-"Qual a programação dos transportes para academicos dentro da UFMS?",fora_dominio,coletado
-"Em qual semestre é lecionado Estrutuda de Dados para Engenharia de Software?",periodo_disciplina,coletado
-"Quais disciplinas são ofertadas no 5° semestre de Engenharia de Software?",disciplinas_periodo,coletado
-"A matéria de Estatística é obrigatória para Engenharia da Computação?",obrigatorias,coletado
-"Cálculo I é uma matéria optativa para Sistemas de Informação?",optativas,coletado
-"Qual o código da matéria de Algoritmos e Programação II e o que é ensinado na disciplina?",dados_disciplina,coletado
-"Quais matéria eu preciso ter feito para fazer o NES I?",prerequisitos,coletado
-"Tem Cálculo II em Engenharia de Software?",disciplina_no_curso,coletado
-"Quais são as habilidades de um Engenheiro de Software?",cursos_facom,coletado
-"A professora Luciana Montera entrou em qual ano na faculdade?",docentes,coletado
-"Hello",chitchat,coletado
+Quais disciplines optativas estão disponíveis para academicos do curso de computação?,optativas,coletado
+Qual a carga horária total da disciplina de Algoritmos na Faculdade de Computação?,dados_disciplina,coletado
+É necessário cursar alguma disciplina como pré-requisito para cursar IA na faculdade de computação?,prerequisitos,coletado
+A matéria de IA faz parte da grade curricular da faculdade de computação?,disciplina_no_curso,coletado
+Qual a carga horária a se cumprir no curso de Engenharia de Software?,cursos_facom,coletado
+Qual o nome do professor responsável pela disciplina de Algoritmos da faculdade de computação?,docentes,coletado
+Ola,chitchat,coletado
+Muito obrigada,chitchat,coletado
+Qual a previsão do tempo da semana?,fora_dominio,coletado
+Quais cursos de graduação a UFMS oferta?,fora_dominio,coletado
+Qual a programação dos transportes para academicos dentro da UFMS?,fora_dominio,coletado
+Em qual semestre é lecionado Estrutuda de Dados para Engenharia de Software?,periodo_disciplina,coletado
+Quais disciplinas são ofertadas no 5° semestre de Engenharia de Software?,disciplinas_periodo,coletado
+A matéria de Estatística é obrigatória para Engenharia da Computação?,obrigatorias,coletado
+Cálculo I é uma matéria optativa para Sistemas de Informação?,optativas,coletado
+Qual o código da matéria de Algoritmos e Programação II e o que é ensinado na disciplina?,dados_disciplina,coletado
+Quais matéria eu preciso ter feito para fazer o NES I?,prerequisitos,coletado
+Tem Cálculo II em Engenharia de Software?,disciplina_no_curso,coletado
+Quais são as habilidades de um Engenheiro de Software?,cursos_facom,coletado
+A professora Luciana Montera entrou em qual ano na faculdade?,docentes,coletado
+Hello,chitchat,coletado
 "Valeu, falou",chitchat,coletado
-"Qual a quantidade de horas jogadas para ter 50% de chance de conseguir o Token Pirata do Fortnite?",fora_dominio,coletado
-"Qual a religião predominante na África do Sul?",fora_dominio,coletado
-"Quem foi o campeão mundial de xadrez em 1969?",fora_dominio,coletado
-"Em qual semestre a gente têm Redes Neurais?",periodo_disciplina,coletado
-"Quais matérias vão ter no 5º semestre de Eng. Comp.?",disciplinas_periodo,coletado
-"Teoria dos Grafos é obrigatório em Eng Comp?",obrigatorias,coletado
-"Quais as matérias optativas que vão ser ofertadas no semestre que vem?",optativas,coletado
-"Quantas horas tem LPOO?",dados_disciplina,coletado
-"Eu preciso de quais matérias pra fazer Probabilidade e Estatística?",prerequisitos,coletado
-"Libras faz parte de Eng Comp?",disciplina_no_curso,coletado
-"Quantos semestre tem Eng Comp?",cursos_facom,coletado
-"Quais professores vão dar Sistemas Digitais semestre que vem?",docentes,coletado
-"Eai chat",chitchat,coletado
+Qual a quantidade de horas jogadas para ter 50% de chance de conseguir o Token Pirata do Fortnite?,fora_dominio,coletado
+Qual a religião predominante na África do Sul?,fora_dominio,coletado
+Quem foi o campeão mundial de xadrez em 1969?,fora_dominio,coletado
+Em qual semestre a gente têm Redes Neurais?,periodo_disciplina,coletado
+Quais matérias vão ter no 5º semestre de Eng. Comp.?,disciplinas_periodo,coletado
+Teoria dos Grafos é obrigatório em Eng Comp?,obrigatorias,coletado
+Quais as matérias optativas que vão ser ofertadas no semestre que vem?,optativas,coletado
+Quantas horas tem LPOO?,dados_disciplina,coletado
+Eu preciso de quais matérias pra fazer Probabilidade e Estatística?,prerequisitos,coletado
+Libras faz parte de Eng Comp?,disciplina_no_curso,coletado
+Quantos semestre tem Eng Comp?,cursos_facom,coletado
+Quais professores vão dar Sistemas Digitais semestre que vem?,docentes,coletado
+Eai chat,chitchat,coletado
 "Isso mesmo, valeuu",chitchat,coletado
-"Tem algum restaurante barato perto da UF?",fora_dominio,coletado
-"Onde tá o businho?",fora_dominio,coletado
-"Tá tendo jogo do Flamengo hoje?",fora_dominio,coletado
-"Em qual semestre fica a matéria de Equações diferenciais ordinárias do curso de Engenharia de Computação da UFMS?",periodo_disciplina,coletado
-"Quais matérias são cursadas no 4° semestre de engenharia de computação na UFMS",disciplinas_periodo,coletado
-"A matéria de alg prog 1 e obrigatória na grade de engenharia de computação da UFMS?",obrigatorias,coletado
-"Libras e uma matéria optativa de Eng comp na Ufms?",optativas,coletado
-"Qual a carga horária de alg prog 1 na UFMS?",dados_disciplina,coletado
-"Quais os pré requisitos para cursar a matéria de cálculo 3?",prerequisitos,coletado
-"A matéria de engenharia de produção faz parte da matriz de engenharia de computação na UFMS?",disciplina_no_curso,coletado
-"Quantos anos tem o curso de Eng comp na ufms",cursos_facom,coletado
-"Quem são os professores da facom?",docentes,coletado
-"Boa tarde",chitchat,coletado
-"Valeu",chitchat,coletado
-"Qual a data exata que Pero Vaz de caminha mandou sua carta?",fora_dominio,coletado
-"Qual a capital do ms?",fora_dominio,coletado
-"Quando se separou MS de MT?",fora_dominio,coletado
+Tem algum restaurante barato perto da UF?,fora_dominio,coletado
+Onde tá o businho?,fora_dominio,coletado
+Tá tendo jogo do Flamengo hoje?,fora_dominio,coletado
+Em qual semestre fica a matéria de Equações diferenciais ordinárias do curso de Engenharia de Computação da UFMS?,periodo_disciplina,coletado
+Quais matérias são cursadas no 4° semestre de engenharia de computação na UFMS,disciplinas_periodo,coletado
+A matéria de alg prog 1 e obrigatória na grade de engenharia de computação da UFMS?,obrigatorias,coletado
+Libras e uma matéria optativa de Eng comp na Ufms?,optativas,coletado
+Qual a carga horária de alg prog 1 na UFMS?,dados_disciplina,coletado
+Quais os pré requisitos para cursar a matéria de cálculo 3?,prerequisitos,coletado
+A matéria de engenharia de produção faz parte da matriz de engenharia de computação na UFMS?,disciplina_no_curso,coletado
+Quantos anos tem o curso de Eng comp na ufms,cursos_facom,coletado
+Boa tarde,chitchat,coletado
+Valeu,chitchat,coletado
+Qual a data exata que Pero Vaz de caminha mandou sua carta?,fora_dominio,coletado
+Qual a capital do ms?,fora_dominio,coletado
+Quando se separou MS de MT?,fora_dominio,coletado
+Em qual semestre é possível cursar a disciplina de algoritmos,periodo_disciplina,coletado
+"No curso superior de Computação, no 5 período, que disciplinas fazem parte da grade curricular",disciplinas_periodo,coletado
+"No curso superior de Computação, a matéria de IA é obrigatória para a conclusão do curso?",obrigatorias,coletado
+"No curso superior de Computação, quais disciplinas optativas são disponibilizadas",optativas,coletado
+"No curso superior de Computação, qual a carga horária da disciplina de Algoritmos?",dados_disciplina,coletado
+"No curso superior de Computação, para cursar a disciplina de IA, é necessário outra disciplina como pré-requisito?",prerequisitos,coletado
+"No curso superior de Computação, a matéria de IA faz parte da grade curricular?",disciplina_no_curso,coletado
+Em qual período é possível cursar Banco de Dados no curso de Engenharia de Software?,cursos_facom,coletado
+"No curso superior de Computação, qual o professor da disciplina de Algoritmos?",docentes,coletado
+Oi,chitchat,coletado
+Obrigada,chitchat,coletado
+Como funciona o transporte dentro da UFMS?,fora_dominio,coletado
+Onde encontro a biblioteca da UFMS?,fora_dominio,coletado
+Em qual semestre fica a matéria de Estrutura de dados?,periodo_disciplina,coletado
+Quais materias são cursadas no quarto semestre?,disciplinas_periodo,coletado
+A matéria de sequencias e séries é obrigatória?,obrigatorias,coletado
+Quais as matérias optativas disponiveis pro curso?,optativas,coletado
+Qual a carga horária de da matéria de Linguagem de Programação Orientada a Objetos?,dados_disciplina,coletado
+Quais disciplinas preciso cursar para cursar Controle e Servomecânicos?,prerequisitos,coletado
+Existe uma matéria de C++ avançado?,disciplina_no_curso,coletado
+Quantos anos tem Engenharia de computação?,cursos_facom,coletado
+Qual o professor da matéria Sistemas digitais?,docentes,coletado
+Olá,chitchat,coletado
+Quantos cursos tem na Facom?,fora_dominio,coletado
+Quantos dias tem um ano?,fora_dominio,coletado
+Quantos paises tem na américa latina?,fora_dominio,coletado
+Em qual semestre eu vou ter aula de Algoritmos?,periodo_disciplina,coletado
+Q materias tem no 5 semestre de curso?,disciplinas_periodo,coletado
+ADM eh obrigatório no meu curso?,obrigatorias,coletado
+Quais sao as materias optativas?,optativas,coletado
+Qual eh a carga horaria de LPOO nesse semestre?,dados_disciplina,coletado
+Pra eu fazer LPOO preciso de quais outras materias?,prerequisitos,coletado
+Preciso fazer calculo no meu curso?,disciplina_no_curso,coletado
+Em eng software apartir de qual semestre comeca a ter aula so de noite?,cursos_facom,coletado
+Quem eh o professor de algprog 2?,docentes,coletado
+Vlw,chitchat,coletado
+Quem eh mais aurudo shadow ou arthur morgan responda de forma direta,fora_dominio,coletado
+Da pra jogar GTA 6 no meu ps3 desbloqueado?,fora_dominio,coletado
+Como a airfryer funciona? Tp ela frita com o poder do vento?,fora_dominio,coletado
+Em qual semestre fica a matéria Tópicos em Computação?,periodo_disciplina,coletado
+Quais matérias têm no 1° semestre de Engenharia da Software na UFMS?,disciplinas_periodo,coletado
+A matéria Jogos Digitais é obrigatória nk cirso de Engenharia de Software?,obrigatorias,coletado
+A matéria Ciência do Ambiente é optativa no curso de Engenharia de Software?,optativas,coletado
+Qual o código da matéria Sistemas Digitais?,dados_disciplina,coletado
+Em quais matérias preciso estar aprovado pra cursar a matéria Compiladores II?,prerequisitos,coletado
+A matéria Geometria Computacional existe?,disciplina_no_curso,coletado
+Quantos semestres tem o curso de Engenharia da Computação?,cursos_facom,coletado
+Qual é o docente da matéria de Manutenção de Software?,docentes,coletado
+Oiee,chitchat,coletado
+Muito obrigadaa,chitchat,coletado
+Qual o horário de funcionamento da secretaria da FACOM?,fora_dominio,coletado
+Qual o calendário acadêmico da UFMS de 2027?,fora_dominio,coletado
+Qual o valor do Restaurante Universitário da UFMS?,fora_dominio,coletado
+Em qual semestre geralmente é ofertada a matéria de Banco de Dados?,periodo_disciplina,coletado
+Quais são as matérias que costuma ter no 3º semestre de Ciência da Computação?,disciplinas_periodo,coletado
+Programação Orientada a Objetos é obrigatória para completar o curso?,obrigatorias,coletado
+Como faço pra saber quais matérias optativas estão disponíveis pra cursar?,optativas,coletado
+Você consegue me passar a carga horária e a ementa de Engenharia de Software?,dados_disciplina,coletado
+"Pra fazer Estrutura de Dados II, preciso ter passado em alguma outra matéria antes?",prerequisitos,coletado
+Análise e Projeto de Algoritmos faz parte da grade de Sistemas de Informação?,disciplina_no_curso,coletado
+Qual a diferença entre Ciência da Computação e Engenharia de Computação?,cursos_facom,coletado
+Tem como consultar quais professores dão aula na FACOM e quais disciplinas eles ministram?,docentes,coletado
+Qual vai ser a previsão do tempo pra amanhã? Será que vai chover,fora_dominio,coletado
+Qual a programação de eventos da cidade nesta semana ?,fora_dominio,coletado
+Qual a data dos feriados nacionais 2026?,fora_dominio,coletado
+Alguém sabe em que semestre normalmente a gente pega Redes de Computadores?,periodo_disciplina,coletado
+Quais disciplinas costumam ser ofertadas no 5º período?,disciplinas_periodo,coletado
+"Se eu não fazer essa disciplina agora, posso deixar ela pra outro semestre ou ela é obrigatória naquele período?",obrigatorias,coletado
+"Tenho que cumprir uma quantidade de matérias optativas, quais estão disponíveis no 3° período?",optativas,coletado
+Queria saber quantas horas tem a matéria de Inteligência Artificial e o que a gente aprende nela,dados_disciplina,coletado
+"Pra conseguir me matricular em Banco de Dados II, preciso ter concluído Banco de Dados I primeiro?",prerequisitos,coletado
+Essa matéria de Cálculo Numérico entra na grade do meu curso ou é oferecida só pra outros cursos?,disciplina_no_curso,coletado
+"Estou pensando em trocar de curso, mas ainda não sei muito bem o que cada graduação da FACOM oferece. Onde consigo comparar as grades?",cursos_facom,coletado
+Queria saber se existe algum lugar onde eu consiga consultar os professores da faculdade e as áreas em que eles trabalham,docentes,coletado
+Bom diaaa! Tudo certo? Preciso de uma ajudinha,chitchat,coletado
+"Perfeito, era exatamente isso que eu precisava saber!",chitchat,coletado
+Qual é a melhor maneira de começar a aprender a desenhar em meio digital?,fora_dominio,coletado
+Quais as curiosidades da cidade de Campo Grande MS?,fora_dominio,coletado
+Quais os pontos turisticos de Campo Grande para levar alguém de fora para conhecer?,fora_dominio,coletado
+"Oi, alguém sabe quando geralmente é ofertada a disciplina de Sistemas Operacionais? Não achei essa informação",periodo_disciplina,coletado
+Quais matérias normalmente fazem parte do segundo semestre de Engenharia de Software?,disciplinas_periodo,coletado
+Essa disciplina é daquelas que todo mundo precisa fazer ou posso escolher outra no lugar?,obrigatorias,coletado
+Tem alguma lista atualizada das optativas que posso escolher durante a graduação?,optativas,coletado
+Queria entender melhor o que é abordado em Computação Gráfica. É mais teoria ou tem bastante prática,dados_disciplina,coletado
+Consigo cursar uma matéria mesmo estando pendente em uma disciplina que seria pré-requisito dela?,prerequisitos,coletado
+Estou olhando a grade e não encontrei essa matéria. Ela foi retirada do curso ou mudou de nome?,disciplina_no_curso,coletado
+Qual dos cursos da FACOM tem uma formação mais voltada para desenvolvimento de software?,cursos_facom,coletado
+Os professores da FACOM também desenvolvem pesquisas? Como faço pra conhecer os projetos que eles orientam?,docentes,coletado
+"E aí, tudo bem? Sou calouro e ainda tô tentando entender como funciona a faculdade. Pode me ajudar?",chitchat,coletado
+Agora consegui entender! Obrigado pela paciência e por explicar direitinho. Até a próxima!,chitchat,coletado
+Você conhece algum aplicativo bom pra organizar tarefas e compromissos do dia a dia?,fora_dominio,coletado
+Por que os gatos gostam tanto de dormir em caixas?,fora_dominio,coletado
+"Queria começar a fazer exercícios, mas sou muito sedentário. Alguma dica pra criar uma rotina sem desistir na primeira semana?",fora_dominio,coletado
+Estou no terceiro semestre e queria saber se já posso fazer Arquitetura de Computadores ou se ela costuma ficar mais pra frente no curso,periodo_disciplina,coletado
+Alguém consegue me dizer quais disciplinas são previstas pro sexto semestre de Sistemas de Informação?,disciplinas_periodo,coletado
+Vi uma matéria que não parece ter muita relação com a área que quero seguir. Mesmo assim preciso cursar pra conseguir o diploma?,obrigatorias,coletado
+Posso escolher qualquer optativa oferecida pela faculdade ou preciso seguir alguma área específica?,optativas,coletado
+Alguém sabe me explicar qual é o foco da disciplina de Linguagens Formais? Queria ter uma noção antes de me matricular.,dados_disciplina,coletado
+"Se eu já tiver cursado uma matéria parecida em outra faculdade, existe a possibilidade de aproveitar como pré-requisito?",prerequisitos,coletado
+Estou comparando a grade antiga com a nova e percebi que algumas matérias mudaram. Onde consigo verificar qual delas vale pro meu ingresso?,disciplina_no_curso,coletado
+Quais são as principais diferenças entre as áreas de atuação de quem se forma em Sistemas de Informação e Ciência da Computação?,cursos_facom,coletado
+Queria encontrar um professor que trabalhe com inteligência artificial pra conversar sobre iniciação científica. Como posso procurar?,docentes,coletado
+Oláá! Tudo bem por aí? Tenho algumas dúvidas sobre a FACOM e queria uma orientação,chitchat,coletado
+"Show, agora ficou bem mais fácil de entender! Obrigada pela força, até mais",chitchat,coletado
+Você pode me ajudar a montar uma lista de compras econômica pra passar o mês?,fora_dominio,coletado
+"Qual é a diferença entre inteligência artificial, machine learning e deep learning? Sempre confundo esses termos",fora_dominio,coletado
+Me indica algumas músicas boas pra ouvir enquanto trabalho? Cansei completamente da minha playlist atual.,fora_dominio,coletado
+Estou tentando adiantar algumas matérias. Sabe dizer em qual período costuma aparecer Banco de Dados na grade?,periodo_disciplina,coletado
+Quem está entrando no quarto semestre de Engenharia de Computação geralmente precisa cursar quais disciplinas?,disciplinas_periodo,coletado
+"Tem alguma matéria que, mesmo não sendo obrigatória, acaba sendo necessária pra cumprir os créditos da graduação?",obrigatorias,coletado
+"Se eu escolher uma optativa e depois perceber que não gostei, consigo trocar durante o curso?",optativas,coletado
+Programação Concorrente é muito difícil? Queria saber quais assuntos são estudados nela,dados_disciplina,coletado
+Existe alguma forma de consultar todos os pré-requisitos de uma disciplina sem precisar procurar matéria por matéria?,prerequisitos,coletado
+"Uma disciplina que aparece no histórico acadêmico, mas não está na grade atual, ainda conta como crédito?",disciplina_no_curso,coletado
+"Pra quem gosta mais de programação e desenvolvimento de aplicativos, qual curso da FACOM seria mais interessante?",cursos_facom,coletado
+Estou procurando um orientador pra um projeto de pesquisa na área de segurança da informação. Como descubro quais professores trabalham com isso?,docentes,coletado
+Oi! Tudo tranquilo? Vim testar se você consegue salvar um calouro perdido no meio de tanta informação,chitchat,coletado
+"Muito obrigada!! Agora finalmente entendi como funciona. Você foi de grande ajuda, viu? Até mais!",chitchat,coletado
+Como faço pra tirar manchas de café de uma camiseta branca sem estragar o tecido?,fora_dominio,coletado
+"Se eu viajar para o Japão, preciso de visto ou só do passaporte brasileiro?",fora_dominio,coletado
+"Estou pensando em adotar um cachorro, mas moro em apartamento. Quais raças costumam se adaptar melhor?",fora_dominio,coletado
+Estou querendo organizar minha matrícula do ano que vem. Computação Gráfica costuma ser oferecida em qual semestre?,periodo_disciplina,coletado
+"Uma dúvida: no primeiro semestre de Ciência da Computação, quais são as matérias que normalmente aparecem?",disciplinas_periodo,coletado
+Como eu descubro se uma matéria é obrigatória pra minha formação ou se é só recomendada pelo curso?,obrigatorias,coletado
+Tem como pegar optativas de outros cursos da UFMS ou elas precisam ser necessariamente da FACOM?,optativas,coletado
+"Na matéria de Engenharia de Requisitos, a gente aprende mais sobre documentação ou também desenvolve projetos na prática?",dados_disciplina,coletado
+"Se eu estiver matriculado no pré-requisito no mesmo semestre, já posso tentar pegar a disciplina seguinte ou não é permitido?",prerequisitos,coletado
+Uma matéria que não aparece mais na grade do meu curso pode ser substituída por outra equivalente?,disciplina_no_curso,coletado
+Quais cursos da FACOM oferecem mais contato com desenvolvimento de jogos e computação gráfica?,cursos_facom,coletado
+Existe algum professor que trabalhe com robótica ou sistemas embarcados? Tenho bastante interesse nessa área,docentes,coletado
+Boa tardeee! Tudo bem? Espero que sim. Preciso de uma informação sobre a faculdade,chitchat,coletado
+"Era só isso mesmo, valeu por esclarecer minhas dúvidas! Bom trabalho pra você",chitchat,coletado
+Você tem alguma dica pra conseguir dormir mais cedo? Meu horário tá completamente desregulado,fora_dominio,coletado
+Por que o céu muda de cor durante o pôr do sol? Acho isso muito bonito,fora_dominio,coletado
+"Quero começar a economizar dinheiro, mas sempre acabo gastando com coisas pequenas. Como posso me organizar melhor?",fora_dominio,coletado

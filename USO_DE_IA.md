@@ -27,7 +27,7 @@
 Foram realizados integralmente pelo grupo, sem geração automática por IA:
 - A definição do escopo do chatbot (Chatcom), a escolha das 9 intenções de domínio e a definição da persona e das respostas fixas em `grupo.yaml`;
 - A coleta, seleção e organização dos Projetos Pedagógicos de Curso (PPCs) e documentos oficiais da FACOM/UFMS na pasta `documentos/`;
-- A coleta das 110 frases reais do conjunto `dados/teste.csv` por meio de formulário aplicado a pessoas externas, bem como a rotulagem manual e a conferência de ausência de vazamento de dados com o treino;
+- A coleta das frases reais do conjunto `dados/teste.csv` por meio de formulário aplicado a pessoas externas, bem como a rotulagem manual e a conferência de ausência de vazamento de dados com o treino;
 - A decisão final pelos modelos vencedores de escopo e tema, a definição do limiar de confiança (`limiar_tema = 0.45`), a análise crítica dos erros ponta a ponta e as conclusões do trabalho.
 
 ## 4. Reflexão
