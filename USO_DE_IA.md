@@ -10,7 +10,7 @@
 | Ferramenta (nome e versão/modelo) | Como acessaram | Quem usou |
 |---|---|---|
 | OpenRouter, modelo `openai/gpt-6-luna` | Chave da API do grupo, via scripts Python (`chatbot/llm.py` e `scripts/gerar_dados_llm.py`) | Todos os integrantes |
-| Google Gemini | Interface web (navegador) | [Natan Alves Teodoro da Silva] |
+| Google Gemini | Interface web (navegador) | [Natan Alves Teodoro da Silva, Vinícius Fialho Cominetti] |
 
 ## 2. Usos, um por linha
 
