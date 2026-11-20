@@ -1,4 +1,6 @@
 # Links da entrega - preencha depois de publicar o vídeo.
 # O vídeo deve ser público ou "não listado" (YouTube) / aberto a quem tem o link (Drive).
-video: 
-repositorio: 
+# Caso esteja tendo problema em visualizar o vídeo no drive, baixe-o
+# ps: O vídeo ficou longo por 2 integrantes terem desistido
+video: https://drive.google.com/file/d/1OKZHAiP3HvZ3pswvVPIjCzzrol-pSfkv/view?usp=sharing&authuser=1 
+repositorio: https://github.com/jterr3s/IA-2026-02-TP-Chatcom.giti
